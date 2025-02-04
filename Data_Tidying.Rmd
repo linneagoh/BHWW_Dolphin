@@ -25,6 +25,7 @@ library(sf)
 library(tmap)
 library(tidyverse)
 library(leaflet)
+library(ks)
 ```
 
 ```{r}
@@ -82,7 +83,9 @@ dolphins_standardized <- all_ww %>%
   group_by(year) %>%
   summarize(total_trips = n(),
             trips_w_dolphin = sum(dolphin_presence),
-            percentage = (trips_w_dolphin/total_trips)*100)
+            percentage = (trips_w_dolphin/total_trips)*100) %>%
+  mutate(
+    percentage_standardized = scale(percentage))
 ```
 
 
@@ -127,6 +130,31 @@ dolphin_leaflet <- dolphin %>%
 dolphin_leaflet
 ```
 
+```{r}
+dolphin_lat_long <- dolphin_clean %>%
+  dplyr::select(Latitude, Longitude)
+
+kde <- kde(x = dolphin_lat_long)
+
+plot(kde, main = "Kernel Density Estimate of Lat-Long Coordinates")
+
+ggplot_density_map <- ggplot() +
+  geom_sf(data = GOM_shp, color = "darkgrey", fill = "lightgrey") +
+  geom_point(dolphin_clean, mapping = aes(x = Longitude, y = Latitude), color = "blue", size = 0.5) +
+  geom_density_2d(dolphin_clean, mapping = aes(x = Longitude, y = Latitude)) +
+   xlim(-68.5, -67) +
+  ylim(43.6, 44.6) +
+  theme.dgm.map() +
+  labs(x = " \nLongitude", y = "Latitude\n ") +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1))
+ggplot_density_map
+  
+ggplot() +
+  geom_point(dolphin_clean, mapping = aes(x = Longitude, y = Latitude), color = "blue") +
+  geom_density_2d(dolphin_clean, mapping = aes(x = Longitude, y = Latitude)) +
+  theme_minimal() +
+  labs(title = "2D Density Plot of Lat-Long Coordinates")
+```
 
 
 
