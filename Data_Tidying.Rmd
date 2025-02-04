@@ -131,6 +131,8 @@ dolphin_leaflet
 ```
 
 ```{r}
+#all species density plots
+
 dolphin_lat_long <- dolphin_clean %>%
   dplyr::select(Latitude, Longitude)
 
@@ -138,26 +140,146 @@ kde <- kde(x = dolphin_lat_long)
 
 plot(kde, main = "Kernel Density Estimate of Lat-Long Coordinates")
 
-ggplot_density_map <- ggplot() +
+png("Figures_Tables/kde_plot.png", width = 800, height = 600)  
+plot(kde, main = "Kernel Density Estimate of Lat-Long Coordinates")
+dev.off()
+
+density_map <- ggplot() +
   geom_sf(data = GOM_shp, color = "darkgrey", fill = "lightgrey") +
   geom_point(dolphin_clean, mapping = aes(x = Longitude, y = Latitude), color = "blue", size = 0.5) +
   geom_density_2d(dolphin_clean, mapping = aes(x = Longitude, y = Latitude)) +
-   xlim(-68.5, -67) +
+   xlim(-68.5, -66.7) +
   ylim(43.6, 44.6) +
   theme.dgm.map() +
   labs(x = " \nLongitude", y = "Latitude\n ") +
   theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1))
-ggplot_density_map
+density_map 
   
-ggplot() +
-  geom_point(dolphin_clean, mapping = aes(x = Longitude, y = Latitude), color = "blue") +
-  geom_density_2d(dolphin_clean, mapping = aes(x = Longitude, y = Latitude)) +
-  theme_minimal() +
-  labs(title = "2D Density Plot of Lat-Long Coordinates")
+ggsave(plot = density_map, filename = here("Figures_Tables", "denisty_map.png"), width = 7.5, height = 5.5, 
+    units = "in", pointsize = 15, dpi = 220)
+
 ```
 
+```{r}
+#white sided dolphin density map
 
+La_dolphin <- dolphin_clean %>%
+  filter(Species == "La")
 
+La_density_map <- ggplot() +
+  geom_sf(data = GOM_shp, color = "darkgrey", fill = "lightgrey") +
+  geom_point(La_dolphin, mapping = aes(x = Longitude, y = Latitude), color = "blue", size = 0.5) +
+  geom_density_2d(La_dolphin, mapping = aes(x = Longitude, y = Latitude)) +
+   xlim(-68.5, -66.7) +
+  ylim(43.6, 44.6) +
+  theme.dgm.map() +
+  labs(x = " \nLongitude", y = "Latitude\n ") +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1))
+La_density_map 
+  
+ggsave(plot = La_density_map, filename = here("Figures_Tables", "La_denisty_map.png"), width = 7.5, height = 5.5, 
+    units = "in", pointsize = 15, dpi = 220)
 
+```
 
+```{r}
+#Common dolphin density map
 
+Dd_dolphin <- dolphin_clean %>%
+  filter(Species == "Dd")
+
+Dd_density_map <- ggplot() +
+  geom_sf(data = GOM_shp, color = "darkgrey", fill = "lightgrey") +
+  geom_point(Dd_dolphin, mapping = aes(x = Longitude, y = Latitude), color = "blue", size = 0.5) +
+  geom_density_2d(Dd_dolphin, mapping = aes(x = Longitude, y = Latitude)) +
+   xlim(-68.7, -66.4) +
+  ylim(43.6, 44.6) +
+  theme.dgm.map() +
+  labs(x = " \nLongitude", y = "Latitude\n ") +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1))
+Dd_density_map 
+  
+ggsave(plot = Dd_density_map, filename = here("Figures_Tables", "Dd_denisty_map.png"), width = 7.5, height = 5.5, 
+    units = "in", pointsize = 15, dpi = 220)
+```
+```{r}
+#White beaked dolphin density
+
+Lal_dolphin <- dolphin_clean %>%
+  filter(Species == "Lal")
+
+Lal_density_map <- ggplot() +
+  geom_sf(data = GOM_shp, color = "darkgrey", fill = "lightgrey") +
+  geom_point(Lal_dolphin, mapping = aes(x = Longitude, y = Latitude), color = "blue", size = 0.5) +
+  geom_density_2d(Lal_dolphin, mapping = aes(x = Longitude, y = Latitude)) +
+   xlim(-68.7, -66.4) +
+  ylim(43.6, 44.6) +
+  theme.dgm.map() +
+  labs(x = " \nLongitude", y = "Latitude\n ") +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1))
+Lal_density_map 
+  
+ggsave(plot = Lal_density_map, filename = here("Figures_Tables", "Lal_denisty_map.png"), width = 7.5, height = 5.5, 
+    units = "in", pointsize = 15, dpi = 220)
+```
+
+```{r}
+#Harbor Porpoise density map
+
+Pp_dolphin <- dolphin_clean %>%
+  filter(Species == "Pp")
+
+Pp_density_map <- ggplot() +
+  geom_sf(data = GOM_shp, color = "darkgrey", fill = "lightgrey") +
+  geom_point(Pp_dolphin, mapping = aes(x = Longitude, y = Latitude), color = "blue", size = 0.5) +
+  geom_density_2d(Pp_dolphin, mapping = aes(x = Longitude, y = Latitude)) +
+   xlim(-68.7, -66.4) +
+  ylim(43.6, 44.6) +
+  theme.dgm.map() +
+  labs(x = " \nLongitude", y = "Latitude\n ") +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1))
+Dd_density_map 
+  
+ggsave(plot = Pp_density_map, filename = here("Figures_Tables", "Pp_denisty_map.png"), width = 7.5, height = 5.5, 
+    units = "in", pointsize = 15, dpi = 220)
+```
+```{r}
+#Risso dolphin density map
+
+Gg_dolphin <- dolphin_clean %>%
+  filter(Species == "Gg")
+
+Gg_density_map <- ggplot() +
+  geom_sf(data = GOM_shp, color = "darkgrey", fill = "lightgrey") +
+  geom_point(Gg_dolphin, mapping = aes(x = Longitude, y = Latitude), color = "blue", size = 0.5) +
+  geom_density_2d(Gg_dolphin, mapping = aes(x = Longitude, y = Latitude)) +
+   xlim(-68.7, -66.4) +
+  ylim(43.6, 44.6) +
+  theme.dgm.map() +
+  labs(x = " \nLongitude", y = "Latitude\n ") +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1))
+Gg_density_map 
+  
+ggsave(plot = Gg_density_map, filename = here("Figures_Tables", "Gg_denisty_map.png"), width = 7.5, height = 5.5, 
+    units = "in", pointsize = 15, dpi = 220)
+```
+```{r}
+#Bottlenose dolphin density map
+
+Tt_dolphin <- dolphin_clean %>%
+  filter(Species == "Tt")
+
+Tt_density_map <- ggplot() +
+  geom_sf(data = GOM_shp, color = "darkgrey", fill = "lightgrey") +
+  geom_point(Tt_dolphin, mapping = aes(x = Longitude, y = Latitude), color = "blue", size = 0.5) +
+  geom_density_2d(Tt_dolphin, mapping = aes(x = Longitude, y = Latitude)) +
+   xlim(-68.7, -66.4) +
+  ylim(43.6, 44.6) +
+  theme.dgm.map() +
+  labs(x = " \nLongitude", y = "Latitude\n ") +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1))
+Tt_density_map 
+  
+ggsave(plot = Tt_density_map, filename = here("Figures_Tables", "Tt_denisty_map.png"), width = 7.5, height = 5.5, 
+    units = "in", pointsize = 15, dpi = 220)
+```
