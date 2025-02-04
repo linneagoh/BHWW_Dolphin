@@ -170,7 +170,7 @@ La_density_map <- ggplot() +
   geom_sf(data = GOM_shp, color = "darkgrey", fill = "lightgrey") +
   geom_point(La_dolphin, mapping = aes(x = Longitude, y = Latitude), color = "blue", size = 0.5) +
   geom_density_2d(La_dolphin, mapping = aes(x = Longitude, y = Latitude)) +
-   xlim(-68.5, -66.7) +
+   xlim(-68.7, -66.4) +
   ylim(43.6, 44.6) +
   theme.dgm.map() +
   labs(x = " \nLongitude", y = "Latitude\n ") +
@@ -243,26 +243,7 @@ Dd_density_map
 ggsave(plot = Pp_density_map, filename = here("Figures_Tables", "Pp_denisty_map.png"), width = 7.5, height = 5.5, 
     units = "in", pointsize = 15, dpi = 220)
 ```
-```{r}
-#Risso dolphin density map
 
-Gg_dolphin <- dolphin_clean %>%
-  filter(Species == "Gg")
-
-Gg_density_map <- ggplot() +
-  geom_sf(data = GOM_shp, color = "darkgrey", fill = "lightgrey") +
-  geom_point(Gg_dolphin, mapping = aes(x = Longitude, y = Latitude), color = "blue", size = 0.5) +
-  geom_density_2d(Gg_dolphin, mapping = aes(x = Longitude, y = Latitude)) +
-   xlim(-68.7, -66.4) +
-  ylim(43.6, 44.6) +
-  theme.dgm.map() +
-  labs(x = " \nLongitude", y = "Latitude\n ") +
-  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1))
-Gg_density_map 
-  
-ggsave(plot = Gg_density_map, filename = here("Figures_Tables", "Gg_denisty_map.png"), width = 7.5, height = 5.5, 
-    units = "in", pointsize = 15, dpi = 220)
-```
 ```{r}
 #Bottlenose dolphin density map
 
@@ -283,3 +264,16 @@ Tt_density_map
 ggsave(plot = Tt_density_map, filename = here("Figures_Tables", "Tt_denisty_map.png"), width = 7.5, height = 5.5, 
     units = "in", pointsize = 15, dpi = 220)
 ```
+
+```{r}
+density_map <- plot_grid(La_density_map, Dd_density_map,
+                     Lal_density_map, Pp_density_map, Tt_density_map,
+                     labels = c("a) La", "b) Dd", "c) Lal", "d) Pp", "e) Tt"), label_size = 16, ncol = 2, vjust = 13)
+
+density_map
+
+ggsave(plot = density_map,
+       filename = here("Figures_Tables", "dolphin_density_map.png"),
+       height = 6.5, width = 5.5, dpi = 220, units = "in")
+```
+
