@@ -1,0 +1,135 @@
+---
+title: "Data_Tidying"
+output: html_document
+date: "2025-01-21"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(here)
+library(lubridate)
+library(broom)
+library(readxl)
+library(tidyr)
+library(anytime)
+library(glue)
+library(iNEXT)
+library(kableExtra)
+library(cowplot)
+library(glmmTMB)
+library(dplyr)
+library(raster)
+library(hillR)
+library(sf)
+library(tmap)
+library(tidyverse)
+library(leaflet)
+```
+
+```{r}
+dolphin <- read.csv(here("00_Raw_Data", "Dolphin_Data_2014-2024.csv"))
+
+ww_data <- read.csv(here("00_Raw_Data", "Complete_Trip_Data_2014-2024.csv"))
+
+GOM_shp <- st_read(dsn = here::here("00_Raw_Data/Ocean/Ocean.shp"))
+
+#Map theme 
+theme.dgm.map <- function (){
+  theme_bw(base_size = 12) +
+  theme(panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    axis.line = element_line(colour = "black"),
+    axis.title = element_text(size = 14, face = "bold"),
+    axis.text = element_text(size = 12, face = "plain"),
+    legend.text = element_text(size = 10, face = "plain"),
+    legend.title = element_text(size = 14, face = "bold")) 
+}
+```
+```{r}
+
+dolphin <- dolphin %>%
+  filter(!is.na(Latitude),
+         Latitude != 0,
+         Longitude <= -65,
+         Latitude != 45.10,
+         Latitude != 44.99,
+         Latitude != 44.90,
+         Latitude != 44.80,
+         TripKey != 766)
+
+dolphin$Longitude <- abs(dolphin$Longitude) 
+dolphin$Longitude <- (dolphin$Longitude)* -1
+
+all_ww <- dolphin %>%
+  full_join(ww_data)
+
+all_ww$date <- dmy(all_ww$dDate)
+all_ww$year <- year(all_ww$date)
+all_ww$month <- month(all_ww$date)
+
+all_ww <- all_ww %>%
+  mutate(dolphin_presence = case_when(Species %in% c("La", "Tt", "Dd", "Lal", "Gg", "Pp") ~ 1,
+                                       is.na(Species) ~ 0)) %>%
+  filter(!is.na(date))
+
+dolphin_clean <- all_ww %>%
+  filter(dolphin_presence == 1)
+```
+
+```{r standardizing by year}
+dolphins_standardized <- all_ww %>%
+  group_by(year) %>%
+  summarize(total_trips = n(),
+            trips_w_dolphin = sum(dolphin_presence),
+            percentage = (trips_w_dolphin/total_trips)*100)
+```
+
+
+```{r}
+
+st_crs(GOM_shp) <- "+proj=longlat +datum=WGS84 +no_defs"
+
+#lat_min = min(dolphin$Latitude) - 1
+#lat_max = max(dolphin$Longitude) + 1
+
+#long_min = min(dolphin$Longitude) - 1
+#long_max = max(dolphin$Longitude) + 1 
+
+ggplot_GOM_map <- ggplot() +
+  geom_sf(data = GOM_shp, color = "darkgrey", fill = "lightgrey") +
+  #coord_sf(xlim = c(long_min, long_max),
+   #        ylim = c(lat_min, lat_max)) +
+  geom_point(data = dolphin, mapping = aes(x = Longitude, y = Latitude, colour = Species), size = 0.5) +
+  theme.dgm.map() +
+  labs(x = " \nLongitude", y = "Latitude\n ") +
+ # scale_x_continuous(breaks = c(-68.5, -68.0, -67.5, -67.0)) +
+  xlim(-68.5, -67) +
+  ylim(43.6, 44.6) +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1))
+
+ggplot_GOM_map
+
+ggsave(plot = ggplot_GOM_map, filename = here("Figures_Tables", "GOM_dolphin_map.png"), width = 7.5, height = 5.5, 
+    units = "in", pointsize = 15, dpi = 220)
+```
+
+```{r}
+dolphin_leaflet <- dolphin %>%
+  leaflet() %>%
+  addProviderTiles("Stadia.StamenTonerLite") %>% 
+  addCircleMarkers(~Longitude,
+                   ~Latitude,
+                   radius = 5,
+                   fillOpacity = 1,
+                   opacity = 1)
+
+dolphin_leaflet
+```
+
+
+
+
+
+
+

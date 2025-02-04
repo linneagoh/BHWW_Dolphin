@@ -1,0 +1,1442 @@
+﻿TripKey,TripNumber,dDate,Recorder,Vessel,TimeStart,TimeEnd,Camera,Beaufort,WindDirection,WindSpeed (mph),CloudPer,AirTemp (C),Surface Temp (C),20mTemp (C),Tide,Sightings?,WaveHeight (m),Gen Area,Visibility (km)
+1469,1,10-Oct-24,Courtney Caccamo,Friendship V,11:00:00 AM,4:30:00 PM,Canon 60D,3,NW,14,20,10.7,13.4,13.1,Flood,TRUE,0,Southwest Grand Manan Banks,3
+1468,1,09-Oct-24,Chloe Beittel,Atlanticat,11:00:00 AM,4:30:00 PM,Canon 60D,2,SSE,13,80,13.8,13.5,13.2,Flood,TRUE,0,Southwest Grand Manan Banks,10
+1467,1,08-Oct-24,Eliza Perez,Atlanticat,11:00:00 AM,4:00:00 PM,Canon 60D,4,N,13,20,13.4,13.9,13.1,Flood,TRUE,1,Grand Manan Banks,2.2
+1464,1,06-Oct-24,Eliza Perez,Friendship V,11:00:00 AM,4:30:00 PM,Canon 60D,4,NNE,11,100,12.4,13.4,13,Flood,TRUE,0,Grand Manan Banks,2.9
+1466,1,05-Oct-24,Chloe Beittel,Friendship V,11:00:00 AM,4:30:00 PM,Canon 60D,1,SSE,6,90,13.3,12.3,12,Flood,TRUE,1,Southwest Grand Manan Banks,20
+1460,1,03-Oct-24,Chloe Beittel,Friendship V,11:00:00 AM,4:30:00 PM,Canon 60D,2,SSE,3,10,12.8,12.3,11.9,Slack,TRUE,1,Southwest Grand Manan Banks,20
+1463,1,02-Oct-24,Eliza Perez,Atlanticat,11:00:00 AM,4:30:00 PM,Canon 60D,,E,11,20,12.3,12,12,Slack,TRUE,0,Grand Manan Banks,2.9
+1459,1,01-Oct-24,Courtney Caccamo,Atlanticat,11:00:00 AM,4:00:00 PM,Canon 60D,3,NE,13,20,12.3,12.1,11.9,Ebb,TRUE,1,Grand Manan Banks,3
+1457,1,30-Sep-24,Chloe Beittel,Atlanticat,11:00:00 AM,5:30:00 PM,Canon 60D,1,W,2,5,13.7,12.3,11.5,Ebb,TRUE,0,Northeast Grand Manan Banks,20
+1462,1,29-Sep-24,Eliza Perez,Friendship V,11:00:00 AM,4:30:00 PM,Canon 60D,1,E,4,10,13.2,12.1,11.7,Ebb,TRUE,0,Grand Manan Banks,2.9
+1458,1,28-Sep-24,Courtney Caccamo,Friendship V,11:00:00 AM,4:00:00 PM,Canon 60D,1,ENE,3,60,12.1,11.9,11.5,Ebb,TRUE,0,Grand Manan Banks,3
+1456,1,27-Sep-24,Chloe Beittel,Atlanticat,11:00:00 AM,4:30:00 PM,Canon 60D,2,W,6,5,13.6,12.1,11.7,Slack,TRUE,1,South of Southwest Grand Manan Bank,20
+1461,1,26-Sep-24,Eliza Perez,Atlanticat,11:00:00 PM,4:30:00 PM,Canon 60D,3,SE,8,90,12.8,11.9,11.8,Ebb,TRUE,1,Grand Manan Banks,2.9
+1455,1,25-Sep-24,Courtney Caccamo,Atlanticat,11:00:00 AM,4:15:00 PM,Canon 60D,2,ENE,11,100,12.5,11.9,11.4,Flood,TRUE,1,Grand Manan Banks,3
+1454,1,24-Sep-24,Chloe Beittel,Atlanticat,11:00:00 AM,4:30:00 PM,Canon 60D,3,NE,14,5,12.4,11.9,11.5,Flood,TRUE,1,Northeast Grand Manan Banks,20
+1450,1,19-Sep-24,Courtney Caccamo,Atlanticat,11:00:00 AM,4:00:00 PM,Canon 60D,1,NE,4,80,13.8,13.5,11.9,Slack,TRUE,1,Grand Manan Banks,1
+1451,1,18-Sep-24,Chloe Beittel,Atlanticat,11:00:00 AM,5:00:00 PM,Canon 60D,2,SW,7,100,14.3,13.6,11.8,Ebb,TRUE,1,"Hague line, Southwest Grand Manan Banks, South of Northeast Grand Manan Banks",0.03
+1449,1,17-Sep-24,Eliza Perez,Atlanticat,11:00:00 AM,4:30:00 PM,Canon 60D,3,WSW,9,10,14.1,13.8,12.6,Ebb,TRUE,0,Southwest Grand Manan Banks,1.49
+1447,1,16-Sep-24,Courtney Caccamo,Friendship V,11:00:00 AM,5:15:00 PM,Canon 60D,2,WSW,9,10,14.8,13.3,11.7,Ebb,TRUE,0,Grand Manan Banks,3
+1445,1,15-Sep-24,Chloe Beittel,Atlanticat,11:00:00 AM,4:00:00 PM,Canon 60D,1,SSW,2,0,14.2,12.9,11.5,Ebb,TRUE,0,"Hag line, South West Grand Manan Banks",20
+1446,1,14-Sep-24,Courtney Caccamo,Atlanticat,11:00:00 AM,4:00:00 PM,Canon 60D,3,NE,6,25,15.1,13.2,11.6,Slack,TRUE,0,Grand Manan Banks,3
+1448,1,13-Sep-24,Eliza Perez,Atlanticat,11:00:00 AM,4:30:00 PM,Canon 60D,1,SW,2,20,15.1,13.3,11.5,Ebb,TRUE,0,Grand Manan Banks,2.9
+1444,1,12-Sep-24,Chloe Beittel,Friendship V,11:00:00 AM,4:30:00 PM,Canon 60D,1,W,3,75,14.8,12.8,11.4,Flood,TRUE,0,South West Grand Manan Banks,20
+1443,1,11-Sep-24,Courtney Caccamo,Atlanticat,11:00:00 AM,2:30:00 PM,Canon 60D,1,W,6,10,14.5,13.3,11.3,Flood,TRUE,0,East Bumps,3
+1442,1,10-Sep-24,Courtney Caccamo,Atlanticat,11:00:00 AM,4:00:00 PM,Canon 60D,1,WSW,3,30,14.3,13.3,11.3,Flood,TRUE,1,Grand Manan Banks,3
+1438,1,06-Sep-24,Courtney Caccamo,Friendship V,11:00:00 AM,3:15:00 PM,Canon 60D,1,ENE,12,85,14,13.4,11.9,Slack,TRUE,1,Mount Desert Rock,3
+1452,1,05-Sep-24,Courtney Caccamo,Friendship V,11:00:00 AM,4:00:00 PM,Canon 60D,1,E,6,0,15.2,13.8,11.8,Flood,TRUE,0,Grand Manan Banks,3
+1434,1,04-Sep-24,Eliza Perez,Atlanticat,11:00:00 AM,4:30:00 PM,Canon 60D,1,WSW,5,10,14.6,13.5,11.7,Flood,TRUE,0,Grand Menan Banks,2.9
+1439,1,03-Sep-24,Chloe Beittel,Atlanticat,11:00:00 AM,3:00:00 PM,Canon 60D,2,NW,15,0,13.9,13.2,11.7,Slack,TRUE,1,North East Mound Desert Rock,20
+1436,1,02-Sep-24,Courtney Caccamo,Atlanticat,11:00:00 AM,5:00:00 PM,Canon 60D,1,NNW,6,30,16.3,14.7,11.5,Ebb,TRUE,1,Mount Desert Rock,3
+1431,2,01-Sep-24,Eliza Perez,Friendship V,2:40:00 PM,6:30:00 PM,Canon 60D,3,SSW,15,70,17.8,15.3,13.2,Slack,TRUE,1,Mount Desert Rock,2.9
+1430,1,01-Sep-24,Eliza Perez,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,3,SSW,11,100,17.4,15.2,13.2,Flood,TRUE,1,Grand Menan Banks,2.9
+1440,2,31-Aug-24,Chloe Beittel,Friendship V,2:30:00 PM,8:00:00 PM,Canon 60D,3,S,7,15,17,15.4,11.9,Slack,TRUE,0,South West Grand Manan Banks,20
+1435,1,31-Aug-24,Courtney Caccamo,Friendship V,8:30:00 AM,1:00:00 PM,Canon 60D,2,S,11,40,16.5,14.9,13.1,Slack,TRUE,0,Grand Manan Banks,3
+1433,2,30-Aug-24,Courtney Caccamo,Friendship V,2:30:00 PM,7:00:00 PM,Canon 60D,1,SSE,5,10,15.9,12.9,11.6,Flood,TRUE,0, Grand Manan Banks,10
+1432,1,30-Aug-24,Courtney Caccamo,Friendship V,8:30:00 AM,1:00:00 AM,Canon 60D,1,ENE,8,0,13.5,13.4,12.2,Ebb,TRUE,0,Grand Manan Banks,3
+1429,2,29-Aug-24,Eliza Perez,Friendship V,2:30:00 PM,7:50:00 PM,Canon 60D,2,SSW,7,10,15.6,14.6,11.6,Ebb,TRUE,0,Grand Menan Banks,2.9
+1428,1,29-Aug-24,Eliza Perez,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,3,N,15,10,14,13.2,11.2,Slack,TRUE,1,Grand Menan Banks,2.8
+1427,1,28-Aug-24,Chloe Beittel,Atlanticat,8:30:00 AM,1:40:00 PM,Canon 60D,4,SSW,14,90,16.4,13.4,11.3,Flood,TRUE,1,South West Grand Manan Banks,4.8
+1419,1,25-Aug-24,Eliza Perez,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,2,WSW,1,20,13.1,12.7,11.7,Ebb,TRUE,0,Grand Manan Banks South,3.1
+1426,1,24-Aug-24,Chloe Beittel,Friendship V,8:30:00 AM,1:00:00 PM,Canon 60D,1,W,4,0,13.8,12.5,12.1,Flood,TRUE,0,"Mount Desert Rock, Ballpark, East Bumps",3
+1418,2,24-Aug-24,Eliza Perez,Atlanticat,2:30:00 PM,7:30:00 PM,Canon 60D,2,SW,8,10,15.3,13.3,11.3,Flood,TRUE,0,SW Bank,3.1
+1425,2,23-Aug-24,Courtney Caccamo,Atlanticat,2:30:00 PM,7:30:00 PM,Canon 60D,2,SW,11,30,14.6,13.1,10.9,Ebb,TRUE,1,Mount Desert Rock,3
+1424,1,23-Aug-24,Courtney Caccamo,Atlanticat,8:30:00 AM,12:30:00 PM,Canon 60D,2,W,6,10,14.5,13.5,11.1,Flood,TRUE,1,Mount Desert Rock,3
+1421,2,22-Aug-24,Chloe Beittel,Friendship V,2:30:00 PM,6:15:00 PM,Canon 60D,1,S,2.9,10,15.4,13.7,10.9,Slack,TRUE,1,South Mount Desert Rock,20
+1420,1,22-Aug-24,Chloe Beittel,Friendship V,8:30:00 AM,12:45:00 PM,Canon 60D,1,SSE,5,10,14.5,13.1,11.4,Flood,TRUE,1,"East Mount Desert Rock, Southwest Mount Desert Rock",20
+1417,1,21-Aug-24,Eliza Perez,Atlanticat,8:30:00 AM,11:30:00 AM,Canon 60D,3,SE,1,60,14.4,13.5,11.3,Flood,TRUE,1,Ballpark,2.9
+1414,1,20-Aug-24,Chloe Beittel,Friendship V,2:30:00 PM,6:00:00 PM,Canon 60D,1,WNW,4,90,16.5,16.3,14.1,Slack,TRUE,1,East of Great Duck Island,20
+1413,2,17-Aug-24,Chloe Beittel,Friendship V,2:30:00 PM,6:00:00 PM,Canon 60D,1,SSE,5,20,16.5,14.2,10.6,Flood,TRUE,1,West Mount Desert Rock,10
+1412,1,17-Aug-24,Chloe Beittel,Friendship V,8:30:00 AM,12:30:00 PM,Canon 60D,1,SSW,2,0,14.4,13,10.7,Ebb,TRUE,0,"Great Duck Island, South Mount Desert Rock",11
+1416,2,16-Aug-24,Eliza Perez,Friendship V,2:30:00 PM,6:30:00 PM,Canon 60D,1,SW,2,10,17.9,14.1,11,Ebb,TRUE,0,SE of Great Duck Isand,3.1
+1415,1,16-Aug-24,Eliza Perez,Friendship V,8:30:00 AM,12:30:00 PM,Canon 60D,1,SSE,2,10,13.9,13.4,10.8,Flood,TRUE,0,MDR,3.1
+1406,2,15-Aug-24,Jamie Fogg,Atlanticat,2:30:00 PM,6:40:00 PM,Canon 60D,1,NNW,4,20,14.5,13,12,Flood,TRUE,0,Mount Desert Rock,2.995
+1405,1,15-Aug-24,Jamie Fogg,Atlanticat,8:30:00 AM,1:00:00 PM,Canon 60D,1,NNW,4,100,14.5,13,11.9,Slack,TRUE,0,Mount Desert Rock,2.995
+1423,2,14-Aug-24,Courtney Caccamo,Atlanticat,2:30:00 PM,7:00:00 PM,Canon 60D,2,ENE,9,90,16.7,15,12.6,Flood,TRUE,0,Mount Desert Rock,3
+1422,1,14-Aug-24,Courtney Caccamo,Atlanticat,8:30:00 AM,12:30:00 PM,Canon 60D,3,NE,5,100,16,14.3,11.7,Ebb,TRUE,1,Mount Desert Rock,3
+1404,2,13-Aug-24,Eliza Perez,Atlanticat,2:30:00 PM,6:30:00 PM,Canon 60D,2,WSW,9,20,17,15.4,11.6,Flood,TRUE,0,Mount Desert Rock,3
+1403,1,13-Aug-24,Eliza Perez,Atlanticat,8:30:00 AM,11:30:00 AM,Canon 60D,2,W,7,10,15.1,14.6,11.2,Ebb,TRUE,1,2 miles east of Little Duck Island,3.1
+1411,2,12-Aug-24,Jamie Fogg,Atlanticat,2:30:00 PM,6:00:00 PM,Canon 60D,3,WSW,6,40,15,13.6,13.6,Flood,TRUE,1,Mount Desert Rock,2.995
+1410,1,12-Aug-24,Jamie Fogg,Atlanticat,8:30:00 AM,1:00:00 PM,Canon 60D,3,SW,5,25,14,12.7,10.5,Slack,TRUE,1,Mount Desert Rock,2.995
+1400,2,08-Aug-24,Courtney Caccamo,Atlanticat,2:30:00 PM,6:30:00 PM,Canon 60D,1,E,3,30,15.8,13.3,11.3,Ebb,TRUE,0,Mount Desert Rock,3
+1399,1,08-Aug-24,Courtney Caccamo,Atlanticat,8:30:00 AM,12:30:00 PM,Canon 60D,1,NNE,8,10,14.7,12.7,10.6,Flood,TRUE,0,Mount Desert Rock,3
+1398,2,07-Aug-24,Eliza Perez,Atlanticat,2:30:00 PM,6:30:00 PM,Canon 60D,2,SW,8,10,14.2,12.3,10.3,Ebb,TRUE,1,MDR,3.1
+1397,1,07-Aug-24,Eliza Perez,Atlanticat,8:30:00 AM,12:30:00 PM,Canon 60D,1,W,8,70,13.6,11.6,10.2,Flood,TRUE,1,MDR,3.1
+1394,2,06-Aug-24,Chloe Beittel,Atlanticat,2:30:00 PM,6:40:00 PM,Canon 60D,1,WNW,2,100,14.2,12.5,10.5,Ebb,TRUE,1,"North Mount Desert Rock, Ballpark, South Mount Desert Rock",20
+1393,1,06-Aug-24,Chloe Beittel,Atlanticat,8:30:00 AM,11:45:00 AM,Canon 60D,1,NNW,5,95,13.7,11.8,10.3,Flood,TRUE,1,North Mount Desert Rock,20
+1392,1,05-Aug-24,Courtney Caccamo,Atlanticat,8:30:00 AM,1:00:00 PM,Canon 60D,2,W,10,10,15.1,12.9,10.4,Flood,TRUE,1,Mount Desert Rock,2.4
+1391,2,05-Aug-24,Courtney Caccamo,Atlanticat,2:30:00 PM,7:00:00 PM,Canon 60D,2,SW,9,10,15.5,13.1,10.4,Ebb,TRUE,1,Mount Desert Rock,3
+1390,1,03-Aug-24,Courtney Caccamo,Atlanticat,2:30:00 PM,7:00:00 PM,Canon 60D,2,N,5,10,16.2,13.3,10.1,Slack,TRUE,1,Mount Desert Rock,1
+1396,2,02-Aug-24,Eliza Perez,Atlanticat,2:30:00 PM,6:30:00 PM,Canon 60D,1,SW,8,20,17.6,14.7,10.1,Flood,TRUE,1,MDR,4
+1395,1,02-Aug-24,Eliza Perez,Atlanticat,8:30:00 AM,12:30:00 AM,Canon 40D,1,NW,2,10,16.8,14.2,10.5,Flood,TRUE,1,4 miles from MDR,3
+1385,2,28-Jul-24,Courtney Caccamo,Atlanticat,2:30:00 PM,7:00:00 PM,Canon 60D,1,SSW,5,20,15.6,14.1,10,Flood,TRUE,0,Mount Desert Rock,3
+1384,1,28-Jul-24,Courtney Caccamo,Atlanticat,8:30:00 AM,12:30:00 PM,Canon 60D,1,SSW,5,10,12.5,11.6,10,Slack,TRUE,0,Mount Desert Rock,0.205
+1387,2,27-Jul-24,Chloe Beittel,Atlanticat,2:30:00 PM,6:00:00 PM,Canon 60D,1,SSW,5,0,16.3,11.9,10.4,Flood,TRUE,1,Mount Desert Rock,4.8
+1386,1,27-Jul-24,Chloe Beittel,Atlanticat,8:30:00 AM,12:00:00 PM,Canon 60D,1,WNW,5,0,14.2,12.4,10.1,Ebb,TRUE,1,Mount Desert Rock,3
+1408,2,26-Jul-24,Jamie Fogg,Atlanticat,2:35:00 PM,5:30:00 PM,Canon 60D,2,WSW,7,20,14,13.3,10.7,Slack,TRUE,1,Ballpark,2.995
+1407,1,26-Jul-24,Jamie Fogg,Atlanticat,8:30:00 AM,1:00:00 PM,Canon 60D,1,W,4,30,13,11.5,10.7,Flood,TRUE,1,Mount Desert Rock,2.995
+1383,2,24-Jul-24,Courtney Caccamo,Atlanticat,2:30:00 PM,7:00:00 PM,Canon 60D,1,E,4,100,15.2,12.5,10.8,Ebb,TRUE,1,Mount Desert Rock,3
+1382,1,24-Jul-24,Courtney Caccamo,Atlanticat,8:30:00 AM,12:30:00 PM,Canon 60D,1,ESE,3,100,14.5,12.3,10.7,Flood,TRUE,1,Mount Desert Rock,3
+1377,1,23-Jul-24,Chloe Beittel,Atlanticat,2:30:00 PM,6:00:00 PM,Canon 60D,1,SSE,4,40,16,13.3,10.3,Flood,TRUE,1,Mount Desert Rock,20
+1376,2,22-Jul-24,Eliza Perez,Atlanticat,2:37:00 PM,6:30:00 PM,Canon 60D,2,SSW,7,10,15.5,12.6,9.5,Ebb,TRUE,1,Mount Desert Rock,3
+1375,1,22-Jul-24,Eliza Perez,Atlanticat,8:30:00 AM,12:30:00 PM,Canon 60D,1,WSW,4,0,14.5,12.8,9.6,Flood,TRUE,0,E. of Mount Desert Rock and Great Duck Island,3
+1381,2,21-Jul-24,Courtney Caccamo,Atlanticat,2:30:00 PM,7:00:00 PM,Canon 60D,2,WSW,10,20,16.7,13.8,9.3,Ebb,TRUE,1,Mount Desert Rock,3
+1380,1,21-Jul-24,Courtney Caccamo,Atlanticat,8:30:00 AM,1:00:00 PM,Canon 60D,1,NW,4,90,15.4,13.1,9.8,Flood,TRUE,1,Mount Desert Rock,3
+1372,2,20-Jul-24,Chloe Beittel,Atlanticat,2:30:00 PM,5:45:00 PM,Canon 60D,2,SSW,3.4,30,15.6,12.5,9.8,Ebb,TRUE,1,Ballpark,12
+1371,1,20-Jul-24,Chloe Beittel,Atlanticat,8:30:00 AM,12:00:00 PM,Canon 60D,1,SSW,6,10,15.1,13.4,10.9,Flood,TRUE,1,Southern East Bumps,16
+1374,2,19-Jul-24,Eliza Perez,Atlanticat,2:30:00 PM,5:35:00 PM,Canon 60D,2,SW,10,0,16.9,15.1,9.2,Slack,TRUE,1,14 miles from Schoodic Peninsula,3
+1373,1,19-Jul-24,Eliza Perez,Atlanticat,8:30:00 AM,11:41:00 AM,Canon 60D,2,W,5,0,15.6,14,9.2,Flood,TRUE,1,,3
+1402,2,15-Jul-24,Jamie Fogg,Atlanticat,2:37:00 PM,6:30:00 PM,Canon 60D,1,S,9,50,15.2,13.11,10.5,Flood,TRUE,1,Grand Manan Banks,0
+1401,1,15-Jul-24,Jamie Fogg,Atlanticat,8:30:00 AM,2:00:00 PM,Canon 60D,1,S,11,20,4,12.4,10.5,Slack,TRUE,3,Deepwater,1
+1370,2,14-Jul-24,Eliza Perez,Atlanticat,2:30:00 PM,7:30:00 PM,Canon 60D,2,,0,,0,0,0,,TRUE,,Jonesport Buoy,
+1369,1,14-Jul-24,Eliza Perez,Atlanticat,8:30:00 AM,12:30:00 AM,Canon 60D,2,SSE,7.6,0,13.6,12.5,10.3,Flood,TRUE,1,,0.23
+1368,2,10-Jul-24,Eliza Perez,Atlanticat,4:00:00 PM,4:52:00 PM,Canon 60D,2,SSW,6,50,14.7,0,0,Flood,TRUE,1,15 miles from Grand Manan,<1
+1367,1,10-Jul-24,Eliza Perez,Atlanticat,8:34:00 AM,12:00:00 PM,Canon 60D,2,SW,7.15,40,17.4,0,0,Ebb,TRUE,1,18 miles from Grand Manan Banks,3
+1362,1,08-Jul-24,Courtney Caccamo,Atlanticat,2:30:00 PM,8:15:00 PM,Canon 60D,2,SE,3,30,14.8,12.5,9,Ebb,FALSE,1,Grand Manan Banks,2
+1359,2,04-Jul-24,Eliza Perez,Atlanticat,2:33:00 PM,6:30:00 PM,Canon 60D,3,,0,,0,0,0,,TRUE,,3/4 miles from Canada; 10-12 miles from banks,
+1358,1,04-Jul-24,Eliza Perez,Atlanticat,8:35:00 AM,1:30:00 PM,Canon 60D,3,S,16,10,16,0,0,Flood,TRUE,0,Grand Manan,3
+1361,2,03-Jul-24,Jamie Fogg,Atlanticat,2:30:00 PM,6:00:00 PM,Canon 60D,1,S,6,40,15,13,0,Flood,TRUE,1,Deepwater,3
+1360,1,03-Jul-24,Jamie Fogg,Atlanticat,8:30:00 AM,1:30:00 PM,Canon 60D,2,S,6,10,19,13,10,Slack,TRUE,1,Grand Manan Banks,3
+1357,2,02-Jul-24,Eliza Perez,Atlanticat,2:35:00 PM,7:40:00 PM,Canon 60D,2,N,5,10,16.4,0,0,Flood,TRUE,1,5 miles of Grand Manan,3
+1356,1,02-Jul-24,Eliza Perez,Atlanticat,8:40:00 AM,1:30:00 AM,Canon 60D,1,N,5,0,14.8,0,0,Flood,TRUE,1,Grand Manan,3
+1366,1,01-Jul-24,Chloe Beittel,Atlanticat,2:30:00 PM,7:00:00 PM,Canon 60D,1,NNE,5,50,14.8,11.6,8.3,Flood,TRUE,1,"East Bumps, South West Grand Manan Banks",20
+1355,1,29-Jun-24,Eliza Perez,Atlanticat,8:35:00 AM,1:15:00 PM,Canon 60D,2,S,13.19,80,15.3,0,0,Ebb,TRUE,1,Grand Manan,3
+1354,1,29-Jun-24,Eliza Perez,Atlanticat,8:35:00 AM,1:30:00 PM,Canon 60D,2,S,13.19,80,15.3,0,0,Ebb,TRUE,1,Grand Manan,3
+1365,2,28-Jun-24,Chloe Beittel,Atlanticat,2:30:00 PM,7:15:00 PM,Canon 60D,2,SSW,2.9,5,15.1,13.4,9,Flood,TRUE,1,"East Bumps, South West Grand Manan Banks",20
+1364,1,28-Jun-24,Chloe Beittel,Atlanticat,8:30:00 AM,1:15:00 PM,Canon 60D,2,NW,15,5,12.4,10.3,9.3,Ebb,TRUE,0,North Grand Manan Banks,20
+1363,1,26-Jun-24,Courtney Caccamo,Atlanticat,8:30:00 AM,1:30:00 PM,Canon 60D,2,SW,9,10,13.3,11.3,8.1,Flood,TRUE,1,Grand Manan Banks,2
+1350,2,22-Jun-24,Jamie Fogg,Atlanticat,2:30:00 PM,6:00:00 PM,Canon 60D,1,S,10,100,0,11,0,Slack,TRUE,1,"Grand Manan Banks, South Banks",2
+1349,1,22-Jun-24,Jamie Fogg,Atlanticat,8:00:00 AM,2:00:00 PM,Canon 60D,2,S,5,10,11,9,0,Slack,TRUE,1,Grand Manan Banks,2
+1347,2,21-Jun-24,Courtney Caccamo,Atlanticat,2:30:00 PM,7:30:00 PM,Canon 60D,1,SW,3.1,40,17.5,12.6,7.6,Ebb,TRUE,0,Grand Manan Banks,3
+1346,1,21-Jun-24,Courtney Caccamo,Atlanticat,8:30:00 AM,1:30:00 PM,Canon 60D,1,NNE,6.9,90,15,12.5,7.8,Flood,TRUE,1,Grand Manan Banks,3
+1351,1,20-Jun-24,Chloe Beittel,Atlanticat,2:30:00 PM,7:30:00 PM,Canon 60D,3,WSW,4.7,5,15.2,11.2,8.6,Ebb,TRUE,1,Northeast Grand Manan Banks,8
+1345,2,19-Jun-24,Courtney Caccamo,Atlanticat,2:30:00 PM,7:30:00 PM,Canon 60D,3,SW,9.4,10,13.7,11.8,8.3,Flood,TRUE,1,Grand Manan Banks,3
+1344,1,19-Jun-24,Courtney Caccamo,Atlanticat,8:30:00 AM,1:30:00 PM,Canon 60D,2,WSW,6.9,20,13,10.9,8.5,Slack,TRUE,1,Grand Manan Banks,3
+1342,1,18-Jun-24,Eliza Perez,Atlanticat,2:36:00 PM,7:30:00 PM,Canon 60D,2,,0,,0,0,0,Ebb,TRUE,,Grand Manan Banks,
+1389,2,17-Jun-24,Courtney Caccamo,Atlanticat,2:40:00 PM,8:00:00 PM,Canon 60D,3,SW,6,100,12.2,10.8,8,Ebb,TRUE,1,Grand Manan Banks,3
+1388,1,17-Jun-24,Courtney Caccamo,Atlanticat,8:30:00 AM,2:00:00 PM,Canon 60D,2,S,12,100,12,10.7,8,Flood,TRUE,1,Grand Manan Banks,3
+1379,1,16-Jun-24,Chloe Beittel,Friendship V,2:30:00 PM,7:00:00 PM,Canon 60D,2,SW,7,2,12.8,11.1,8.7,Flood,TRUE,1,Northern Grand Manan Banks,20
+1353,2,15-Jun-24,Eliza Perez,Friendship V,2:30:00 PM,7:30:00 PM,Canon 60D,1,,0,,0,0,0,Flood,TRUE,,Grand Manan,
+1352,1,15-Jun-24,Eliza Perez,Friendship V,8:35:00 AM,1:15:00 PM,Canon 60D,,N,9,100,0,0,0,Ebb,TRUE,,Grand Manan,2.1
+1343,1,13-Jun-24,Courtney Caccamo,Atlanticat,1:00:00 PM,6:30:00 PM,Canon 60D,1,SSW,3.3,15,11.7,9.2,7.2,Flood,TRUE,0,Grand Manan Banks,2
+1378,1,11-Jun-24,Chloe Beittel,Atlanticat,1:00:00 PM,6:00:00 PM,Canon 60D,2,SW,2,50,12.5,9,7.4,Flood,TRUE,1,"Old Soaker, Grand Manan Banks",20
+1453,1,10-Jun-24,Courtney Caccamo,Atlanticat,1:00:00 PM,6:30:00 PM,Canon 60D,4,SW,10,35,10.3,8.6,7.2,Flood,TRUE,1,Grand Manan Banks,3
+1465,1,05-Jun-24,Eliza Perez,Atlanticat,1:04:00 PM,6:30:00 PM,Canon 60D,1,SSW,2.3,10,10.9,0,0,,TRUE,,Grand Manan Banks,3
+1437,1,05-Jun-24,Eliza Perez,Friendship V,1:00:00 PM,4:00:00 PM,Canon 60D,1,SE,6,0,15.2,13.8,11.8,Flood,TRUE,0,Grand Manan Banks,3
+1348,1,04-Jun-24,Jamie Fogg,Atlanticat,11:00:00 AM,4:30:00 PM,Canon 60D,1,NNE,11,1,9.9,8.6,0,Slack,TRUE,1,Grand Manan Banks,2
+1334,1,03-Jun-24,Chloe Beittel,Atlanticat,1:00:00 PM,5:45:00 PM,Canon 60D,1,ENE,11,75,11.1,9.5,7.7,Ebb,TRUE,0,East Bumps,20
+1470,1,02-Jun-24,Courtney Caccamo,Atlanticat,1:00:00 PM,6:00:00 PM,Canon 60D,2,SE,9,5,10.1,9.5,7.3,Slack,TRUE,0,Grand Manan Banks,3
+1341,1,01-Jun-24,Jamie Fogg,Atlanticat,1:00:00 PM,5:45:00 PM,Canon 60D,4,ENE,11,30,14.6,9.6,6.9,Flood,TRUE,0,East Bumps,2.995
+1441,1,31-May-24,Eliza Perez,Atlanticat,1:15:00 PM,6:00:00 PM,Canon 60D,2,,0,0,0,0,0,,TRUE,,Grand Manan Banks,
+1338,1,30-May-24,Chloe Beittel,Atlanticat,1:00:00 PM,4:30:00 PM,Canon 60D,2,NE,14,75,10.1,8.1,7.3,Flood,TRUE,1,"East Bumps, Ballpark",16
+1335,1,27-May-24,Chloe Beittel,Atlanticat,1:00:00 PM,4:15:00 PM,Canon 60D,3,ENE,11,100,9,0,0,Flood,TRUE,1,"East Bumps, Ridge line",11
+1471,1,26-May-24,Courtney Caccamo,Atlanticat,1:00:00 PM,5:30:00 PM,Canon 60D,1,SW,10,25,10.6,9.7,7.6,Ebb,TRUE,1,East Bumps,3
+1472,1,25-May-24,Courtney Caccamo,Atlanticat,1:00:00 PM,6:50:00 PM,Canon 60D,3,SW,7,10,10.3,9,7.9,Ebb,TRUE,1,Grand Manan Banks,3
+1336,1,24-May-24,Eliza Perez,Atlanticat,1:06:00 PM,6:00:00 PM,Canon 60D,3,SW,8,,11.5,0,0,Flood,TRUE,1,Grand Manan,
+1333,1,04-Oct-23,Makenna Powell,Atlanticat,11:05:00 AM,4:00:00 PM,Canon 60D,2,ENE,14,50,12.9,12.3,11.6,Flood,TRUE,1,Grand Manan Banks,3
+1332,1,03-Oct-23,Shannon Nielson,Atlanticat,11:00:00 AM,3:45:00 PM,Canon 60D,2,SW,11,10,13.6,12.2,11.8,Flood,TRUE,1,Northeastern Bank,15
+1331,1,30-Sep-23,Shannon Nielson,Atlanticat,11:00:00 AM,4:15:00 PM,Canon 60D,1,ENE,4,95,12.2,12.5,12.3,Flood,TRUE,1,Northeast Bank,10
+1329,1,28-Sep-23,Shannon Nielson,Atlanticat,11:00:00 AM,4:00:00 PM,Canon 60D,1,NNE,1,100,12.6,13.2,12.4,Ebb,TRUE,1,Grand Manan Banks,10
+1330,1,27-Sep-23,Makenna Powell,Atlanticat,11:04:00 AM,4:00:00 PM,Canon 60D,2,NE,8,10,12.6,12,12.1,Ebb,TRUE,1,Grand Manan Banks,3
+1327,1,26-Sep-23,Shannon Nielson,Atlanticat,11:00:00 AM,4:50:00 PM,Canon 60D,3,NE,15,0,11.1,12.1,12.4,Ebb,TRUE,1,"Outer Schoodic Ridges, Grand Manan Banks",24
+1326,1,24-Sep-23,Shannon Nielson,Atlanticat,11:00:00 AM,4:58:00 PM,Canon 60D,1,NNE,4,100,12.8,13.3,12.3,Ebb,TRUE,0,"Outer Schoodic Ridges, Jones Ground",5
+1328,1,23-Sep-23,Makenna Powell,Atlanticat,11:03:00 PM,4:30:00 PM,Canon 60D,1,SSW,3,50,12.7,13,12.1,Slack,TRUE,0,"East Bumps, Grand Manan Banks",3
+1325,1,12-Sep-23,Shannon Nielson,Atlanticat,11:00:00 AM,3:30:00 PM,Canon 60D,1,ENE,9,100,13.6,12.6,11.3,Ebb,FALSE,1,"East Bumps, Ballpark, Mount Desert Rock",1
+1323,1,10-Sep-23,Zoe Hosford,Atlanticat,11:02:00 AM,3:20:00 PM,Canon 60D,2,NE,8,90,14.2,13.3,11.8,Slack,TRUE,0,"East Bumps, Southwest Grand Manan Banks, Northeast Grand Manan Banks",3
+1324,1,08-Sep-23,Makenna Powell,Atlanticat,11:02:00 AM,4:00:00 PM,Canon 60D,2,SSE,4,100,15.2,13,11.5,Ebb,TRUE,0,"East Bumps, Mount Desert Rock, Ballpark",.177
+1322,1,07-Sep-23,Zoe Hosford,Atlanticat,11:05:00 AM,3:55:00 PM,Canon 60D,2,W,4,85,13.7,13,11.7,Ebb,TRUE,1,Mount Desert Rock,3
+1318,1,06-Sep-23,Shannon Nielson,Atlanticat,11:00:00 AM,2:40:00 PM,Canon 60D,1,NNW,10,0,15.5,12.1,11.2,Ebb,TRUE,1,Mount Desert Rock,35
+1321,1,05-Sep-23,Zoe Hosford,Atlanticat,11:01:00 AM,2:20:00 PM,Canon 60D,2,W,7,80,13.6,12.9,10.9,Slack,TRUE,1,Mount Desert Rock,3
+1320,2,02-Sep-23,Zoe Hosford,Atlanticat,2:32:00 PM,6:15:00 PM,Canon 60D,3,SW,7,30,13.6,12.3,11.5,Slack,TRUE,1,Mount Desert Rock,3
+1319,1,02-Sep-23,Zoe Hosford,Atlanticat,8:34:00 AM,11:30:00 AM,Canon 60D,1,WSW,7,95,13.6,12.9,10.9,Flood,TRUE,1,Mount Desert Rock,3
+1317,2,01-Sep-23,Shannon Nielson,Atlanticat,2:30:00 PM,5:30:00 PM,Canon 60D,2,NW,3,10,13.9,13,11.1,Ebb,TRUE,1,Mount Desert Rock,40
+1316,1,01-Sep-23,Shannon Nielson,Atlanticat,8:30:00 AM,11:55:00 AM,Canon 60D,1,N,11,0,13.5,12.5,11.6,Flood,TRUE,1,Mount Desert Rock,40
+1309,2,29-Aug-23,Makenna Powell,Atlanticat,2:32:00 PM,6:10:00 PM,Canon 60D,2,SE,4,100,15,14.1,11.5,Ebb,FALSE,0,Mount Desert Rock,3
+1308,1,29-Aug-23,Makenna Powell,Atlanticat,8:32:00 AM,12:10:00 PM,Canon 60D,2,ESE,4,95,14.8,14.5,11.5,Flood,TRUE,1,Mount Desert Rock,3
+1307,2,27-Aug-23,Makenna Powell,Atlanticat,2:35:00 PM,6:17:00 PM,Canon 60D,2,N,3,50,16,13.6,11.2,Flood,TRUE,1,Mount Desert Rock,3
+1306,1,27-Aug-23,Makenna Powell,Atlanticat,8:32:00 AM,12:10:00 PM,Canon 60D,3,NNE,11,90,15.2,13.7,11.3,Ebb,TRUE,1,Mount Desert Rock,3
+1305,1,25-Aug-23,Makenna Powell,Atlanticat,8:34:00 AM,11:45:00 AM,Canon 60D,2,SSW,7,100,14.5,13.6,11.3,Ebb,FALSE,0,Mount Desert Rock,3
+1304,2,24-Aug-23,Zoe Hosford,Atlanticat,2:32:00 PM,6:00:00 PM,Canon 60D,2,SSW,2,10,15.9,13.1,11.4,Flood,TRUE,0,Mount Desert Rock,3
+1303,1,24-Aug-23,Zoe Hosford,Atlanticat,8:33:00 AM,11:45:00 AM,Canon 60D,1,WNW,6,10,14.4,13,11.2,Slack,TRUE,0,Mount Desert Rock,3
+1302,2,23-Aug-23,Makenna Powell,Atlanticat,2:34:00 PM,6:20:00 PM,Canon 60D,2,NW,5,5,14.5,13.4,11.3,Flood,TRUE,0,Mount Desert Rock,3
+1301,1,23-Aug-23,Makenna Powell,Atlanticat,8:35:00 AM,12:25:00 PM,Canon 60D,2,N,11,10,14.1,13.3,11.4,Ebb,TRUE,0,Mount Desert Rock,3
+1299,2,22-Aug-23,Zoe Hosford,Atlanticat,2:35:00 PM,5:57:00 PM,Canon 60D,2,N,6,30,15.4,13.5,11.7,Slack,TRUE,0,Mount Desert Rock (Columbia Ledge),3
+1298,1,22-Aug-23,Zoe Hosford,Atlanticat,8:34:00 AM,11:45:00 AM,Canon 60D,2,N,12,30,14.4,12.9,10.9,Flood,TRUE,1,Mount Desert Rock,3
+1315,2,21-Aug-23,Shannon Nielson,Atlanticat,2:30:00 PM,5:48:00 PM,Canon 60D,0,WNW,5,60,15.7,13.2,11.2,Flood,TRUE,1,Mount Desert Rock,3
+1314,1,21-Aug-23,Shannon Nielson,Atlanticat,8:30:00 AM,12:11:00 PM,Canon 60D,1,SW,7,100,14.6,12.9,10.8,Flood,TRUE,1,Mount Desert Rock,3
+1300,1,19-Aug-23,Anna Amha,Atlanticat,8:30:00 AM,11:45:00 AM,Canon 60D,3,SW,10,60,13.7,11.6,10.9,Flood,TRUE,1,Mount Desert Rock,3
+1291,2,17-Aug-23,Zoe Hosford,Atlanticat,2:34:00 PM,6:35:00 PM,Canon 60D,2,ENE,6,90,13.6,12.6,11.2,Slack,TRUE,1,"East Bumps, Ballpark",3
+1290,1,17-Aug-23,Zoe Hosford,Atlanticat,8:32:00 AM,1:52:00 PM,Canon 60D,2,ENE,4,1,13.3,12.7,10.8,Flood,TRUE,1,Northeast Grand Manan Bank,3
+1313,2,16-Aug-23,Shannon Nielson,Atlanticat,2:57:00 PM,7:59:00 PM,Canon 60D,0,NE,4,30,14,13.1,10.6,Ebb,TRUE,0,Grand Manan Banks,700
+1312,1,16-Aug-23,Shannon Nielson,Atlanticat,8:39:00 AM,2:15:00 PM,Canon 60D,0,SSE,5,30,12.9,12.7,10.7,Flood,TRUE,0,Northeast Bank,0.1
+1297,2,15-Aug-23,Anna Amha,Atlanticat,2:30:00 PM,6:30:00 PM,Canon 60D,1,E,4,80,15.1,13.3,10.9,Slack,TRUE,1,Mount Desert Rock,3
+1296,1,15-Aug-23,Anna Amha,Atlanticat,8:30:00 AM,11:30:00 AM,Canon 60D,1,NW,2,100,15.8,14,11.1,Flood,TRUE,1,Mount Desert Rock,3
+1311,2,14-Aug-23,Shannon Nielson,Atlanticat,2:35:00 PM,6:02:00 PM,Canon 60D,2,SW,7,40,15.4,14.2,10.6,Ebb,TRUE,1,Mount Desert Rock,3
+1310,1,14-Aug-23,Shannon Nielson,Atlanticat,8:30:00 AM,11:45:00 AM,Canon 60D,1,WNW,10,5,15.9,14,10.6,Flood,TRUE,1,Mount Desert Rock,1
+1295,2,12-Aug-23,Anna Amha,Atlanticat,2:30:00 PM,6:15:00 PM,Canon 60D,2,WSW,6,70,14.9,13.6,11.2,Flood,TRUE,1,Mount Desert Rock,3
+1294,1,12-Aug-23,Anna Amha,Atlanticat,8:45:00 AM,12:00:00 PM,Canon 60D,2,WSW,12,75,15.1,13.1,11.1,Flood,TRUE,1,Mount Desert Rock,3
+1281,2,10-Aug-23,Shannon Nielson,Atlanticat,2:34:00 PM,6:15:00 PM,Canon 60D,2,WSW,5,80,14.7,12.8,11.1,Flood,TRUE,1,Mount Desert Rock,1600
+1280,1,10-Aug-23,Shannon Nielson,Atlanticat,8:30:00 AM,12:16:00 PM,Canon 60D,2,WSW,8,30,14,12.2,10.7,Ebb,TRUE,1,Mount Desert Rock,3
+1283,2,07-Aug-23,Makenna Powell,Atlanticat,2:32:00 PM,6:00:00 PM,Canon 60D,3,NE,7,100,14.8,13.8,10.8,Flood,TRUE,3,Mount Desert Rock,3
+1282,1,07-Aug-23,Makenna Powell,Atlanticat,8:32:00 AM,12:20:00 PM,Canon 60D,2,E,6,50,14.4,13.5,10.8,Ebb,TRUE,2,Mount Desert Rock,3
+1289,2,06-Aug-23,Charlie Hindley,Atlanticat,2:31:00 PM,6:02:00 PM,Canon 60D,2,WNW,10,10,14.7,12,10.8,Ebb,TRUE,1,Mount Desert Rock (Colombia Ledge),37.04
+1288,1,06-Aug-23,Charlie Hindley,Atlanticat,8:32:00 AM,12:10:00 PM,Canon 60D,1,NW,7,0,13.9,12,10.8,Flood,TRUE,1,Mount Desert Rock,37.04
+1279,1,05-Aug-23,Shannon Nielson,Atlanticat,2:37:00 PM,6:15:00 PM,Canon 60D,1,N,5,15,14.5,13.4,10.8,Ebb,TRUE,1,Mount Desert Rock,3
+1278,2,03-Aug-23,Makenna Powell,Atlanticat,2:33:00 PM,5:50:00 PM,Canon 60D,3,S,6,10,16.2,14,11.6,Ebb,TRUE,0,Mount Desert Rock,3
+1277,1,03-Aug-23,Makenna Powell,Atlanticat,8:32:00 AM,12:05:00 PM,Canon 60D,1,S,4,20,13.7,13.3,10.8,Flood,TRUE,0,Mount Desert Rock,3
+1293,2,02-Aug-23,Anna Amha,Atlanticat,2:30:00 PM,6:30:00 PM,Canon 60D,2,WNW,5.37,30,14.7,12.8,10.9,Ebb,TRUE,1,Mount Desert Rock,3
+1292,1,02-Aug-23,Anna Amha,Atlanticat,8:30:00 AM,12:10:00 PM,Canon 60D,2,NW,8.72,0,14.1,13.5,10.4,Flood,TRUE,1,MDR,3
+1274,2,01-Aug-23,Shannon Nielson,Atlanticat,2:32:00 PM,6:01:00 PM,Canon 60D,1,WSW,4,40,15.3,14.2,10.7,Ebb,TRUE,0,Mount Desert Rock,2.998
+1273,1,01-Aug-23,Shannon Nielson,Atlanticat,8:30:00 AM,1:40:00 PM,Canon 60D,1,NNW,1,10,14.6,13.6,10.4,Flood,TRUE,0,Grand Manan Banks,2.998
+1276,2,31-Jul-23,Makenna Powell,Atlanticat,2:31:00 PM,6:15:00 PM,Canon 60D,2,SW,5,50,14.5,13.4,10.4,Ebb,TRUE,1,Mount Desert Rock,3
+1275,1,31-Jul-23,Makenna Powell,Atlanticat,8:32:00 AM,1:20:00 PM,Canon 60D,1,WSW,6,40,14.7,13.5,10.8,Flood,TRUE,1,Grand Manan Banks,3
+1287,2,30-Jul-23,Anna Amha,Atlanticat,2:32:00 PM,5:45:00 PM,Canon 60D,3,W,8,5,15.3,13.1,10.1,Flood,TRUE,1,Mount Desert Rock,2.99817
+1286,1,30-Jul-23,Anna Amha,Atlanticat,8:35:00 AM,12:30:00 PM,Canon 60D,3,NNW,11,5,14.8,12.7,10.3,Ebb,TRUE,1,"East Bumps, Grand Manan",2.99817
+1272,2,29-Jul-23,Makenna Powell,Atlanticat,2:33:00 PM,6:15:00 PM,Canon 60D,2,SW,4,50,17.1,13.4,10.2,Flood,FALSE,1,"East Bumps, BallPark",2.9
+1271,1,29-Jul-23,Makenna Powell,Atlanticat,8:38:00 AM,12:30:00 PM,Canon 60D,2,WSW,6,30,15.2,13.6,10,Ebb,TRUE,1,"east bumps, ballpark",2.9
+1270,1,27-Jul-23,Makenna Powell,Atlanticat,8:30:00 AM,2:00:00 PM,Canon 60D,3,SW,13,90,16.7,14.7,10.3,Flood,TRUE,1,"East Bumps, Grand Manan Banks",2.9
+1264,1,26-Jul-23,Shannon Nielson,Atlanticat,8:30:00 AM,3:01:00 PM,Canon 60D,1,S,7,50,15.1,14.2,10,Ebb,TRUE,1,Grand Manan Banks,1.705
+1267,1,25-Jul-23,Zoe Hosford,Atlanticat,8:32:00 AM,2:04:00 AM,Canon 60D,4,ENE,7,30,13.1,11.5,9.7,Slack,TRUE,1,"East Bumps, Southwest Grand Manan Bank, Northeast Grand Manan Bank",1.6
+1269,2,24-Jul-23,Makenna Powell,Atlanticat,2:35:00 PM,7:15:00 PM,Canon 60D,2,SSW,4,30,14.4,11.8,10,Flood,TRUE,1,Grand Manan Banks,3
+1268,1,24-Jul-23,Makenna Powell,Atlanticat,8:35:00 AM,1:15:00 PM,Canon 60D,1,WSW,5,15,14.1,11.8,10.3,Flood,TRUE,1,"Mount Desert Rock, East Bumps",2.99
+1263,1,23-Jul-23,Makenna Powell,Atlanticat,2:35:00 PM,6:45:00 PM,Canon 60D,2,SW,4,100,15.1,11.1,10,Flood,TRUE,1,Mount Desert Rock,.153
+1266,2,22-Jul-23,Zoe Hosford,Atlanticat,2:33:00 PM,5:20:00 PM,Canon 60D,4,ENE,3,95,13.4,12,10,Slack,TRUE,1,"East Bunker Ledges, Egg Rock",1.62
+1265,1,22-Jul-23,Zoe Hosford,Atlanticat,8:35:00 AM,12:05:00 PM,Canon 60D,4,ENE,7,1,13.1,11.5,9.7,Slack,TRUE,1,"Egg Rock, Great Head, Cod Ledges, The Ducks",0.2
+1285,2,20-Jul-23,Anna Amha,Atlanticat,2:43:00 PM,7:35:00 PM,Canon 60D,2,NNW,5,30,15.7,12.4,10.4,Ebb,TRUE,1,Grand Manan Banks,2.99817
+1284,1,20-Jul-23,Anna Amha,Atlanticat,8:35:00 AM,1:55:00 PM,Canon 60D,2,N,6,75,14,10.8,9.6,Flood,TRUE,1,"50 Fathom, Grand Manan Banks",2.99817
+1260,1,15-Jul-23,Shannon Nielson,Atlanticat,2:30:00 PM,6:30:00 PM,Canon 60D,1,SSE,6.49,100,14.3,10.6,9.1,Ebb,TRUE,1,"Cod Ledge, Mount Desert Rock",0.3189
+1257,1,14-Jul-23,Zoe Hosford,Atlanticat,8:33:00 AM,1:45:00 PM,Canon 60D,4,WSW,8.94,90,11.5,10.5,9.9,Flood,TRUE,1,"East Bumps, Southwest Grand Manan Banks",2.9km
+1256,2,13-Jul-23,Anna Amha,Atlanticat,2:35:00 AM,7:45:00 AM,Canon 60D,3,NNE,5.14,100,12.8,11.3,0,Slack,TRUE,1,Grand Manan Banks,157.31
+1255,1,13-Jul-23,Anna Amha,Atlanticat,8:40:00 AM,1:45:00 PM,Canon 60D,2,ENE,5.37,85,12.2,11,9.2,Slack,TRUE,1,Grand Manan Banks,215.1
+1259,2,12-Jul-23,Shannon Nielson,Atlanticat,2:30:00 PM,7:02:00 PM,Canon 60D,2,SE,2.68,0,14.9,10.5,9.2,Flood,TRUE,1,"Southwest Bank, Grand Manan Banks",3
+1258,1,12-Jul-23,Shannon Nielson,Atlanticat,8:30:00 AM,1:45:00 PM,Canon 60D,1,SW,4.25,0,12,10.6,9.4,Ebb,TRUE,1,"East Bumps, Grand Manan Banks",0.0.61673
+1254,1,10-Jul-23,Anna Amha,Atlanticat,8:35:00 AM,12:45:00 PM,Canon 60D,2,NE,5.59,100,12.1,10.8,9.7,Slack,TRUE,1,"Mount Desert Rock, Bakers Island, Eastern Maine Shelf Buoy, Hot Dog Shoal",0.34
+1253,1,07-Jul-23,Makenna Powell,Atlanticat,2:30:00 PM,7:40:00 PM,Canon 60D,2,SSW,5,100,12.8,11.7,8.8,Ebb,FALSE,0,Grand Manan Banks,.665
+1252,2,06-Jul-23,Charlie Hindley,Atlanticat,2:36:00 PM,5:35:00 PM,Canon 60D,1,SW,6.26,95,12.9,11.5,9.3,Ebb,TRUE,0,"Great Duck Island, Little Duck Island, East Bunker Ledge/Seal Harbor, Continental Ledge",.144841
+1251,1,06-Jul-23,Charlie Hindley,Atlanticat,8:36:00 AM,1:20:00 PM,Canon 60D,1,SW,5.36,100,12.1,10.5,8.8,Flood,TRUE,1,"East Bumps, 5mi South of East Bumps, Outer Schoodic Ridge, Ball Park",.418429
+1250,1,05-Jul-23,Zoe Hosford,Atlanticat,2:32:00 PM,6:45:00 PM,Canon 60D,1,WSW,4.4,60,11.8,10.7,10.2,Slack,TRUE,1,"East Bumps, Ballpark, Great Duck Island",0.21
+1249,2,23-Jun-23,Shannon Nielson,Atlanticat,2:30:00 PM,7:40:00 PM,Canon 60D,2,NNE,1.79,20,14.1,10.3,8.4,Flood,FALSE,0,"East Bumps, Grand Manan Banks",0.2
+1248,1,23-Jun-23,Shannon Nielson,Atlanticat,8:30:00 AM,12:45:00 PM,Canon 60D,0,E,2.24,0,9.8,10,8.2,Ebb,TRUE,0,"East of East Bumps, Jonesport",0.92417
+1247,1,22-Jun-23,Anna Amha,Atlanticat,1:30:00 PM,5:00:00 PM,Canon 60D,3,SW,6.71,0,50.6,9.5,8.2,Flood,TRUE,1,East Bumps,3
+1246,1,21-Jun-23,Makenna Powell,Atlanticat,1:05:00 PM,7:09:00 PM,Canon 60D,2,NW,0.67,0,11.3,9.2,8.6,Flood,TRUE,0,"Grand Manan Banks, East Bumps",2.998
+1245,1,20-Jun-23,Zoe Hosford,Atlanticat,1:06:00 PM,6:25:00 PM,Canon 60D,3,W,1.3,1,13.5,10.5,7.5,Slack,TRUE,1,"East Bumps, SW Grand Manan Banks, NE Grand Manan Banks, Schoodic Ridges (Jonesport)",1.62
+1244,1,19-Jun-23,Shannon Nielson,Friendship V,1:00:00 PM,7:38:00 PM,Canon 60D,1,N,7.38,100,9.9,8.7,8.4,Ebb,TRUE,1,Grand Manan Banks,3.15
+1241,1,12-Jun-23,Zoe Hosford,Friendship V,1:03:00 PM,6:20:00 PM,Canon 60D,2,SW,4.2,1,11.9,10.2,7.2,Slack,FALSE,1,"East Bumps, SW Grand Manan Banks, NE Grand Manan Banks",1.62
+1243,1,11-Jun-23,Shannon Nielson,Friendship V,1:00:00 PM,6:30:00 PM,Canon 60D,2,WSW,4.3,10,11,9.2,8,Flood,FALSE,1,"East Bumps, Grand Manan Banks",2.998 km
+1242,1,10-Jun-23,Charlie Hindley,Friendship V,1:05:00 PM,6:00:00 PM,Canon 60D,1,NNW,1.1,1,8.7,9.3,8.5,Flood,TRUE,1,"East Bumps, deep water 10 mi South of Grand Manan",2.61
+1240,1,08-Jun-23,Makenna Powell,Friendship V,1:00:00 PM,6:00:00 PM,Canon 60D,2,ESE,8.5,30,10,8.8,7.7,Flood,FALSE,1,"East Bumps, NE Grand Manan Banks, SW Grand Manan Banks",2.61
+1239,1,07-Jun-23,Zoe Hosford,Friendship V,1:05:00 PM,5:30:00 AM,Canon 60D,2,W,1.3,1,13.5,10.5,7.5,Flood,TRUE,1,"East Bumps, Hague Line",1.62
+1238,1,02-Jun-23,Zoe Hosford,Friendship V,1:00:00 PM,4:55:00 PM,Canon 60D,5,W,1.3,0,13.5,10.5,7.5,Slack,FALSE,1,"East Bumps, Ballpark, Mount Desert Rock",1.62
+1234,1,01-Jun-23,Shannon Nielson,Friendship V,1:00:00 PM,6:30:00 PM,Canon 60D,4,SSW,9.6,0,11.93,10.6,7.22,Flood,TRUE,1,Grand Manan Banks,3
+1236,1,31-May-23,Charlie Hindley,Friendship V,1:07:00 PM,4:35:00 PM,Canon 60D,5,WSW,15.19,10,10.41,9.55,8,Flood,FALSE,1,"Hippo Leg, Hippo Nose, Mount Desert Rock, Ball Park",2.607
+1231,1,30-May-23,Anna Amha,Friendship V,1:09:00 PM,6:50:00 PM,Canon 60D,2,SW,12.31,5,9.87,9.37,8.39,Slack,TRUE,1,"Bumps, South West and NE Grand Manan Banks",3
+1235,1,29-May-23,Charlie Hindley,Friendship V,1:12:00 PM,5:28:00 PM,Canon 60D,4,SE,14.72,50,8.88,8.55,7.08,Ebb,FALSE,1,"Hippo Head, Mount Desert Rock, Ball Park, East Bumps",2.57495
+1233,1,28-May-23,Makenna Powell,Friendship V,1:10:00 PM,5:20:00 PM,Canon 60D,3,SW,18.4,0,24,8,11,Flood,FALSE,1,"Schoodic Ridges, Mount Desert Rock, East Bumps",2.6
+1237,1,27-May-23,Shannon Nielson,Friendship V,1:00:00 PM,5:30:00 PM,Canon 60D,3,SW,10.2,0,10.65,8.76,7.62,Flood,FALSE,1,"East Bumps, Mount Desert Rock",3
+1232,1,26-May-23,Zoe Hosford,Friendship V,1:00:00 PM,5:15:00 PM,Canon 60D,1,S,3.4,1,12.7,7.7,8.8,Flood,FALSE,3,"East Bumps, Ridges, Mount Desert Rock, The Ducks",High
+1182,1,10-Oct-22,Molly Tucker,Friendship V,11:06:00 AM,3:57:00 PM,Canon 60D,1,NW,4.9,90,10.51,0,12.65,Ebb,TRUE,1,NE GMB,2.67
+1183,1,09-Oct-22,Jess McCoppin,Friendship V,11:06:00 AM,4:35:00 PM,Canon 60D,3,SW,12.23,80,11,0,12.83,Ebb,TRUE,0,SW Grand Manan Banks,2.96
+1181,1,07-Oct-22,Molly Tucker,Friendship V,11:02:00 AM,4:06:00 PM,Canon 60D,2,S,6.68,70,13.8,0,12.57,Ebb,TRUE,1,NE GMB,2.80
+1179,1,01-Oct-22,Molly Tucker,Friendship V,11:06:00 AM,4:00:00 PM,Canon 60D,1,WSW,6,100,13.05,0,12.97,Flood,TRUE,0,Grand Manan Banks,2.97
+1180,1,30-Sep-22,Jess McCoppin,Friendship V,11:01:00 AM,3:50:00 PM,Canon 60D,1,NNE,7.6,40,11.38,0,12.86,Flood,TRUE,0,NE/SW GMB,2.91
+1178,1,21-Sep-22,Jess McCoppin,Friendship V,11:12:00 AM,3:30:00 PM,Canon 60D,2,NW,12.76,100,12.13,0,12.7,Ebb,TRUE,1,SW GMB,2.89
+1177,1,18-Sep-22,Jess McCoppin,Friendship V,11:07:00 AM,1:25:00 PM,Canon 60D,3,SW,9.2,100,14.59,0,12.67,Flood,FALSE,1,Great Duck Island,2.98
+1176,1,13-Sep-22,Molly Tucker,Friendship V,11:00:00 AM,4:00:00 PM,Canon 60D,1,E,2.79,100,14.57,0,12.55,Slack,TRUE,0,"MDR, Bumps, Ball park",1.47
+1174,1,12-Sep-22,Jess McCoppin,Friendship V,11:03:00 AM,4:45:00 PM,Canon 60D,2,WSW,9.43,70,15.89,0,12.55,Ebb,TRUE,0,SW and NE Grand Manan Banks,2.98
+1171,1,11-Sep-22,Alie MacVicar,Friendship V,11:00:00 AM,3:00:00 PM,Canon 60D,1,WNW,6,65,16.2,,12.4,Flood,FALSE,0,Ball park/ East Bumps,8
+1175,1,10-Sep-22,Molly Tucker,Friendship V,2:37:00 PM,6:00:00 PM,Canon 60D,1,E,4.6,0,16.18,0,13.02,Flood,TRUE,1,Mount Desert Rock,2.99
+1173,1,09-Sep-22,Jess McCoppin,Friendship V,11:02:00 AM,3:04:00 PM,Canon 60D,2,NNW,2.68,0,15.61,0,12.68,Ebb,TRUE,1,"Mount Desert Rock, Ballpark",2.99
+1172,1,08-Sep-22,Alie MacVicar,Friendship V,11:00:00 AM,5:00:00 PM,Canon 60D,1,NE,6,15,14.1,,12.5,Flood,TRUE,1,Mount Desert Rock,10
+1166,1,07-Sep-22,Molly Tucker,Friendship V,11:10:00 AM,3:07:00 PM,Canon 60D,1,NNE,5.36,5,14.31,0,12.86,Ebb,TRUE,1,Mount Desert Rock,2.93
+1161,1,04-Sep-22,Molly Tucker,Friendship V,11:02:00 AM,3:00:00 PM,Canon 60D,1,S,7.41,40,15.79,0,12.68,Flood,TRUE,0,Mount Desert Rock,2.99
+1168,2,03-Sep-22,Jess McCoppin,Friendship V,2:30:00 PM,5:55:00 PM,Canon 60D,0,SSW,4.36,10,15.98,0,12.9,Flood,TRUE,0,Mount Desert Rock,2.99
+1167,1,03-Sep-22,Jess McCoppin,Friendship V,8:42:00 AM,11:50:00 AM,Canon 60D,0,SSW,1.9,15,14.34,0,12.77,Slack,TRUE,0,Mount Desert Rock,2.99
+1170,2,02-Sep-22,Alie MacVicar,Friendship V,2:30:00 PM,5:00:00 PM,Canon 60D,1,W,7,0,15.5,,12.8,Ebb,TRUE,0,Mount Desert Rock,10
+1169,1,02-Sep-22,Alie MacVicar,Friendship V,8:30:00 AM,12:30:00 PM,Canon 60D,2,NW,13,0,14.4,,12.7,Flood,TRUE,1,Mount Desert Rock,10
+1163,2,01-Sep-22,Molly Tucker,Friendship V,2:37:00 PM,6:37:00 PM,Canon 60D,2,SW,12.6,10,16.6,0,13.14,Ebb,TRUE,1,Mount Desert Rock,2.96
+1162,1,01-Sep-22,Molly Tucker,Friendship V,8:30:00 AM,12:30:00 PM,Canon 60D,2,SSW,10.5,90,16.49,0,12.68,Flood,TRUE,1,Mount Desert Rock,2.85
+1154,2,29-Aug-22,Molly Tucker,Friendship V,2:33:00 PM,,Canon 60D,2,SSW,8.41,60,16.61,0,12.75,Ebb,TRUE,1,Mount Desert Rock,2.978
+1153,1,29-Aug-22,Molly Tucker,Friendship V,8:32:00 AM,11:40:00 AM,Canon 60D,2,SSW,8.5,10,15.77,0,13.15,Flood,TRUE,0,Mount Desert Rock,2.99
+1160,2,28-Aug-22,Thomas Gonye,Friendship V,2:30:00 PM,6:00:00 PM,Canon 60D,1,N,3.2,0,14.86,0,12.43,,TRUE,0,Mount Desert Rock,16
+1159,1,28-Aug-22,Thomas Gonye,Friendship V,8:30:00 AM,1:00:00 PM,Canon 60D,1,N,3.3,0,14.8,0,12.43,,TRUE,0,Mount Desert Rock,16
+1165,2,27-Aug-22,Jess McCoppin,Friendship V,2:30:00 PM,6:00:00 PM,Canon 60D,1,NNE,5.95,10,15.7,0,12.38,Ebb,TRUE,1,Mount Desert Rock,2.99
+1164,1,27-Aug-22,Jess McCoppin,Friendship V,8:30:00 AM,12:10:00 PM,Canon 60D,2,NNW,4.57,100,15.43,0,12.38,Flood,TRUE,1,Mount Desert Rock,2.61
+1148,2,25-Aug-22,Alie MacVicar,Friendship V,2:30:00 PM,6:00:00 PM,Canon 60D,2,NE,7,15,16.1,,12.1,Ebb,TRUE,0,Mount Desert Rock,9
+1152,2,24-Aug-22,Jess McCoppin,Friendship V,2:30:00 PM,6:00:00 PM,Canon 60D,1,NE,6.91,100,15.85,0,12.35,Flood,FALSE,1,Mount Desert Rock,2.63
+1151,1,24-Aug-22,Jess McCoppin,Friendship V,8:39:00 AM,12:00:00 PM,Canon 60D,1,NE,5.32,100,15.17,0,12.3,Ebb,TRUE,1,Mount Desert Rock,2.02
+1158,2,21-Aug-22,Thomas Gonye,Friendship V,2:30:00 AM,6:00:00 PM,Canon 60D,1,SSE,4.5,70,17.13,0,12.9,,TRUE,0,Mount Desert Rock,16
+1157,1,21-Aug-22,Thomas Gonye,Friendship V,8:30:00 AM,1:00:00 PM,Canon 60D,1,SSE,5.55,70,15.9,0,12.65,,TRUE,0,Mount Desert Rock,16
+1150,2,20-Aug-22,Jess McCoppin,Friendship V,2:30:00 PM,6:15:00 PM,Canon 60D,1,SSW,5.79,0,18.29,0,12.83,Flood,TRUE,1,Mount Desert Rock,2.99
+1149,1,20-Aug-22,Jess McCoppin,Friendship V,8:32:00 AM,12:00:00 PM,Canon 60D,1,WSW,4.36,0,16.25,0,11.62,Ebb,TRUE,1,Mount Desert Rock,2.98
+1156,2,19-Aug-22,Molly Tucker,Friendship V,2:32:00 PM,6:00:00 PM,Canon 60D,2,WSW,11.5,,16,0,12.42,Ebb,TRUE,1,Mount Desert Rock,2.979
+1155,1,19-Aug-22,Molly Tucker,Friendship V,8:30:00 AM,12:10:00 PM,Canon 60D,2,WSW,10.7,5,14.97,0,12.07,Flood,TRUE,1,Mount Desert Rock,2.99
+1145,2,16-Aug-22,Alie MacVicar,Friendship V,2:30:00 PM,6:00:00 PM,Canon 60D,2,ENE,10,45,16.4,,12.2,,TRUE,0,Mount Desert Rock,10+
+1144,1,16-Aug-22,Alie MacVicar,Friendship V,8:30:00 AM,12:00:00 PM,Canon 60D,2,NE,7,10,14.6,,12,,TRUE,0,Mount Desert Rock,10+
+1138,2,15-Aug-22,Thomas Gonye,Friendship V,2:30:00 PM,6:00:00 PM,Canon 60D,1,ENE,4.3,15,15.5,0,12.6,Ebb,TRUE,0,Mount Desert Rock,3
+1137,1,15-Aug-22,Thomas Gonye,Friendship V,8:30:00 AM,12:00:00 PM,Canon 60D,1,NNE,4.3,10,14.66,0,12,Flood,TRUE,0,Mount Desert Rock,3
+1136,2,14-Aug-22,Jess McCoppin,Friendship V,2:32:00 PM,5:55:00 PM,Canon 60D,1,SW,6.82,5,15.85,0,12.3,Ebb,TRUE,0,Mount Desert Rock,2.99
+1135,1,14-Aug-22,Jess McCoppin,Friendship V,8:34:00 AM,12:00:00 PM,Canon 60D,1,NW,4.14,10,15.24,0,11.95,Flood,TRUE,0,Mount Desert Rock,2.99
+1143,2,13-Aug-22,Alie MacVicar,Friendship V,2:30:00 PM,5:00:00 PM,Canon 60D,2,NNE,7,85,16,,12.2,,TRUE,1,Mount Desert Rock,10+
+1142,1,13-Aug-22,Alie MacVicar,Friendship V,8:30:00 AM,12:00:00 PM,Canon 60D,2,NNE,10,40,14.9,,11.8,,TRUE,1,East Bumps,10+
+1134,1,12-Aug-22,Jess McCoppin,Friendship V,2:34:00 PM,6:00:00 PM,Canon 60D,1,SW,2.55,40,16.84,0,11.98,Ebb,TRUE,0,Mount Desert Rock,2.97
+1147,2,11-Aug-22,Thomas Gonye,Friendship V,2:30:00 PM,7:00:00 PM,Canon 60D,1,ESE,2.22,,16.5,0,11.44,Ebb,TRUE,0,Mount Desert Rock,
+1146,1,11-Aug-22,Thomas Gonye,Friendship V,8:30:00 AM,1:00:00 PM,Canon 60D,1,SE,3.7,95,14.9,0,11.8,Slack,TRUE,0,Grand Manan Banks,16+
+1141,2,10-Aug-22,Alie MacVicar,Friendship V,2:30:00 PM,5:00:00 PM,Canon 60D,2,NNE,7,75,16,,12.2,Slack,TRUE,1,North of MDR,10+
+1140,1,10-Aug-22,Alie MacVicar,Friendship V,8:30:00 AM,12:00:00 PM,Canon 60D,2,NNE,9,75,14.9,,11.8,Flood,FALSE,1,,10+
+1130,1,06-Aug-22,Thomas Gonye,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,1,NE,5.8,100,15.5,,11.67,Flood,TRUE,0,Grand Manan Banks,0.1
+1139,2,03-Aug-22,Alie MacVicar,Friendship V,2:30:00 PM,5:00:00 PM,Canon 60D,1,WSW,4,20,17.8,,11.5,Ebb,TRUE,1,SW Bank GMB,10+
+1133,1,03-Aug-22,Alie MacVicar,Friendship V,8:30:00 AM,12:00:00 PM,Canon 60D,2,N,8,5,16.8,,11.6,Flood,TRUE,1,Mount Desert Rock,10+
+1132,2,03-Aug-22,Alie MacVicar,Friendship V,2:30:00 PM,5:00:00 PM,Canon 60D,2,SSW,9,30,16.5,,11.5,Ebb,TRUE,1,Grand Manan Banks,10+
+1129,2,02-Aug-22,Morgan Pirozzi,Friendship V,2:30:00 PM,7:30:00 PM,Canon 60D,1,SSE,3.88,100,16.3,0,12.28,Ebb,TRUE,1,Grand Manan Banks,<1 - 5
+1126,2,01-Aug-22,Jess McCoppin,Friendship V,2:38:00 PM,6:30:00 PM,Canon 60D,1,,8.23,5,16.43,0,12.4,Ebb,TRUE,1,"East Bumps, NE Grand Manan Banks",2.99
+1125,1,01-Aug-22,Jess McCoppin,Friendship V,8:36:00 AM,1:45:00 PM,Canon 60D,1,SW,5.66,95,15.46,0,11.06,Flood,TRUE,1,"East Bumps, NE Grand Manan Banks",2.86
+1128,2,31-Jul-22,Morgan Pirozzi,Friendship V,2:30:00 PM,7:00:00 PM,Canon 60D,1,SW,9.4,40,16.4,0,11.48,Ebb,TRUE,1,Grand Manan Banks,9
+1127,1,31-Jul-22,Morgan Pirozzi,Friendship V,8:30:00 PM,1:45:00 PM,Canon 60D,2,WSW,6.8,10,15.4,0,11.6,Flood,TRUE,1,Grand Manan Bank,10+
+1131,1,30-Jul-22,Alie MacVicar,Friendship V,8:00:00 AM,1:00:00 PM,Canon 60D,2,SE,8,55,17.9,,10.7,Flood,TRUE,1,Grand Manan Banks,10+
+1122,1,29-Jul-22,Jess McCoppin,Friendship V,2:36:00 PM,6:15:00 PM,Canon 60D,2,SW,7.83,0,16.3,0,10.88,Ebb,TRUE,1,Mount Desert Rock,2.87
+1124,2,28-Jul-22,Morgan Pirozzi,Friendship V,2:30:00 PM,7:00:00 PM,Canon 60D,2,S,7.33,25,16.6,0,11.62,Ebb,TRUE,1,Grand Manan Banks (SW Bank),9
+1123,1,28-Jul-22,Morgan Pirozzi,Friendship V,8:30:00 AM,1:15:00 PM,Canon 60D,2,SSW,5.08,10,15.3,0,11.45,Flood,TRUE,1,Grand Manan Banks (SW Bank),8
+1121,2,27-Jul-22,Jess McCoppin,Friendship V,2:33:00 PM,6:30:00 PM,Canon 60D,2,SW,6.12,20,16.74,0,10.64,Ebb,TRUE,1,"Great Duck Island, Mount Desert Rock",2.98
+1120,1,27-Jul-22,Jess McCoppin,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,1,W,2.87,10,16.04,0,11.32,Flood,TRUE,1,NE Grand Manan Banks,2.97
+1119,2,24-Jul-22,Alie MacVicar,Friendship V,2:30:00 PM,7:00:00 PM,Canon 60D,3,S,6,40,13.2,,10.6,Flood,TRUE,1,Grand Manan Banks,3
+1118,1,24-Jul-22,Alie MacVicar,Friendship V,8:00:00 AM,1:30:00 PM,Canon 60D,2,S,4,10,13.8,,11.7,Ebb,TRUE,1,Grand Manan Banks,9mi
+1116,2,23-Jul-22,Thomas Gonye,Friendship V,1:30:00 PM,7:00:00 PM,Canon 60D,2,SSW,4.9,15,17.23,0,10.9,Flood,TRUE,1,Grand Manan Banks,16
+1117,1,22-Jul-22,Jess McCoppin,Friendship V,2:30:00 PM,6:30:00 PM,Canon 60D,3,SW,10.04,5,16.73,0,10.6,Flood,TRUE,1,Mount Desert Rock,2.98
+1108,1,21-Jul-22,Alie MacVicar,Friendship V,8:00:00 AM,1:00:00 PM,Canon 60D,2,SE,7,35,15.2,,11,Ebb,TRUE,1,Mount Desert Rock,5mi
+1107,1,17-Jul-22,Alie MacVicar,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,3,SSW,11,80,15,,10.5,Ebb,TRUE,1,Southwest Grand Manan Banks,8mi
+1106,2,16-Jul-22,Jess McCoppin,Friendship V,2:30:00 PM,6:00:00 PM,Canon 60D,1,SSW,7.68,70,14.51,0,10.03,Ebb,TRUE,1,"East Bumps, Ballpark",2.99
+1105,1,16-Jul-22,Jess McCoppin,Friendship V,8:33:00 AM,1:48:00 PM,Canon 60D,1,SW,4.5,80,13.55,0,10.12,Flood,TRUE,1,"East Bumps, SW Grand Manan Banks",2.99
+1104,2,15-Jul-22,Jess McCoppin,Friendship V,2:30:00 PM,6:46:00 PM,Canon 60D,2,SW,8.5,5,15.11,0,10.38,Ebb,TRUE,1,"Mount Desert Rock, Ballpark, East Bumps",2.99
+1103,1,15-Jul-22,Jess McCoppin,Friendship V,8:40:00 AM,12:00:00 PM,Canon 60D,1,WNW,9.9,0,14.15,0,10.13,Flood,TRUE,1,"East Bumps, Ballpark",2.99
+1102,2,14-Jul-22,Abigail Simms,Friendship V,2:30:00 PM,7:00:00 PM,Canon 60D,1,NE,4.91,100,14.23,0,10.5,Ebb,TRUE,1,SW Grand Manan Banks,2.99
+1101,1,14-Jul-22,Abigail Simms,Friendship V,8:30:00 AM,1:15:00 PM,Canon 60D,1,S,3.39,100,14.09,0,10.88,Flood,TRUE,1,"5 mi E of Petit Manan, 12 mi W f NE Banks, NE Banks",2.99
+1100,2,11-Jul-22,Morgan Pirozzi,Friendship V,2:30:00 PM,7:30:00 PM,Canon 60D,2,SSW,8.7,80,14.2,0,9.72,Flood,TRUE,1,Between the Bumps and Grand Manan,5+
+1099,1,11-Jul-22,Morgan Pirozzi,Friendship V,8:30:00 AM,1:00:00 PM,Canon 60D,4,SSW,10.4,10,14.1,0,10.3,Ebb,TRUE,1,Grand Manan Banks (NE Bank),10+
+1098,2,10-Jul-22,Jess McCoppin,Friendship V,2:36:00 PM,7:30:00 PM,Canon 60D,1,SSW,4.36,0,15.43,0,9.5,Flood,TRUE,1,NE Grand Manan Banks,299
+1097,1,10-Jul-22,Jess McCoppin,Friendship V,8:35:00 AM,1:45:00 PM,Canon 60D,1,NW,5.85,0,13.83,0,9.72,Ebb,TRUE,1,"Ballpark, SW Grand Manan Banks",2.99
+1115,2,09-Jul-22,Thomas Gonye,Friendship V,2:30:00 PM,7:00:00 PM,Canon 60D,2,W,5.3,10,15.82,0,9.73,Ebb,TRUE,1,,16
+1114,1,09-Jul-22,Thomas Gonye,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,2,N,10.4,0,14.6,0,10.2,Ebb,TRUE,1,Grand Manan Banks,16
+1113,2,07-Jul-22,Thomas Gonye,Friendship V,2:30:00 PM,7:00:00 PM,Canon 60D,2,S,4,10,15.8,0,10.8,Flood,TRUE,1,,16
+1112,1,07-Jul-22,Thomas Gonye,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,1,NW,4.1,65,13.6,0,10.3,Ebb,TRUE,1,Grand Manan Banks,16
+1095,2,05-Jul-22,Morgan Pirozzi,Friendship V,2:30:00 PM,7:00:00 PM,Canon 60D,3,SSW,7.3,1,14.9,0,10.3,Flood,TRUE,2,Grand Manan Banks (SW Bank),7+
+1094,1,05-Jul-22,Morgan Pirozzi,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,3,SW,8.2,0,13.9,0,9.3,Slack,TRUE,1,Grand Manan Banks (SW Bank),
+1093,2,04-Jul-22,Alie MacVicar,Friendship V,2:30:00 PM,7:00:00 PM,Canon 60D,2,S,5,10,14.9,,9.3,Ebb,TRUE,1,Grand manan banks,1609
+1092,1,04-Jul-22,Alie MacVicar,Friendship V,8:30:00 AM,1:00:00 PM,Canon 60D,1,SSW,1,10,13.5,,9.6,Flood,TRUE,0,Grand Manan Banks,14
+1111,2,03-Jul-22,Thomas Gonye,Friendship V,2:30:00 PM,7:00:00 PM,Canon 60D,1,W,8.2,5,14,0,9.4,Flood,TRUE,1,Grand Manan Banks,16
+1090,2,01-Jul-22,Alie MacVicar,Friendship V,2:30:00 PM,7:00:00 PM,Canon 60D,4,SSW,14,80,14.5,,10.4,Ebb,TRUE,0,Grand Manan Banks,14
+1089,1,01-Jul-22,Alie MacVicar,Friendship V,8:30:00 AM,2:00:00 PM,Canon 60D,3,SSW,7,35,13.8,,10.4,Flood,TRUE,0,Grand Manan Banks,14.48
+1110,2,30-Jun-22,Thomas Gonye,Friendship V,2:30:00 PM,7:00:00 PM,Canon 60D,1,W,7.3,40,14,0,9.4,Ebb,TRUE,1,Mount Desert Rock,16
+1109,1,30-Jun-22,Thomas Gonye,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,2,W,8.2,50,14,0,9.5,Flood,TRUE,1,Grand Manan Banks,16
+1088,2,29-Jun-22,Alie MacVicar,Friendship V,2:30:00 PM,7:00:00 PM,Canon 60D,1,SSE,2,10,15.9,,9.7,Ebb,TRUE,1,Grand Manan Banks,unlimited
+1087,1,29-Jun-22,Alie MacVicar,Friendship V,8:30:00 AM,1:00:00 PM,Canon 60D,2,WNW,4,20,13.1,,9.9,Flood,TRUE,1,Grand Manan banks,unlimited
+1086,2,26-Jun-22,Alie MacVicar,Friendship V,2:30:00 PM,7:00:00 PM,Canon 60D,3,S,10,15,15.2,,9.2,Ebb,TRUE,1,Grand Manan Banks,19
+1085,1,26-Jun-22,Alie MacVicar,Friendship V,8:30:00 AM,1:00:00 PM,Canon 60D,4,S,11,15,14.3,,8.7,Flood,TRUE,1,Grand Manan Banks,19
+1078,1,25-Jun-22,Jess McCoppin,Friendship V,8:30:00 AM,12:45:00 PM,Canon 60D,2,NW,3.44,0,13.58,0,9.26,Ebb,TRUE,2,10 miles W Schoodic Point,2.80
+1084,2,24-Jun-22,Morgan Pirozzi,Friendship V,2:30:00 AM,8:15:00 AM,Canon 60D,2,,0,40,0,0,0,Flood,TRUE,3,Grand Manan Banks,10+ mi
+1083,1,24-Jun-22,Morgan Pirozzi,Friendship V,8:30:00 AM,1:30:00 AM,Canon 60D,1,,,25,0,0,0,Ebb,TRUE,2,Grand Manan Banks,Unlimited
+1082,2,22-Jun-22,Thomas Gonye,Friendship V,1:00:00 PM,6:00:00 PM,Canon 60D,3,SSW,4,,12.75,,9,,TRUE,1,,
+1077,1,21-Jun-22,Jess McCoppin,Friendship V,1:03:00 PM,6:06:00 PM,Canon 60D,1,S,4.32,0,11.4,0,8.7,Flood,TRUE,1,SW Grand Manan Banks,2.99
+1071,1,20-Jun-22,Morgan Pirozzi,Friendship V,1:00:00 AM,6:50:00 AM,Canon 60D,2,NNW,13.54,20,12.5,9.5,8.5,Flood,TRUE,1,Great Duck Island,10+
+1081,2,16-Jun-22,Thomas Gonye,Friendship V,1:00:00 PM,7:00:00 PM,Canon 60D,2,SSW,10,,12.75,,9,Flood,TRUE,1,"Ballpark, E Bumps and GMB",max
+1076,1,15-Jun-22,Alie MacVicar,Friendship V,11:00:00 AM,4:00:00 PM,Canon 60D,2,W,4,10,9.9,,7.9,Ebb,TRUE,0,Grand Manan Northern Banks,unlimited
+1075,1,14-Jun-22,Alie MacVicar,Friendship V,1:00:00 PM,7:00:00 PM,Canon 60D,2,SW,5,10,10.1,,7.2,Ebb,TRUE,0,East Bumps,16
+1080,2,12-Jun-22,Thomas Gonye,Friendship V,1:00:00 PM,4:00:00 PM,Canon 60D,1,S,12,,12.75,11.7,9,Flood,TRUE,1,East Bumps,5-7mi
+1074,1,07-Jun-22,Alie MacVicar,Friendship V,1:00:00 PM,7:00:00 PM,Canon 60D,2,SW,5,20,10.1,,7.2,Flood,TRUE,0,Northern Grand Manan Banks,16
+1068,1,06-Jun-22,Jess McCoppin,Friendship V,1:06:00 PM,6:00:00 PM,Canon 60D,0,SW,5.35,10,12.93,0,7.89,Flood,TRUE,0,SW Grand Manan Banks,2.99
+1073,1,05-Jun-22,Jess McCoppin,Friendship V,1:00:00 PM,7:00:00 PM,Canon 60D,2,SSW,6,30,9.9,,7.7,Flood,TRUE,0,SW Grand Manan Banks,16
+1067,1,03-Jun-22,Jess McCoppin,Friendship V,1:00:00 PM,7:00:00 PM,Canon 60D,1,SE,3.56,90,9.66,,8.11,Ebb,TRUE,0,Grand Manan Banks,1.78
+1069,1,02-Jun-22,Morgan Pirozzi,Friendship V,1:00:00 PM,6:15:00 PM,Canon 60D,2,NNW,14.08,30,10.43,9.22,8.6,Ebb,TRUE,1,Grand Manan Banks,Unlimited
+1072,1,01-Jun-22,Alie MacVicar,Friendship V,1:00:00 PM,7:00:00 PM,Canon 60D,2,SSW,6,25,9.8,,7.7,Ebb,TRUE,0,SW Bank GMB,unlimited
+1066,1,11-Oct-21,Helene Bartsch,Friendship V,11:00:00 AM,4:00:00 PM,Canon 60D,0,SE,6,0,14.4,13.9,13,Slack,TRUE,1,Grand Manan Banks - Northeast Bank,2.994
+1064,1,10-Oct-21,Bradlie Morgan,Friendship V,11:00:00 AM,4:30:00 PM,Canon 60D,1,SE,7,100,13.8,13,12.7,Slack,TRUE,1,Grand Manan Banks,2.99
+1065,1,09-Oct-21,Helene Bartsch,Friendship V,11:00:00 AM,4:00:00 PM,Canon 60D,2,ENE,12,0,11.9,13.1,12.8,Flood,TRUE,1,Grand Manan Banks - Northeast Bank,2.863
+1062,1,07-Oct-21,Bradlie Morgan,Friendship V,11:00:00 AM,4:20:00 PM,Canon 60D,1,SE,2,0,15.2,13.2,12.5,Ebb,TRUE,1,"Grand Manan Banks, Northeast Bank",2.99
+1061,1,06-Oct-21,Helene Bartsch,Friendship V,11:00:00 AM,4:00:00 PM,Canon 60D,2,SW,5,0,14.2,13.3,12.9,Slack,TRUE,1,Grand Manan Banks - Northeast Bank,2.946
+1063,1,05-Oct-21,Bradlie Morgan,Friendship V,11:00:00 AM,4:20:00 PM,Canon 60D,1,NE,8,20,13,13.2,13.1,Ebb,TRUE,0,"Grand Manan Banks, Northeast Bank",2.99
+1060,1,04-Oct-21,Helene Bartsch,Friendship V,11:00:00 AM,4:00:00 PM,Canon 60D,2,ENE,9,15,11.7,13.5,13,Slack,TRUE,0,Grand Manan Banks - Northeast Bank,2.683
+1057,1,02-Oct-21,Bradlie Morgan,Friendship V,11:00:00 AM,4:15:00 PM,Canon 60D,1,SW,7,50,14,13.3,12.9,Ebb,TRUE,0,North Bank of Grand Manan Banks,2.99
+1059,1,01-Oct-21,Abigail Simms,Friendship V,11:00:00 AM,5:15:00 PM,Canon 60D,1,WNW,6.2,90,12.8,13.2,13.1,Slack,TRUE,1,NW GMB,3
+1058,1,30-Sep-21,Abigail Simms,Friendship V,11:00:00 AM,4:30:00 PM,Canon 60D,1,NE,1.5,50,13.4,14.4,13.7,Ebb,TRUE,0,NW GMB,3
+1056,1,29-Sep-21,Helene Bartsch,Friendship V,11:00:00 AM,5:00:00 PM,Canon 60D,3,N,6,50,15,14.1,13.1,Slack,TRUE,1,Grand Manan Banks - North East Bank,2.994
+1055,1,28-Sep-21,Bradlie Morgan,Friendship V,11:00:00 AM,2:30:00 PM,Canon 60D,2,NE,3,100,14.5,14.1,13,Ebb,FALSE,1,Great Duck Island and area southwest of Great Duck Island,2.99
+1053,1,23-Sep-21,Helene Bartsch,Friendship V,11:00:00 AM,2:33:00 PM,Canon 60D,3,SE,9,15,16,13.8,12.6,Flood,TRUE,1,Grand Manan Banks - Center of Northeast Bank,2.892
+1054,1,22-Sep-21,Abigail Simms,Friendship V,11:00:00 AM,5:15:00 PM,Canon 60D,2,S,4,90,16.1,14.3,12.6,Slack,TRUE,1,Grand Manan Banks,3
+1050,1,21-Sep-21,Bradlie Morgan,Friendship V,11:00:00 AM,4:15:00 PM,Canon 60D,1,SE,5,10,15.8,14.4,13.1,Ebb,TRUE,0,"Grand Manan Banks, Southwest Bank",2.99
+1052,1,20-Sep-21,Helene Bartsch,Friendship V,11:00:00 AM,5:30:00 PM,Canon 60D,1,SSE,4,0,14.8,14,12.9,Slack,TRUE,1,Jeffrey's Basin Area,2.926
+1051,1,17-Sep-21,Helene Bartsch,Friendship V,11:00:00 AM,5:30:00 PM,Canon 60D,2,NE,6,100,14.7,14.2,13.1,Slack,FALSE,0,Grand Manan Banks - Southwest and Northeast Banks,2.994
+1049,1,14-Sep-21,Helene Bartsch,Friendship V,11:00:00 AM,3:30:00 PM,Canon 60D,1,SSW,19,10,16.2,14.3,13.2,Ebb,TRUE,2,Grand Manan Banks - Southwest Bank,2.701
+8,2,14-Sep-21,Abigail Simms,Atlanticat,8:30:00 AM,12:00:00 PM,Canon 60D,2,SW,10,,13.2,10.8,8.6,,TRUE,1,Ballpark,
+1048,1,13-Sep-21,Bradlie Morgan,Friendship V,11:00:00 AM,2:15:00 PM,Canon 60D,3,W,3,10,16.8,13.9,13.1,Flood,TRUE,1,"on way from MDI to Bumps, Ball park",2.994
+1047,1,08-Sep-21,Bradlie Morgan,Friendship V,11:00:00 AM,3:30:00 PM,Canon 60D,2,S,11,30,15.8,14.3,12.9,Slack,FALSE,1,"Ball park, Outer Schoodic Ridges, East Bumps",2.965
+1046,1,05-Sep-21,Bradlie Morgan,Friendship V,11:00:00 AM,3:30:00 PM,Canon 60D,1,ESE,7,90,14.7,13.4,12.5,Ebb,FALSE,0,"Bumps, Ball Park",0.56
+1045,1,04-Sep-21,Bradlie Morgan,Friendship V,8:40:00 AM,1:40:00 PM,Canon 60D,1,NW,5,20,14.8,13.6,12.7,Ebb,TRUE,1,"Bumps, Ball Park, Front foot of hippo",2.99
+1044,1,03-Sep-21,Abigail Simms,Friendship V,2:30:00 PM,7:30:00 PM,Canon 60D,1,W,4.1,80,16,13.8,12.9,Slack,TRUE,1,Grand Manan Banks,3
+1039,2,01-Sep-21,Bradlie Morgan,Friendship V,2:30:00 PM,7:15:00 PM,Canon 60D,2,SW,7,90,16.5,15,14,Flood,TRUE,1,Grand Manan Banks,2.993
+1038,1,01-Sep-21,Bradlie Morgan,Friendship V,8:35:00 AM,1:15:00 PM,Canon 60D,3,WNW,3,60,16.2,14.7,13.9,Ebb,TRUE,1,"Between Bumps and GMB, Grand Manan Banks",2.994
+1037,1,31-Aug-21,Bradlie Morgan,Friendship V,8:30:00 AM,1:15:00 PM,Canon 60D,3,SW,4,40,15.2,13,12.2,Ebb,TRUE,1,"4 mi before Bumps, Grand Manan banks",2.969
+1036,1,30-Aug-21,Helene Bartsch,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,4,SSW,14,100,16.4,13.8,12.3,Slack,TRUE,1,5 miles before the edge of Grand Manan Banks,2.912
+1043,2,29-Aug-21,Abigail Simms,Friendship V,2:30:00 AM,7:30:00 PM,Canon 60D,1,SSE,3.7,100,15.7,14.1,12.4,Ebb,TRUE,0,"East Bumps, GMB",3
+1042,1,29-Aug-21,Abigail Simms,Friendship V,8:30:00 AM,1:30:00 AM,Canon 60D,1,ENE,0.7,100,15.8,13.4,12.2,Flood,TRUE,0,Grand Manan Banks,3
+1035,2,28-Aug-21,Helene Bartsch,Friendship V,2:30:00 PM,7:30:00 PM,Canon 60D,0,WSW,3,90,14.8,13.5,12,Slack,TRUE,0,Grand Manan Banks - Southwest Bank,2.994
+1034,1,28-Aug-21,Helene Bartsch,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,3,NNE,4,70,14.8,13.5,12.2,Slack,TRUE,0,Grand Manan Banks - Southwest Bank,2.994
+1041,2,27-Aug-21,Abigail Simms,Friendship V,2:30:00 PM,7:30:00 PM,Canon 60D,2,WNW,5.1,30,20.2,15.5,13.1,Flood,TRUE,0,Grand Manan Banks,3
+1040,1,27-Aug-21,Abigail Simms,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,1,N,3.1,30,17.5,12.9,12,Slack,TRUE,0,Grand Manan Banks,3
+1033,2,26-Aug-21,Helene Bartsch,Friendship V,2:30:00 PM,7:30:00 PM,Canon 60D,2,SSW,7,10,18.4,15,12.8,Slack,TRUE,1,Grand Manan Banks - Southwest Bank,2.524
+1032,1,26-Aug-21,Helene Bartsch,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,1,S,7,30,17,14.5,13,Slack,TRUE,1,Grand Manan Banks - Southwest Bank,2.971
+1031,1,25-Aug-21,Abigail Simms,Friendship V,8:35:00 AM,12:15:00 PM,Canon 60D,1,SSW,2.4,30,17.2,14.5,13.4,Slack,FALSE,1,"Ballpark, E Bumps, MDR",3
+1028,1,21-Aug-21,Bradlie Morgan,Friendship V,8:35:00 AM,1:50:00 PM,Canon 60D,2,NE,10,100,14.4,13,12,Ebb,TRUE,1,Grand Manan Banks,2.66
+1023,2,19-Aug-21,Helene Bartsch,Friendship V,2:30:00 PM,7:30:00 PM,Canon 60D,2,SSW,4,100,16.1,15.4,12,Flood,FALSE,1,On our way to Grand Manan Banks,.275
+1022,1,19-Aug-21,Helene Bartsch,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,2,SW,6,65,16.6,14.3,12.4,Flood,TRUE,1,Just about at the Grand Manan Banks - south of the southwest banks,2.933
+1021,2,18-Aug-21,Helene Bartsch,Friendship V,2:30:00 PM,7:30:00 PM,Canon 60D,4,SSW,9,90,17.2,15.5,12.2,Slack,TRUE,1,Grand Manan Banks - southwest part of bank,2.981
+1020,1,18-Aug-21,Helene Bartsch,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,3,SW,7,90,16.3,14.8,13,Slack,TRUE,1,Grand Manan Banks - middle part of the southwest bank,2.933
+1019,2,17-Aug-21,Helene Bartsch,Friendship V,2:30:00 PM,7:30:00 PM,Canon 60D,1,SSW,10,70,15.6,13.6,11.8,Slack,TRUE,0,Grand Manan Banks - Middle of southwest bank,.334
+1018,1,17-Aug-21,Helene Bartsch,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,1,S,6,60,15.6,14,12,Flood,TRUE,0,Grand Manan Banks - Center of southwest bank,2.990
+1017,2,16-Aug-21,Helene Bartsch,Friendship V,2:30:00 PM,5:45:00 PM,Canon 60D,1,SSW,8,0,16.3,14.5,12.1,Slack,TRUE,0,5 Miles west of East Bumps / 5 miles from Petit Manan,2.994
+1016,1,16-Aug-21,Helene Bartsch,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,1,NNW,5,0,16.2,13.7,11.8,Flood,TRUE,0,Grand Manan Banks - Northern Tip of Southwest Bank,2.994
+1015,2,15-Aug-21,Helene Bartsch,Friendship V,2:30:00 PM,7:30:00 PM,Canon 60D,0,W,7,10,18.3,15.5,11.8,Flood,TRUE,0,Grand Manan Banks - North of Southwest Bank,2.963
+1014,1,15-Aug-21,Helene Bartsch,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,2,NW,3,0,17,13.8,11.9,Flood,TRUE,1,Grand Manan Banks - Southwest Bank,2.994
+1030,2,14-Aug-21,Abigail Simms,Friendship V,2:30:00 PM,7:30:00 PM,Canon 60D,1,NW,5,10,18.6,12.8,11.6,Flood,TRUE,0,Grand Manan Banks,3
+1029,1,14-Aug-21,Abigail Simms,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,1,ESE,2,10,15.7,13.6,12.3,Ebb,TRUE,0,Grand Manan Banks,3
+1027,2,13-Aug-21,Bradlie Morgan,Friendship V,2:30:00 PM,7:15:00 PM,Canon 60D,2,SW,6,10,17,14.5,11.7,Ebb,TRUE,1,Grand Manan Banks,2.908
+1026,1,13-Aug-21,Bradlie Morgan,Friendship V,8:35:00 AM,1:15:00 PM,Canon 60D,2,SSE,4,10,16.8,13.6,11.6,Flood,TRUE,1,"Bumps, Grand Manan Banks",2.927
+1004,2,09-Aug-21,Abigail Simms,Friendship V,2:30:00 PM,8:00:00 PM,Canon 60D,2,E,3.1,40,15.3,15.4,12.7,Slack,TRUE,1,Grand Manan Banks,3
+1003,1,09-Aug-21,Abigail Simms,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,2,NE,6.4,100,14.2,14.6,12.3,Flood,TRUE,1,Grand Manan Banks,3
+1006,2,08-Aug-21,Helene Bartsch,Friendship V,2:30:00 PM,7:30:00 PM,Canon 60D,3,ENE,9,15,16.7,14,12,Ebb,TRUE,1,Grand Manan Banks - Southwest part of Bank,2.941
+1005,1,08-Aug-21,Helene Bartsch,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,1,SW,3,70,15.9,14.5,11.7,Flood,TRUE,1,Grand Manan Banks - Southwest Bank,2.644
+1025,2,04-Aug-21,Bradlie Morgan,Friendship V,2:35:00 PM,7:30:00 PM,Canon 60D,2,S,16,80,19.5,17.5,12.3,Flood,TRUE,1,Grand Manan Banks,2.996
+1024,1,04-Aug-21,Bradlie Morgan,Friendship V,8:35:00 AM,1:30:00 PM,Canon 60D,2,W,2,100,17.6,16,12.4,Ebb,TRUE,1,"Grand Manan Banks, East Bumps, Southwest Bank of GMB",2.996
+994,2,03-Aug-21,Abigail Simms,Friendship V,2:30:00 PM,7:30:00 PM,Canon 60D,2,SSW,5.7,75,15.7,14.4,11.1,Flood,TRUE,1,Grand Manan Banks,3
+993,1,03-Aug-21,Abigail Simms,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,1,SW,3.2,20,14.9,14.1,11.4,Ebb,TRUE,1,Grand Manan Banks,3
+992,1,02-Aug-21,Abigail Simms,Friendship V,2:30:00 PM,7:30:00 PM,Canon 60D,2,NE,1.5,100,14.3,13.1,12,Flood,TRUE,1,Grand Manan Banks,3
+991,2,01-Aug-21,Abigail Simms,Friendship V,2:30:00 PM,7:30:00 PM,Canon 60D,2,S,2,10,15.7,14,12.8,Flood,TRUE,1,Grand Manan Banks,3
+990,1,01-Aug-21,Abigail Simms,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,2,SSW,1.7,0,15,13.4,11.5,Ebb,TRUE,1,Grand Manan Banks,3
+1013,1,31-Jul-21,Bradlie Morgan,Friendship V,8:35:00 AM,12:30:00 PM,Canon 60D,3,WNW,12,10,15.2,14.6,11.8,Slack,FALSE,1,"MDR, Ballpark",2.99
+1012,2,29-Jul-21,Bradlie Morgan,Friendship V,2:30:00 PM,7:30:00 PM,Canon 60D,1,S,12,15,18,16.8,12.3,Slack,TRUE,0,"Bumps, Grand Manan Banks",2.99
+1011,1,29-Jul-21,Bradlie Morgan,Friendship V,8:35:00 AM,1:30:00 PM,Canon 60D,1,S,1,15,19.4,16.4,13.2,Flood,TRUE,0,"Bumps, Grand Manan Banks",2.99
+1002,2,28-Jul-21,Helene Bartsch,Friendship V,2:30:00 PM,7:30:00 PM,Canon 60D,1,SSW,8,10,16.1,13.4,10.6,Ebb,TRUE,1,Southwest part of Grand Manan Banks,2.989
+1001,1,28-Jul-21,Helene Bartsch,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,2,WNW,8,40,15.5,13.5,10.8,Slack,TRUE,1,Southwest part of Grand Manan Banks,2.860
+1000,2,27-Jul-21,Helene Bartsch,Friendship V,2:30:00 PM,7:30:00 PM,Canon 60D,2,WSW,10,10,15.9,12.4,11,Slack,TRUE,1,Grand Manan Banks - middle of the southwest bank,2.682
+999,1,27-Jul-21,Helene Bartsch,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,1,WSW,8,10,14.1,11.6,11.1,Slack,TRUE,1,Middle of southwest Bank in Grand Manan Bank,2.343
+989,1,25-Jul-21,Helene Bartsch,Friendship V,8:30:00 AM,1:30:00 AM,Canon 60D,2,SSE,13,70,14.7,12.9,11.2,Slack,TRUE,0,Middle of Grand Manan Banks,2.829
+1010,2,24-Jul-21,Bradlie Morgan,Friendship V,2:30:00 PM,7:30:00 PM,Canon 60D,1,S,4,5,17,15.9,11.5,Slack,TRUE,0,"Bumps, SE Bump, Grand Manan Banks",2.99
+1009,1,24-Jul-21,Bradlie Morgan,Friendship V,8:35:00 AM,1:30:00 PM,Canon 60D,1,NE,6,5,16.2,14.9,11.3,Ebb,TRUE,1,"Bumps, south of Bumps, Ball Park, outer schoodic ridges, Bank Comfort, MDR",2.99
+988,2,23-Jul-21,Abigail Simms,Friendship V,2:30:00 PM,7:00:00 PM,Canon 60D,1,S,3,10,15,13.3,11,Slack,TRUE,1,Ballpark,3
+987,1,23-Jul-21,Abigail Simms,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,1,WNW,1.2,0,14.6,11.8,10.8,Ebb,TRUE,1,Ballpark,3
+1008,2,22-Jul-21,Bradlie Morgan,Friendship V,2:30:00 PM,6:15:00 PM,Canon 60D,1,SSW,7,20,16,15.1,10.9,Flood,TRUE,0,"Ball Park, East Bumps",2.99
+1007,1,22-Jul-21,Bradlie Morgan,Friendship V,8:30:00 AM,11:45:00 AM,Canon 60D,1,NNW,10,100,15.6,14.6,11.1,Ebb,TRUE,1,"Ball Park, east of Ball park",2.99
+986,2,20-Jul-21,Abigail Simms,Friendship V,2:30:00 PM,7:00:00 PM,Canon 60D,2,SW,4.2,100,14.5,12.3,10.7,Flood,TRUE,1,"East Bumps, Ballpark",3
+985,1,20-Jul-21,Abigail Simms,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,2,W,2.2,30,13.1,11.8,10.4,Flood,TRUE,1,"Ballpark, Grand Manan Banks",0.7
+998,2,19-Jul-21,Bradlie Morgan,Friendship V,2:30:00 PM,6:15:00 PM,Canon 60D,1,W,4,100,18.2,14.4,11.9,Flood,TRUE,0,"East Bumps, Hippo Nose, Bowl",2.996
+997,1,19-Jul-21,Bradlie Morgan,Friendship V,8:30:00 AM,12:30:00 PM,Canon 60D,1,N,2,100,15.4,14.3,13.4,Ebb,TRUE,0,"East Bumps, Hippo Head, Inner schoodic ridges, MDR",0.325
+984,1,18-Jul-21,Abigail Simms,Friendship V,8:30:00 AM,12:30:00 PM,Canon 60D,2,NE,4,100,14.2,12.8,10.6,Flood,TRUE,0,East Bumps,3
+983,2,17-Jul-21,Abigail Simms,Friendship V,2:30:00 PM,7:00:00 PM,Canon 60D,2,SSE,0.9,100,17.1,14.6,10.9,Slack,TRUE,1,Grand Manan Banks,3
+982,1,17-Jul-21,Abigail Simms,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,2,N,3.5,100,15.2,12.5,10.5,Flood,TRUE,1,Grand Manan Banks,3
+981,1,16-Jul-21,Helene Bartsch,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,3,SE,6,10,13.7,12.6,10.6,Flood,TRUE,1,Grand Manan Banks - Southwest Banks,.253
+977,1,16-Jul-21,Helene Bartsch,Friendship V,1:00:00 PM,5:30:00 PM,Canon 60D,4,W,5,10,11.5,10.4,8.4,Ebb,TRUE,1,"Ballpark, Bank Comfort",.833
+980,1,14-Jul-21,Helene Bartsch,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,4,SE,7,100,13.1,11.9,10.6,Slack,TRUE,1,Grand Manan Banks - southwest bank (southeast of middle),2.994
+979,2,13-Jul-21,Helene Bartsch,Friendship V,2:30:00 AM,6:00:00 PM,Canon 60D,1,ENE,7,100,12.9,11.7,10.8,Slack,TRUE,1,Grand Manan Banks - Mile west of southwest banks,2.994
+978,1,13-Jul-21,Helene Bartsch,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,1,N,7,30,13.5,12,10.5,Slack,TRUE,1,Grand Manan Banks - mile west of southwest banks,2.994
+976,2,12-Jul-21,Abigail Simms,Friendship V,2:30:00 PM,7:30:00 PM,Canon 60D,2,ESE,2.6,20,14.3,12.7,10.5,Flood,TRUE,1,"East Bumps, Outer Schoodic Ridge",3
+975,1,12-Jul-21,Abigail Simms,Friendship V,8:30:00 AM,1:00:00 PM,Canon 60D,2,WNW,0.8,100,14.1,12.4,10.5,Flood,TRUE,1,"East Bumps, Grand Manan Banks",3 km
+974,1,11-Jul-21,Bradlie Morgan,Friendship V,8:50:00 AM,1:00:00 PM,Canon 60D,2,SW,5,40,14.8,13.7,10.8,Flood,TRUE,1,Schoodic Ridge,2.994
+973,2,11-Jul-21,Bradlie Morgan,Friendship V,2:30:00 PM,7:15:00 PM,Canon 60D,3,SSW,6,70,15.8,13.3,11.1,Ebb,TRUE,1,Grand Manan,2.971
+996,2,08-Jul-21,Bradlie Morgan,Friendship V,2:30:00 PM,7:30:00 PM,Canon 60D,2,E,14,90,14.4,15.1,11.5,Flood,TRUE,1,Grand Manan Banks,2.996
+995,1,08-Jul-21,Bradlie Morgan,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,2,ENE,8,20,14.8,13.9,10.8,Ebb,TRUE,1,"Grand Manan Banks, Southwest Bank",2.996
+972,2,05-Jul-21,Abigail Simms,Friendship V,1:00:00 PM,6:30:00 PM,Canon 60D,2,SSW,5.6,60,13.2,11.6,10.9,Ebb,TRUE,1,Grand Manan Banks,3
+971,1,05-Jul-21,Abigail Simms,Friendship V,8:30:00 PM,1:00:00 PM,Canon 60D,2,WSW,4.2,30,11.5,10.5,9.9,Slack,TRUE,1,Southern East Bumps,3
+968,1,01-Jul-21,Bradlie Morgan,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,3,WSW,6.8,60,15.1,13.4,9,Ebb,TRUE,1,"Bumps, Grand Manan",2.917
+970,2,30-Jun-21,Abigail Simms,Friendship V,1:00:00 PM,6:30:00 PM,Canon 60D,2,SSW,3.8,20,16,13.1,9.2,Flood,TRUE,1,Grand Manan Banks,2.75
+969,1,30-Jun-21,Abigail Simms,Friendship V,8:30:00 AM,12:30:00 PM,Canon 60D,1,SSW,3.2,20,15.9,13.3,9.6,Ebb,TRUE,0,Outer East Bumps,2.7
+965,1,29-Jun-21,Helene Bartsch,Friendship V,2:30:00 PM,5:30:00 AM,Canon 60D,2,SE,5,10,12.3,10.7,8.4,Slack,TRUE,1,"East Bumps, Outer Scoodic Ridges",2.483
+967,1,24-Jun-21,Bradlie Morgan,Friendship V,1:00:00 PM,4:00:00 PM,Canon 60D,2,S,5,10,14.1,11.2,8.8,Ebb,TRUE,1,"East Bumps, Ball Park",2.90
+963,1,23-Jun-21,Abigail Simms,Friendship V,1:00:00 PM,6:30:00 PM,Canon 60D,2,SW,7.2,0,13.7,11.9,10.1,Ebb,TRUE,1,"Schoodic Point, East Bumps, Grand Manan",2.9
+966,1,18-Jun-21,Bradlie Morgan,Friendship V,1:00:00 PM,5:00:00 PM,Canon 60D,2,SW,11,10,12.1,10.6,8.5,Flood,TRUE,1,Bumps,2.974
+962,1,17-Jun-21,Abigail Simms,Friendship V,1:00:00 PM,6:30:00 PM,Canon 60D,3,SSW,6,0,12.9,11.1,8.3,Slack,TRUE,1,2 miles south of the Ballpark,2.9
+959,1,12-Jun-21,Bradlie Morgan,Friendship V,1:00:00 PM,6:00:00 PM,Canon 60D,2,SSW,10.3,10,12.3,11.4,8.6,Ebb,TRUE,1,Bank Comfort,
+960,1,11-Jun-21,Abigail Simms,Friendship V,1:00:00 PM,6:05:00 PM,Canon 60D,2,SW,12,100,12.6,11,8.4,Ebb,TRUE,1,Bank Comfort,
+961,1,10-Jun-21,Bradlie Morgan,Friendship V,1:00:00 PM,6:00:00 PM,Canon 60D,1,N,12,10,13.7,11.1,7.6,Ebb,TRUE,1,Bank Comfort,
+1230,1,18-Oct-20,Julie Taylor,Friendship V,11:00:00 AM,4:08:00 PM,,,S,,,0,0,0,Ebb,TRUE,,"Mount Desert Rock, Bank Comfort, Outer Schoodic Ridges, East Bumps",
+1229,1,15-Oct-20,Julie Taylor,Friendship V,11:00:00 AM,2:58:00 PM,,,SE,15,,0,0,0,Slack,FALSE,,"East Bumps, Outer Schoodic Ridges, Mount Desert Rock",
+1228,1,12-Oct-20,Julie Taylor,Friendship V,11:00:00 AM,3:05:00 PM,,,ENE,15,,0,0,0,Flood,TRUE,,"Outer Schoodic Ridges, Mount Desert Rock",
+1227,1,06-Oct-20,Julie Taylor,Friendship V,11:00:00 AM,2:55:00 PM,,,SW,15,,0,0,0,Ebb,TRUE,,"Ballpark, Outer Schoodic",
+1226,1,04-Oct-20,Julie Taylor,Friendship V,11:00:00 AM,4:33:00 PM,,,,0,,0,0,0,Ebb,FALSE,,"Mount Desert Rock, Bank Comfort",
+1225,1,02-Oct-20,Julie Taylor,Friendship V,11:00:00 AM,4:35:00 PM,,,,0,,0,0,0,Ebb,TRUE,,"East Bumps, SW and NE Grand Manan Banks",
+1224,1,25-Sep-20,Julie Taylor,Friendship V,11:00:00 AM,3:55:00 PM,,,NE,11.5,,0,0,0,Flood,FALSE,,"East Bumps, SW, NE Grand Manan Banks",
+1223,1,24-Sep-20,Julie Taylor,Friendship V,11:00:00 AM,3:58:00 PM,,,WNW,0,,0,0,0,Flood,TRUE,,"East Bumps, SW Grand Manan Banks",
+1222,1,13-Sep-20,Julie Taylor,Friendship V,11:00:00 AM,4:30:00 PM,,,,0,,0,0,0,Flood,FALSE,,"East Bumps, SW, NE  Grand Manan Banks",
+1221,1,12-Sep-20,Julie Taylor,Friendship V,11:00:00 AM,4:15:00 PM,,,,0,,0,0,0,Flood,TRUE,,NE  Grand Manan Banks,
+1220,1,08-Sep-20,Julie Taylor,Friendship V,11:00:00 AM,,,,SW,0,,0,0,0,Slack,TRUE,,"East Bumps, NE  Grand Manan Banks",
+1219,1,06-Sep-20,Julie Taylor,Friendship V,11:00:00 AM,4:14:00 PM,,,NNE,3.45,,0,0,0,Ebb,TRUE,,Grand Manan Banks,
+1218,1,01-Sep-20,Julie Taylor,Friendship V,11:00:00 AM,,,,,0,,0,0,0,Ebb,TRUE,,Grand Manan Banks,
+1217,1,31-Aug-20,Julie Taylor,Friendship V,1:00:00 PM,5:55:00 PM,,,,0,,0,0,0,Slack,TRUE,,"East Bumps, S  Grand Manan Banks",
+1216,1,28-Aug-20,Julie Taylor,Friendship V,1:00:00 PM,5:30:00 PM,,,WSW,9.2,,0,0,0,Flood,TRUE,,"East Bumps, NE Grand Manan Banks",
+1215,1,27-Aug-20,Julie Taylor,Friendship V,1:00:00 PM,4:57:00 PM,,,,0,,0,0,0,Flood,FALSE,,Ballpark,
+1214,1,26-Aug-20,Julie Taylor,Friendship V,1:00:00 PM,4:50:00 PM,,,,0,,0,0,0,Flood,FALSE,,"Mount Desert Rock, Ballpark, East Bumps",
+1213,1,22-Aug-20,Julie Taylor,Friendship V,1:00:00 PM,5:55:00 PM,,,,0,,0,0,0,Ebb,TRUE,,"East Bumps, NE Grand Manan Banks",
+1212,1,21-Aug-20,Julie Taylor,Friendship V,,,,,SW,10.4,,0,0,0,Ebb,FALSE,,"East Bumps, Mount Desert Rock, 5 miles N of Mount Desert Rock",
+1211,1,20-Aug-20,Julie Taylor,Friendship V,1:00:00 PM,4:35:00 PM,,,,0,,0,0,0,Ebb,TRUE,,East Bumps,
+1210,1,19-Aug-20,Julie Taylor,Friendship V,1:00:00 PM,6:24:00 PM,,,WSW,5.75,,0,0,0,Ebb,TRUE,,,
+1208,1,16-Aug-20,Julie Taylor,Friendship V,1:00:00 PM,5:40:00 PM,,,E,10,,0,0,0,Slack,TRUE,,"Mount Desert Rock, Ballpark, East Bumps",
+1207,1,14-Aug-20,Julie Taylor,Friendship V,1:00:00 PM,5:54:00 PM,,,,0,,0,0,0,Flood,TRUE,,East Bumps - SW Grand Manan Banks,
+1206,1,13-Aug-20,Julie Taylor,Friendship V,1:00:00 PM,5:40:00 PM,,,,0,,0,0,0,Flood,TRUE,,East Bumps - N end of SW Grand Manan Banks,
+1205,,09-Aug-20,Julie Taylor,Friendship V,1:00:00 PM,6:10:00 PM,,,SW,0,,0,0,0,Slack,FALSE,,SW Grand Manan Banks,
+1204,1,08-Aug-20,Julie Taylor,Friendship V,1:00:00 PM,6:15:00 PM,,,SW,5.75,,0,0,0,Ebb,TRUE,,East Bumps,
+1203,1,07-Aug-20,Julie Taylor,Friendship V,1:00:00 PM,6:15:00 PM,,,SW,5.75,,0,0,0,Ebb,TRUE,,East Bumps - SW Grand Manan Bank,
+1201,1,04-Aug-20,Julie Taylor,Friendship V,1:10:00 PM,,,,,0,,0,0,0,Ebb,TRUE,,East Bumps - SW Grand Manan Banks,
+1200,1,02-Aug-20,Julie Taylor,Friendship V,1:00:00 PM,5:50:00 PM,,,SW,10,,0,0,0,Ebb,TRUE,,SW Grand Manan Banks,
+1199,1,01-Aug-20,Julie Taylor,Friendship V,1:00:00 PM,5:52:00 PM,,,,0,,0,0,0,Slack,TRUE,,SW Grand Manan Banks,
+1198,1,31-Jul-20,Julie Taylor,Friendship V,1:00:00 PM,6:00:00 PM,,,SW,2,,0,0,0,Flood,TRUE,,SW Grand Manan Banks,
+1197,1,30-Jul-20,Julie Taylor,Friendship V,1:00:00 PM,5:30:00 PM,,,SW,12,,0,0,0,Flood,TRUE,,SW Grand Manan Banks,
+1196,1,29-Jul-20,Julie Taylor,Friendship V,1:00:00 PM,5:49:00 PM,,,SSW,4,,0,0,0,Flood,TRUE,,"East Bumps, SW Grand Manan Banks",
+1195,1,28-Jul-20,Julie Taylor,Friendship V,1:00:00 PM,,,,,0,,0,0,0,Flood,TRUE,,"Mount Desert Rock, Ballpark, East Bumps",
+1194,1,27-Jul-20,Julie Taylor,Friendship V,1:00:00 PM,5:47:00 PM,,,,0,,0,0,0,Flood,TRUE,,"East Bumps, SW Grand Manan Banks",
+1193,1,26-Jul-20,Julie Taylor,Friendship V,1:00:00 PM,5:42:00 PM,,,WSW,11,,0,0,0,Slack,TRUE,,SW Grand Manan Banks,
+1192,1,25-Jul-20,Julie Taylor,Friendship V,1:00:00 PM,5:37:00 PM,,,,0,,0,0,0,Ebb,TRUE,,"East Bumps, SW Grand Manan Banks",
+1191,1,24-Jul-20,Julie Taylor,Friendship V,1:00:00 PM,6:06:00 PM,,,SSW,4,,0,0,0,Ebb,TRUE,,"East Bumps, SW Grand Manan Banks",
+1190,1,22-Jul-20,Julie Taylor,Friendship V,1:00:00 PM,,,,,7,55,0,0,0,Ebb,TRUE,,"East Bumps, SW Grand Manan Banks",
+1189,1,21-Jul-20,Julie Taylor,Friendship V,1:00:00 PM,,,,SW,3,50,0,0,0,Ebb,TRUE,,,
+1188,1,19-Jul-20,Julie Taylor,Friendship V,1:00:00 PM,5:42:00 PM,,,SW,6.5,82,0,0,0,Slack,TRUE,,"Ballpark, East Bumps, SW Grand Manan Banks",
+1187,1,17-Jul-20,Julie Taylor,Friendship V,1:00:00 PM,4:43:00 PM,,,SSE,9,,11.2,0,0,Flood,TRUE,1,"East Bumps, Ballpark",3001.77
+1186,1,16-Jul-20,Julie Taylor,Friendship V,1:00:00 PM,4:15:00 PM,,,SE,13,60,11.2,0,0,Flood,TRUE,1,"Ballpark, East Bumps",3001.77
+1185,1,05-Jul-20,Julie Taylor,Friendship V,1:00:00 PM,,,,ESE,14,75,11.2,0,0,Ebb,FALSE,1,"East Bumps, Ballpark, Mount Desert Rock",3001.77
+1261,1,03-Jul-20,Julie Taylor,Friendship V,1:00:00 PM,4:00:00 PM,,,NE,15,75,11.7,0,0,Ebb,TRUE,1,East Bumps,3001.77
+956,1,06-Oct-19,Anne Harshbarger,Atlanticat,12:00:00 PM,4:25:00 PM,Canon 60D,3,SSW,14,40,12.2,11.8,11.6,Flood,FALSE,1,"Ledges SW of Isle au Haut, Mount Desert Rock",2.99
+950,1,28-Sep-19,Nicole Pegg,Atlanticat,12:00:00 PM,4:00:00 PM,Canon 60D,3,S,17,20,14.6,12.7,11.9,Ebb,FALSE,1,Ballpark,2.76370
+955,1,27-Sep-19,Anne Harshbarger,Atlanticat,12:00:00 PM,4:15:00 PM,Canon 60D,2,WSW,11,5,13.8,13.1,11.9,Ebb,TRUE,1,"Ballpark, Outer Schoodic ridges, Jones Ground",2.93
+949,1,26-Sep-19,Sarah Rappaport,Atlanticat,12:00:00 PM,4:00:00 PM,Canon 60D,1,S,10,35,14.5,13.1,11.9,Slack,TRUE,1,Mount Desert Rock; Outer Schoodic Ridges; Ballpark,2947.71
+948,1,25-Sep-19,Sarah Rappaport,Atlanticat,12:00:00 PM,3:30:00 PM,Canon 60D,1,NW,8,60,13.3,13.2,11.9,Slack,TRUE,1,Ballpark; Mount Desert Rock,2998.17
+954,1,22-Sep-19,Anne Harshbarger,Atlanticat,12:00:00 PM,4:00:00 PM,Canon 60D,1,SW,8,10,14.9,13.1,12.2,Flood,TRUE,0,"South of Egg Rock, MDR, Ballpark",2.96
+943,1,21-Sep-19,Nicole Pegg,Atlanticat,12:00:00 PM,3:50:00 PM,Canon 60D,2,WNW,5,0,17,12.8,11.7,Flood,TRUE,0,"Mount Desert Rock, Egg Rock",2.99817
+953,1,20-Sep-19,Anne Harshbarger,Atlanticat,12:00:00 PM,4:20:00 PM,Canon 60D,2,WSW,10,5,13.5,12.1,11.5,Flood,TRUE,0,"Ballpark, Outer Schoodic Ridges, Jones Ground",2.98
+952,1,19-Sep-19,Anne Harshbarger,Atlanticat,12:00:00 PM,3:30:00 PM,Canon 60D,1,WSW,1,0,13.1,12.4,11.6,Flood,TRUE,0,Ballpark,2.99
+942,1,18-Sep-19,Nicole Pegg,Atlanticat,12:00:00 PM,3:45:00 PM,Canon 60D,2,ENE,13,5,10.7,12.1,12,Flood,TRUE,1,East Bumps,2.95973
+951,1,17-Sep-19,Anne Harshbarger,Atlanticat,12:00:00 PM,4:15:00 PM,Canon 60D,1,ENE,6,90,14.4,13.1,11.5,Slack,FALSE,1,"Ballpark, East Bumps, MDR",2.99
+915,1,15-Sep-19,Sarah Rappaport,Atlanticat,12:00:00 PM,4:00:00 PM,Canon 60D,1,WSW,10,20,14.1,12.9,11.5,Flood,TRUE,1,Ballpark,2850.40
+947,1,14-Sep-19,Anne Harshbarger,Atlanticat,6:00:00 AM,2:00:00 PM,Canon 60D,3,SSW,16,10,13.4,12,11.7,Flood,TRUE,1,Ballpark,2.77
+914,1,13-Sep-19,Sarah Rappaport,Friendship V,12:00:00 PM,3:00:00 PM,Canon 60D,1,NNE,15,0,12.4,12.4,11.8,Flood,TRUE,1,Ballpark,2995.77
+946,1,12-Sep-19,Anne Harshbarger,Atlanticat,12:00:00 PM,3:00:00 PM,Canon 60D,1,NNE,9,100,13.6,13.1,12,Ebb,TRUE,0,Ballpark,2.99
+913,1,10-Sep-19,Sarah Rappaport,Atlanticat,12:00:00 PM,3:05:00 PM,Canon 60D,1,NNE,9,20,12.8,12.3,11.4,Slack,TRUE,1,Ballpark,2971.74
+945,1,09-Sep-19,Anne Harshbarger,Atlanticat,12:00:00 PM,3:00:00 PM,Canon 60D,1,SW,6,10,13.6,12.6,11.6,Ebb,TRUE,0,Ballpark,2.99
+944,,06-Sep-19,Anne Harshbarger,Atlanticat,12:00:00 PM,2:45:00 PM,Canon 60D,1,ENE,11,85,13.2,12.7,11.4,Flood,TRUE,1,Ballpark,2.99
+904,1,05-Sep-19,Nicole Pegg,Atlanticat,12:00:00 PM,3:15:00 PM,Canon 60D,2,SSW,6,20,13.7,13.1,11.4,Flood,TRUE,1,Ballpark,2.99817
+903,,04-Sep-19,Sarah Rappaport,Atlanticat,12:00:00 PM,4:30:00 PM,Canon 60D,1,SSE,6,100,13.9,12.9,11.5,Flood,TRUE,1,Ballpark,2837.18
+934,1,01-Sep-19,Anne Harshbarger,Atlanticat,8:30:00 AM,12:30:00 PM,Canon 60D,1,N,6,5,14.3,12.9,11.5,Flood,TRUE,0,Ballpark,2.99
+894,2,01-Sep-19,Sarah Rappaport,Friendship V,1:00:00 PM,4:30:00 PM,Canon 60D,1,N,5,30,14,13,11.4,Ebb,TRUE,0,Ballpark,2998.17
+902,1,31-Aug-19,Nicole Pegg,Friendship V,8:30:00 AM,1:45:00 PM,Canon 60D,2,WSW,10,5,14.7,12.8,11.5,Flood,TRUE,1,Grand Manan Banks,2.99817
+893,2,31-Aug-19,Sarah Rappaport,Atlanticat,1:00:00 PM,6:00:00 PM,Canon 60D,1,WNW,8,55,15.3,13.2,11.2,Ebb,TRUE,1,Grand Manan,2851.60
+901,1,30-Aug-19,Nicole Pegg,Atlanticat,8:30:00 AM,12:00:00 PM,Canon 60D,1,S,5,0,14.5,12.9,11,Flood,TRUE,2,"East Bumps, Ballpark",2.99817
+900,1,28-Aug-19,Nicole Pegg,Friendship V,1:00:00 PM,6:15:00 PM,Canon 60D,1,SSE,5,50,15,13.4,12.7,Ebb,TRUE,1,Grand Manan Banks,2.96814
+892,1,28-Aug-19,Sarah Rappaport,Atlanticat,8:30:00 AM,1:00:00 PM,Canon 60D,1,SE,5,8,13.7,13,11,Flood,TRUE,1,Grand Manan,2843.19
+958,1,27-Aug-19,Anne Harshbarger,Atlanticat,8:30:00 AM,1:30:00 PM,Canon 60D,1,WSW,11,50,13.6,12.4,10.9,Ebb,TRUE,2,Grand Manan Banks,2.93
+891,2,27-Aug-19,Sarah Rappaport,Friendship V,1:00:00 PM,6:30:00 PM,Canon 60D,1,NNE,10,40,12.9,12.1,10.1,Slack,TRUE,0,Grand Manan,2982.55
+957,1,26-Aug-19,Anne Harshbarger,Friendship V,1:00:00 PM,6:00:00 PM,Canon 60D,,NNE,3,,13.8,12.7,11.6,Flood,TRUE,1,Grand Manan Banks,2.98
+899,1,26-Aug-19,Nicole Pegg,Atlanticat,8:30:00 AM,1:45:00 PM,Canon 60D,2,NNE,7,60,12.8,12.2,10.9,Ebb,TRUE,1,Grand Manan Banks,2.98135
+898,1,25-Aug-19,Nicole Pegg,Atlanticat,1:00:00 PM,6:15:00 PM,Canon 60D,3,ENE,11,30,13.4,12.2,10.9,Flood,TRUE,1,Grand Manan Banks,2.99336
+890,1,25-Aug-19,Sarah Rappaport,Atlanticat,8:30:00 AM,1:30:00 PM,Canon 60D,1,NE,14,15,12.7,12.4,11.1,Ebb,TRUE,1,Grand Manan,2872.02
+933,1,24-Aug-19,Anne Harshbarger,Atlanticat,8:30:00 AM,12:00:00 PM,Canon 60D,1,NNE,10,0,15.2,12.7,10.5,Ebb,TRUE,1,"East bumps, outer schoodic, ballpark",2.99
+897,2,24-Aug-19,Nicole Pegg,Atlanticat,1:00:00 PM,5:30:00 PM,Canon 60D,1,N,6,80,15.4,13.1,10.6,Flood,TRUE,0,Ballpark,2.99697
+932,1,23-Aug-19,Anne Harshbarger,Friendship V,1:00:00 PM,6:00:00 PM,Canon 60D,1,SW,0.93,60,15.4,13.7,11.2,Flood,TRUE,1,"East Bumps, Grand Manan Banks (NE Bank)",2.99
+896,2,23-Aug-19,Nicole Pegg,Atlanticat,2:30:00 PM,7:30:00 PM,Canon 60D,2,SSW,9,60,15.4,13.5,11.2,Flood,TRUE,1,Grand Manan Banks,2.98736
+895,1,23-Aug-19,Nicole Pegg,Atlanticat,8:30:00 AM,1:45:00 PM,Canon 60D,1,W,5,90,14.6,12.5,10.5,Ebb,TRUE,1,Grand Manan Banks,2.94651
+931,1,21-Aug-19,Anne Harshbarger,Friendship V,1:00:00 PM,6:00:00 PM,Canon 60D,1,S,9,85,16.1,13,10.8,Slack,TRUE,1,Grand Manan Banks,2.51
+882,2,21-Aug-19,Nicole Pegg,Atlanticat,2:30:00 PM,7:20:00 PM,Canon 60D,2,S,10,95,16,12.6,10.8,Flood,TRUE,1,Grand Manan Banks,2.38425
+881,1,21-Aug-19,Nicole Pegg,Atlanticat,8:30:00 AM,1:30:00 PM,Canon 60D,2,SSW,5,70,15.2,12.8,10.4,Ebb,TRUE,1,Grand Manan Banks,2.32298
+880,1,20-Aug-19,Nicole Pegg,Friendship V,1:00:00 PM,6:00:00 PM,Canon 60D,1,SE,2,0,19.9,12.6,11,Flood,TRUE,1,Grand Manan Banks,2.99817
+879,2,20-Aug-19,Sarah Rappaport,Atlanticat,2:30:00 PM,7:30:00 PM,Canon 60D,1,NW,2,0,19.1,12.2,10.6,Flood,TRUE,1,Grand Manan,2998.17
+878,1,20-Aug-19,Sarah Rappaport,Atlanticat,8:30:00 AM,1:40:00 PM,Canon 60D,1,W,7,12,13.3,11.8,10.5,Ebb,TRUE,1,Grand Manan,2295.35
+930,2,16-Aug-19,Anne Harshbarger,Atlanticat,2:30:00 PM,6:00:00 PM,Canon 60D,1,NNE,3,100,14.7,12.6,10.7,Ebb,TRUE,1,N of MDR,1.576
+929,1,16-Aug-19,Anne Harshbarger,Atlanticat,8:30:00 AM,1:30:00 PM,Canon 60D,1,ENE,5,100,13.4,12.3,10.6,Flood,TRUE,1,"East Bumps, Ballpark, Mount Desert Rock",2.89
+928,2,15-Aug-19,Anne Harshbarger,Atlanticat,2:30:00 PM,7:30:00 PM,Canon 60D,1,S,4,30,15.7,11.5,10.1,Ebb,TRUE,1,Grand Manan Banks (SW Bank),2.99
+927,1,15-Aug-19,Anne Harshbarger,Friendship V,1:00:00 PM,7:00:00 PM,Canon 60D,1,SSE,5,30,16.5,12,10.5,Ebb,TRUE,1,"Ballpark, Grand Manan Banks",2.99
+937,1,14-Aug-19,Grace Leary,Friendship V,1:30:00 PM,5:00:00 PM,Canon 60D,1,E,4,10,13.6,12.3,10.2,Slack,TRUE,1,East Bump,10+
+926,2,14-Aug-19,Anne Harshbarger,Atlanticat,1:00:00 PM,6:00:00 PM,Canon 60D,1,E,7,75,14,12.5,10.2,Ebb,TRUE,1,Ballpark,2.98
+925,1,14-Aug-19,Anne Harshbarger,Atlanticat,8:30:00 AM,12:30:00 PM,Canon 60D,1,NE,12,100,13.9,12.5,10.4,Flood,TRUE,1,East bumps,2.99
+941,2,12-Aug-19,Grace Leary,Atlanticat,2:30:00 PM,,Canon 60D,2,SSW,5.1,1,15.8,13.6,10.1,Ebb,TRUE,4,Grand Manan Banks,2.99
+936,1,12-Aug-19,Grace Leary,Atlanticat,8:30:00 AM,1:00:00 PM,Canon 60D,1,SW,2.9,70,14.7,12.7,10.3,Flood,TRUE,1,North East of East Bumps,10 +
+924,1,12-Aug-19,Anne Harshbarger,Friendship V,1:00:00 PM,5:20:00 PM,Canon 60D,2,WSW,10,5,14.9,13,9.9,Ebb,TRUE,1,"5 mi W of MDR, Mount Desert Rock, Ballpark, towards East Bumps",2.99
+877,2,11-Aug-19,Sarah Rappaport,Friendship V,1:00:00 PM,4:30:00 PM,Canon 60D,2,WSW,12,60,13.8,12.5,10.3,Slack,TRUE,1,East Bumps,2998.17
+874,1,11-Aug-19,Brooke Davis,Atlanticat,8:30:00 AM,1:30:00 PM,Canon 60D,3,W,11,80,12.9,0,0,Slack,TRUE,1,Southwest bank,
+876,2,10-Aug-19,Sarah Rappaport,Atlanticat,2:30:00 PM,6:30:00 PM,Canon 60D,2,SSW,10,100,14.5,12.7,10.2,Ebb,TRUE,1,Mt. Desert Rock,2920.08
+875,1,10-Aug-19,Sarah Rappaport,Atlanticat,8:30:00 AM,1:45:00 PM,Canon 60D,2,SW,10,30,14.6,12.3,10.7,Slack,TRUE,1,East Bumps,2942.91
+873,1,10-Aug-19,Brooke Davis,Friendship V,1:00:00 PM,6:00:00 PM,Canon 60D,3,SW,9,,15.5,0,0,Slack,TRUE,0,"East Bumps, 5mi north of MDR",
+923,2,07-Aug-19,Anne Harshbarger,Atlanticat,2:30:00 PM,7:30:00 PM,Canon 60D,1,SSE,9,100,14.9,12.4,10.3,Slack,TRUE,1,Grand Manan Banks,0.162
+922,1,07-Aug-19,Anne Harshbarger,Atlanticat,8:30:00 AM,1:30:00 PM,Canon 60D,1,SSE,8,100,13.9,11.5,10,Slack,TRUE,1,Grand Manan Banks (SW Bank),0.293
+872,1,07-Aug-19,Brooke Davis,Friendship V,1:00:00 PM,6:30:00 PM,Canon 60D,2,S,4,100,14.4,0,0,Flood,TRUE,0,Grand Manan Banks,
+921,1,06-Aug-19,Anne Harshbarger,Friendship V,1:00:00 PM,6:00:00 PM,Canon 60D,1,SSE,9,25,14.8,13.2,10.1,Flood,TRUE,1,Grand Manan Banks,2.99
+871,2,06-Aug-19,Brooke Davis,Atlanticat,2:30:00 PM,7:00:00 PM,Canon 60D,2,SSE,3.4,80,14.7,13.5,0,Slack,TRUE,1,Grand Manan Banks,2.95973
+870,1,06-Aug-19,Brooke Davis,Atlanticat,8:30:00 AM,1:15:00 PM,Canon 60D,2,S,2.4,20,13.7,11.7,0,Ebb,TRUE,0,8 miles WNW of Grand Manan southwest bank,2.2949
+935,1,04-Aug-19,Grace Leary,Atlanticat,1:30:00 PM,5:30:00 PM,Canon 60D,2,S,2.6,5,16.1,11.9,9.8,Flood,TRUE,1,Grand Manan Banks,10+
+867,1,04-Aug-19,Nicole Pegg,Atlanticat,8:30:00 AM,2:00:00 PM,Canon 60D,1,NE,4,95,14.2,11.5,9.9,Flood,TRUE,1,"Ballpark, Grand Manan Banks",2.49718
+920,2,03-Aug-19,Anne Harshbarger,Atlanticat,2:30:00 PM,6:15:00 PM,Canon 60D,2,SSW,12,60,14.8,13,9.8,Ebb,TRUE,1,Ballpark,2.62
+919,1,03-Aug-19,Anne Harshbarger,Atlanticat,8:30:00 AM,1:00:00 PM,Canon 60D,1,SSW,7,60,14.5,12.4,10.1,Flood,TRUE,0,Ballpark,2.85
+869,1,03-Aug-19,Brooke Davis,Friendship V,1:00:00 PM,6:00:00 PM,Canon 60D,3,SSW,6,100,14.9,12.7,9.7,Slack,FALSE,1,Ball Park,2.52842
+866,1,02-Aug-19,Nicole Pegg,Acadian Explorer,2:30:00 PM,7:00:00 PM,Canon 60D,2,SW,9,0,15.4,13.1,10.7,Ebb,TRUE,1,"Mount Desert Rock, Ballpark",2.99817
+868,1,01-Aug-19,Brooke Davis,Friendship V,1:00:00 PM,6:00:00 PM,Canon 60D,1,SSW,2.7,30,16.8,13.1,10.1,Ebb,TRUE,1,Grand Manan Banks,2.98736
+865,1,31-Jul-19,Nicole Pegg,Atlanticat,2:30:00 PM,6:30:00 PM,Canon 60D,2,SSW,9,50,15.6,13.9,9.3,Ebb,FALSE,1,Ballpark,1.68743
+864,1,31-Jul-19,Brooke Davis,Friendship V,1:00:00 PM,6:00:00 PM,Canon 60D,2,SSW,7,100,17.1,15.3,,Ebb,TRUE,0,Grand Manan Banks,4.00
+863,2,30-Jul-19,Brooke Davis,Atlanticat,2:30:00 PM,7:00:00 PM,Canon 60D,2,SSW,4,50,18.2,16,0,Ebb,TRUE,0,Grand Manan Banks,
+862,1,30-Jul-19,Brooke Davis,Atlanticat,8:30:00 AM,1:30:00 PM,Canon 60D,2,WSW,2,50,15.3,13.9,0,Flood,TRUE,0,Grand Manan Banks,
+859,1,29-Jul-19,Nicole Pegg,Friendship V,1:00:00 PM,4:30:00 PM,Canon 60D,2,SSW,2,0,16.6,13.7,9.4,Ebb,FALSE,1,"East Bumps, Ballpark",2.55485
+857,2,29-Jul-19,Sarah Rappaport,Atlanticat,2:30:00 PM,7:05:00 PM,Canon 60D,2,SSE,5,20,14.4,12.6,9.5,Slack,TRUE,1,Grand Manan,2.834
+860,1,28-Jul-19,Brooke Davis,Friendship V,1:00:00 PM,6:00:00 PM,Canon 60D,2,SSW,9,0,15.5,12.8,0,Slack,TRUE,0,Grans Manan Banks,
+858,1,28-Jul-19,Nicole Pegg,Atlanticat,8:30:00 AM,1:20:00 PM,Canon 60D,2,S,10,0,14.5,13,9.7,Slack,TRUE,1,Grand Manan Banks,2.97895
+853,1,27-Jul-19,Brooke Davis,Atlanticat,8:30:00 AM,12:40:00 PM,Canon 60D,1,NNW,7,50,12.2,12.2,0,Ebb,TRUE,0,Outer Schoodic Ridges,
+847,2,27-Jul-19,Sarah Rappaport,Atlanticat,1:00:00 PM,6:15:00 PM,Canon 60D,1,S,8,15,15.4,13.3,9.7,Slack,TRUE,1,Grand Manan,2.99817
+856,1,26-Jul-19,Nicole Pegg,Friendship V,1:00:00 PM,6:10:00 PM,Canon 60D,1,SSW,7,0,15.1,13.8,9.5,Flood,TRUE,1,Grand Manan Banks,
+846,2,26-Jul-19,Sarah Rappaport,Atlanticat,2:30:00 PM,7:15:00 PM,Canon 60D,1,S,6,2,14.8,13.9,9.4,Flood,TRUE,1,Grand Manan,2.99336
+845,1,26-Jul-19,Sarah Rappaport,Atlanticat,8:30:00 PM,1:30:00 PM,Canon 60D,1,WSW,5,2,14.2,12.6,9.6,Ebb,TRUE,1,Grand Manan,2.99817
+916,2,25-Jul-19,Grace Leary,Atlanticat,2:30:00 PM,5:30:00 PM,Canon 60D,2,S,2.4,30,16.1,11.9,9.9,Flood,TRUE,1,Grand Manan Banks,10+
+889,1,25-Jul-19,Grace Leary,Atlanticat,8:30:00 AM,12:00:00 PM,Canon 60D,2,NW,2.1,95,14.5,12.7,9.9,Slack,TRUE,2,Grand manan banks,10+
+852,1,25-Jul-19,Brooke Davis,Friendship V,1:00:00 PM,6:00:00 PM,Canon 60D,1,NW,2,50,14.2,12.6,0,Flood,TRUE,1,Grand Manan Banks,
+918,2,24-Jul-19,Anne Harshbarger,Atlanticat,2:45:00 PM,7:45:00 PM,Canon 60D,2,SW,7,60,14.6,12.7,9.3,Slack,TRUE,1,Grand Manan Banks,2.8
+912,1,24-Jul-19,Anne Harshbarger,Atlanticat,8:30:00 AM,1:30:00 PM,Canon 60D,1,SW,4,95,14.1,2.94,10.1,Slack,TRUE,1,Grand Manan Banks,2.94
+844,2,24-Jul-19,Sarah Rappaport,Friendship V,1:00:00 PM,6:15:00 PM,Canon 60D,2,SW,5,60,13.7,12.1,10,Flood,TRUE,1,Grand Manan,2.87322
+851,3,23-Jul-19,Brooke Davis,Atlanticat,2:30:00 PM,6:00:00 PM,Canon 60D,1,NNW,4,100,13.2,12.4,0,Flood,TRUE,0,Grand Manan Banks,
+850,1,23-Jul-19,Brooke Davis,Atlanticat,8:30:00 AM,2:00:00 PM,Canon 60D,2,NNW,7,100,12.2,12.2,0,Ebb,TRUE,0,Grand Manan Banks,
+841,2,23-Jul-19,Sarah Rappaport,Friendship V,1:00:00 PM,6:30:00 PM,Canon 60D,1,NE,4,60,14.6,12.7,9.3,Flood,TRUE,1,Grand Manan,2.91047
+888,1,21-Jul-19,Grace Leary,Atlanticat,8:30:00 AM,12:00:00 PM,Canon 60D,1,SW,2.8,30,14.8,11.4,8.8,,TRUE,1,Grand Manan banks,10+
+849,1,21-Jul-19,Brooke Davis,Friendship V,1:00:00 PM,6:00:00 PM,Canon 60D,2,SW,9,100,14.9,12.3,0,Ebb,TRUE,0,Grand Manan Banks,
+911,1,20-Jul-19,Anne Harshbarger,Atlanticat,8:30:00 AM,1:30:00 PM,Canon 60D,2,WSW,7,5,15.6,11.9,8,Flood,TRUE,1,Grand Manan Banks,2.77
+848,1,19-Jul-19,Brooke Davis,Atlanticat,8:30:00 AM,1:45:00 PM,Canon 60D,1,,0,10,0,0,0,Flood,TRUE,,Grand Manan Banks,
+910,1,18-Jul-19,Anne Harshbarger,Atlanticat,8:30:00 AM,1:30:00 PM,Canon 60D,1,NNE,7,60,13.9,12.2,9,Flood,TRUE,1,Grand Manan Banks,2.99
+843,3,18-Jul-19,Brooke Davis,Friendship V,1:00:00 PM,6:00:00 PM,Canon 60D,1,NE,10,50,17.9,17.9,8.6,Ebb,TRUE,1,25miles between MDI and Grand Manan Banks,
+836,2,18-Jul-19,Sarah Rappaport,Atlanticat,2:30:00 PM,5:00:00 PM,Canon 60D,1,N,6,75,15,12.2,9.1,Slack,TRUE,0,East Bumps,2.99817
+909,1,17-Jul-19,Anne Harshbarger,Friendship V,1:00:00 PM,4:30:00 PM,Canon 60D,2,SW,8,100,14.3,13,9.4,Ebb,FALSE,1,"Ballpark, Mount Desert Rock",2.27
+855,1,17-Jul-19,Nicole Pegg,Atlanticat,8:30:00 AM,12:15:00 PM,Canon 60D,1,SSW,7,90,14.3,12.3,9.6,Flood,TRUE,0,Grand Manan Banks,
+887,2,16-Jul-19,Grace Leary,Atlanticat,2:30:00 PM,5:00:00 PM,Canon 60D,1,SSW,5,30,15,11.8,8.9,,TRUE,0,Grand manan banks,2982.55
+886,1,16-Jul-19,Grace Leary,Atlanticat,8:30:00 AM,1:00:00 PM,Canon 60D,1,WSW,4,5,14.5,11.9,9.1,,TRUE,0,grand manan,2990
+842,1,16-Jul-19,Brooke Davis,Friendship V,1:00:00 PM,6:00:00 PM,Canon 60D,1,SW,9,30,15.1,12.2,0,Ebb,TRUE,0,South of Grand Manan Banks,3
+908,1,15-Jul-19,Anne Harshbarger,Friendship V,1:00:00 PM,5:00:00 PM,Canon 60D,2,WSW,7,5,14.5,12.5,0.3,Ebb,FALSE,1,"Ballpark, Mount Desert Rock",2.95
+885,2,15-Jul-19,Grace Leary,Atlanticat,2:30:00 PM,5:00:00 PM,Canon 60D,3,SW,11,20,14.6,12.8,9.6,,TRUE,0,Southwest bank,2839
+884,1,15-Jul-19,Grace Leary,Atlanticat,8:30:00 AM,12:00:00 PM,Canon 60D,2,WSW,5,20,15.2,11.6,8,,TRUE,0,West side of grand manan,2995.77
+854,1,14-Jul-19,Nicole Pegg,Friendship V,1:00:00 PM,6:37:00 PM,Canon 60D,2,SW,8,50,14.6,11.6,8.9,Ebb,TRUE,1,Grand Manan Banks,2.80354
+838,1,14-Jul-19,Brooke Davis,Atlanticat,8:30:00 AM,1:45:00 PM,Canon 60D,2,S,4,30,12.8,11.3,,Flood,TRUE,0,Grand Manan Banks,3
+835,1,11-Jul-19,Sarah Rappaport,Atlanticat,8:30:00 AM,12:15:00 PM,Canon 60D,2,SE,9,70,12.4,10.2,9,Ebb,TRUE,0,Grand Manan,2.55966
+907,2,10-Jul-19,Anne Harshbarger,Atlanticat,2:30:00 PM,7:30:00 PM,Canon 60D,1,SSW,7,40,13.8,11.3,8.7,Slack,TRUE,0,Grand Manan Banks,2.99
+906,1,10-Jul-19,Anne Harshbarger,Atlanticat,8:30:00 AM,1:15:00 PM,Canon 60D,1,E,3,25,14.6,10.7,9.2,Ebb,TRUE,1,"East Bumps, Grand Manan Banks",2.99
+834,2,10-Jul-19,Sarah Rappaport,Friendship V,1:00:00 PM,6:20:00 PM,Canon 60D,1,ESE,4,75,14.4,10.7,9.2,Ebb,TRUE,0,Grand Manan,2.99817
+940,2,09-Jul-19,Grace Leary,Atlanticat,2:30:00 PM,5:30:00 PM,Canon 60D,2,SW,10,50,14.7,11.5,9.3,Slack,TRUE,0,Grand Manan Banks,10+
+939,1,09-Jul-19,Grace Leary,Atlanticat,8:30:00 AM,12:30:00 PM,Canon 60D,2,WSW,7,60,14.1,11.5,9.3,Flood,TRUE,0,northeast bank,10+
+905,1,09-Jul-19,Anne Harshbarger,Friendship V,1:00:00 PM,6:00:00 PM,Canon 60D,1,WSW,12,75,15,11.7,9.2,Flood,TRUE,1,Grand Manan Banks,2.95
+831,2,07-Jul-19,Nicole Pegg,Atlanticat,1:10:00 PM,6:00:00 PM,Canon 60D,1,SW,9,0,13.3,12,8.5,Flood,TRUE,0,Grand Manan Bank,2.99817
+830,1,07-Jul-19,Nicole Pegg,Atlanticat,8:30:00 AM,12:00:00 PM,Canon 60D,1,NNW,12,5,13.1,10.5,8.9,Slack,FALSE,1,"East bumps, Ballpark",2.99817
+883,2,05-Jul-19,Grace Leary,Atlanticat,2:50:00 PM,5:00:00 PM,Canon 60D,1,SW,10,30,13.2,10.8,8.6,Ebb,TRUE,0,Ballpark,
+861,1,05-Jul-19,Grace Leary,Atlanticat,8:30:00 AM,12:30:00 PM,Canon 60D,1,SW,10,30,13.2,10.8,8.6,Slack,TRUE,0,Ballpark,
+837,2,04-Jul-19,Brooke Davis,Atlanticat,1:00:00 PM,6:00:00 PM,Canon 60D,1,NNE,4,100,10.5,10.1,8.5,Slack,TRUE,0,Ball Park,0.19864
+832,1,04-Jul-19,Sarah Rappaport,Atlanticat,8:30:00 AM,12:00:00 PM,Canon 60D,1,NW,3,35,10.9,9.8,7.7,Flood,TRUE,0,Ballpark,2.69780
+839,1,03-Jul-19,Brooke Davis,Atlanticat,8:30:00 AM,12:30:00 PM,Canon 60D,1,ENE,1,100,20.4,18.1,0,Slack,TRUE,0,West of Ball Park,
+833,2,03-Jul-19,Brooke Davis,Atlanticat,1:00:00 PM,5:00:00 PM,Canon 60D,1,SE,3,20,12.1,10.3,8.1,Ebb,TRUE,0,"S,W, and N of MDR",0.32299
+829,2,02-Jul-19,Nicole Pegg,Atlanticat,1:00:00 PM,5:40:00 PM,Canon 60D,2,S,9,0,12.5,10.3,8.3,Ebb,TRUE,0,Grand Manan,2.88163
+828,1,02-Jul-19,Nicole Pegg,Atlanticat,8:30:00 AM,12:20:00 PM,Canon 60D,1,WSW,7,0,11.4,9.7,8.2,Flood,TRUE,0,Ballpark,2.91287
+827,2,01-Jul-19,Sarah Rappaport,Friendship V,1:00:00 PM,5:50:00 PM,Canon 60D,1,NNW,10,70,13.1,9.7,7.9,Ebb,TRUE,0,Grand Manaan,2.99577
+826,2,30-Jun-19,Brooke Davis,Friendship V,1:00:00 PM,6:00:00 PM,Canon 60D,5,NNE,7,100,12,9.5,7.9,Ebb,TRUE,0,North East Bank,2.94891
+824,2,29-Jun-19,Nicole Pegg,Friendship V,1:00:00 PM,5:40:00 PM,Canon 60D,1,NE,4,100,11.3,9.8,7.5,Ebb,TRUE,0,Grand Manan,2.92729
+823,1,29-Jun-19,Nicole Pegg,Friendship V,8:30:00 AM,12:15:00 PM,Canon 60D,1,SSW,3,100,11.3,9.6,,Slack,FALSE,0,,2.89125
+822,1,28-Jun-19,Nicole Pegg,Friendship V,1:00:00 PM,5:15:00 PM,Canon 60D,1,SSW,8,10,10.9,9.9,7.8,Slack,FALSE,1,"Mount Desert Rock, Ballpark, East bumps",
+821,2,22-Jun-19,Anne Harshbarger,Friendship V,1:00:00 PM,4:30:00 PM,Canon 60D,1,SW,9,100,13.5,9,7.5,Slack,FALSE,1,"Ballpark, MDR",2.911
+820,1,22-Jun-19,Anne Harshbarger,Friendship V,8:30:00 AM,12:30:00 PM,Canon 60D,1,WSW,6,65,12.4,8.3,7.4,Ebb,FALSE,1,"Ballpark, East Bumps",2.9
+825,1,18-Jun-19,Brooke Davis,Friendship V,12:00:00 PM,4:30:00 PM,Canon 60D,2,SSW,5,70,11.3,8.6,7.4,Slack,TRUE,1,south of Mount Desert Rock,2.96093
+813,1,17-Jun-19,Sarah Rappaport,Friendship V,12:00:00 PM,4:05:00 PM,Canon 60D,1,N,9,10,14.6,8.7,7.6,Ebb,TRUE,1,"East Bumps, Ballpark",2.99
+814,1,13-Jun-19,Sarah Rappaport,Friendship V,12:00:00 PM,4:00:00 PM,Canon 60D,,SE,6,100,9.3,7.8,6.9,Slack,TRUE,0,East Bumps,2.97
+819,1,12-Jun-19,Anne Harshbarger,Friendship V,12:00:00 PM,4:30:00 PM,Canon 60D,2,WSW,14,5,11.2,7.6,6.5,Slack,TRUE,1,"East Bumps, Ballpark",2.778
+812,1,09-Jun-19,Brooke Davis,Friendship V,12:00:00 PM,4:00:00 PM,Canon 60D,0,SSW,7,10,12.1,9.7,6.7,Flood,TRUE,0,East Bumps,2.98255
+818,1,08-Jun-19,Anne Harshbarger,Friendship V,12:00:00 PM,4:30:00 PM,Canon 60D,1,SSW,7,5,12,9.2,6.4,Flood,FALSE,1,"East Bumps, Ballpark, MDR",2.998
+809,1,07-Jun-19,Nicole Pegg,Friendship V,12:00:00 PM,4:30:00 PM,Canon 60D,1,SE,4,0,10.2,8.3,6.5,Slack,TRUE,1,"Ballpark, Mount Desert Rock",2.99336
+815,1,01-Jun-19,Sarah Rappaport,Friendship V,12:00:00 PM,5:00:00 PM,Canon 60D,,ENE,6,97,8.4,7.7,6.2,Ebb,TRUE,1,Grand Manan,2.969
+817,1,30-May-19,Anne Harshbarger,Friendship V,12:00:00 PM,4:00:00 PM,Canon 60D,1,S,9,100,8.3,7.1,0,Slack,FALSE,1,"Ballpark, 8 mi SW of MDR",2.969
+810,1,28-May-19,Nicole Pegg,Friendship V,12:00:00 PM,4:50:00 PM,Canon 60D,2,SSE,5,100,9,7.1,6.1,Slack,FALSE,0,East Bumps,2.96934
+811,1,25-May-19,Anne Harshbarger,Friendship V,12:00:00 PM,4:00:00 PM,Canon 60D,1,SSW,8,5,9,7.3,0,Flood,FALSE,1,Ballpark,2.969
+808,1,19-Oct-18,Abby Shaughnessy,Atlanticat,12:00:00 PM,3:00:00 PM,Canon 60D,1,W,14.4,90,7,11.9,11.9,Slack,TRUE,1,Mount Desert Rock,
+807,1,14-Oct-18,Hedda Samuelson,Atlanticat,12:00:00 PM,3:06:00 PM,Canon 60D,2,WNW,13.1,10,9,12.3,12.3,,TRUE,3,Mount Desert Rock,
+805,1,04-Oct-18,Abby Shaughnessy,Atlanticat,12:00:00 PM,4:00:00 PM,Canon 60D,2,SW,11.9,95,12.3,12.8,12.5,Ebb,TRUE,1,Mount Desert Rock,
+804,,01-Oct-18,Abby Shaughnessy,Atlanticat,12:00:00 PM,4:30:00 PM,Canon 60D,1,NNE,10.1,100,12.4,13.4,13.1,Flood,TRUE,1,Mount Desert Rock,
+803,1,29-Sep-18,Hedda Samuelson,Atlanticat,12:00:00 PM,4:00:00 PM,Canon 60D,2,NNE,9.9,30,15.4,13.8,12.6,Slack,TRUE,1,Mount Desert Rock,
+801,1,25-Sep-18,Abby Shaughnessy,Atlanticat,12:00:00 PM,4:00:00 PM,Canon 60D,2,SE,16.1,85,13.4,12.9,12.9,Slack,TRUE,1,Mount Desert Rock,
+800,1,23-Sep-18,Zoe Wong,Atlanticat,12:00:00 PM,3:30:00 PM,Canon 60D,2,S,3.3,10,13.8,14,13,Ebb,TRUE,1,Mount Desert Rock,
+802,1,21-Sep-18,Hedda Samuelson,Atlanticat,12:15:00 PM,3:30:00 PM,Canon 60D,3,SSE,16.7,70,14.6,13.6,12.3,Flood,TRUE,3,Mount Desert Rock,
+799,1,20-Sep-18,Hedda Samuelson,Atlanticat,12:00:00 PM,3:06:00 PM,Canon 60D,2,NNE,8.9,85,12.9,13.1,12.7,Flood,TRUE,4,Mount Desert Rock,
+798,1,17-Sep-18,Zoe Wong,Atlanticat,12:00:00 PM,4:30:00 PM,Canon 60D,3,SW,12.2,0,15.9,14.3,12.3,Slack,TRUE,0,Mount Desert Rock,
+796,1,15-Sep-18,Hedda Samuelson,Atlanticat,6:00:00 AM,2:30:00 PM,Canon 60D,2,SW,7.8,75,13.9,14.6,0,Ebb,TRUE,4,Grand Manan,
+797,1,14-Sep-18,Abby Shaughnessy,Atlanticat,12:00:00 PM,4:15:00 PM,Canon 60D,1,NE,2.9,5,15.2,13.3,12.2,Flood,TRUE,2,Mount Desert Rock,
+790,1,08-Sep-18,Zoe Wong,Atlanticat,12:00:00 PM,3:45:00 PM,Canon 60D,2,NE,2.5,25,15.4,13.8,12.3,Ebb,TRUE,1,Ballpark,
+794,1,05-Sep-18,Abby Shaughnessy,Atlanticat,12:00:00 PM,3:30:00 PM,Canon 60D,1,E,2.9,20,16.3,14.4,12.5,Flood,TRUE,0,Ballpark,
+785,1,04-Sep-18,Zoe Wong,Atlanticat,12:00:00 PM,3:15:00 PM,Canon 60D,2,N,6.2,10,18.5,14.8,12.9,Slack,TRUE,1,Ballpark,
+795,1,02-Sep-18,Abby Shaughnessy,Atlanticat,12:00:00 PM,3:30:00 PM,Canon 60D,0,NNE,8.8,75,15,14.6,12.5,Ebb,TRUE,0,Ballpark,
+793,2,02-Sep-18,Abby Shaughnessy,Atlanticat,4:30:00 PM,7:45:00 PM,Canon 60D,1,SSW,7.1,95,16.3,13.6,12.1,Ebb,TRUE,1,Ballpark,
+792,1,02-Sep-18,Abby Shaughnessy,Atlanticat,1:00:00 PM,4:00:00 PM,Canon 60D,1,SSW,5.6,75,15.6,13.8,12.2,Flood,TRUE,1,Ballpark,
+783,2,01-Sep-18,Hedda Samuelson,Atlanticat,4:30:00 PM,7:30:00 PM,Canon 60D,1,NE,0.9,0,18.8,14.3,12.4,Ebb,TRUE,1,Ballpark,
+782,1,01-Sep-18,Zoe Wong,Atlanticat,1:00:00 PM,4:00:00 PM,Canon 60D,0,NNE,1.2,0,17,15,12,Flood,TRUE,0,Ballpark,
+781,1,01-Sep-18,Zoe Wong,Friendship V,8:30:00 AM,11:30:00 AM,Canon 60D,1,NE,6.2,5,14.1,14.3,12.8,Ebb,TRUE,0,Ballpark,
+791,3,31-Aug-18,Abby Shaughnessy,Friendship V,4:30:00 PM,7:30:00 PM,Canon 60D,1,NE,3.7,60,15.8,14.1,12.6,Ebb,TRUE,0,Ballpark,
+780,2,31-Aug-18,Trevor Barclay,Friendship V,1:00:00 PM,4:00:00 PM,Canon 60D,1,S,3.5,20,16.1,13.9,12.2,,TRUE,1,Ballpark,
+779,1,31-Aug-18,Trevor Barclay,Friendship V,8:32:00 AM,11:30:00 AM,Canon 60D,1,N,8.1,70,14.4,13.3,12.2,Slack,TRUE,1,Ballpark,
+789,1,30-Aug-18,Abby Shaughnessy,Friendship V,2:30:00 PM,6:00:00 PM,Canon 60D,1,NNW,6.2,40,17.4,14.9,11.9,Ebb,TRUE,1,Ballpark,
+776,2,30-Aug-18,Zoe Wong,Atlanticat,1:00:00 PM,4:00:00 PM,Canon 60D,1,NNE,7.7,100,16.7,14.7,11.8,Ebb,TRUE,1,Ballpark,
+775,1,30-Aug-18,Zoe Wong,Atlanticat,8:30:00 AM,11:30:00 AM,Canon 60D,0,W,2.5,95,18.1,14.9,12,Flood,TRUE,1,Ballpark,
+774,3,29-Aug-18,Zoe Wong,Atlanticat,4:30:00 PM,7:30:00 PM,Canon 60D,1,SSE,9.2,30,18,15.9,12.3,Ebb,TRUE,1,Ballpark,
+773,2,29-Aug-18,Zoe Wong,Atlanticat,1:00:00 PM,3:45:00 PM,Canon 60D,1,SSE,5.1,0,18.9,14.4,12,Slack,TRUE,1,Ballpark,
+772,1,29-Aug-18,Zoe Wong,Atlanticat,8:30:00 AM,11:30:00 AM,Canon 60D,2,SW,5.9,5,17.3,15,12.3,Flood,TRUE,1,Ballpark,
+770,2,28-Aug-18,Zoe Wong,Friendship V,1:00:00 PM,4:15:00 PM,Canon 60D,3,SSW,20.8,20,19.5,14.9,11.9,Ebb,TRUE,1,Mount Desert Rock,
+769,1,28-Aug-18,Zoe Wong,Friendship V,8:30:00 AM,12:00:00 PM,Canon 60D,2,S,8.1,50,16.6,14.4,12.2,Flood,TRUE,1,Ballpark,
+768,2,26-Aug-18,Hedda Samuelson,Atlanticat,1:00:00 PM,4:00:00 PM,Canon 60D,1,SSW,6.1,20,16.2,15.1,11.9,Ebb,TRUE,2,Ballpark,
+767,1,26-Aug-18,Hedda Samuelson,Atlanticat,8:30:00 AM,11:30:00 AM,Canon 60D,1,S,5.7,5,15.7,14.2,11.8,Flood,TRUE,2,Ballpark,
+788,2,25-Aug-18,Abby Shaughnessy,Atlanticat,1:00:00 PM,4:00:00 PM,Canon 60D,1,S,7,75,15.7,14,12,Slack,TRUE,1,Ballpark,
+787,1,25-Aug-18,Abby Shaughnessy,Atlanticat,8:30:00 AM,11:30:00 AM,Canon 60D,1,S,5.1,35,15.3,14.1,12.1,Flood,TRUE,1,Ballpark,
+786,2,24-Aug-18,Abby Shaughnessy,Atlanticat,2:00:00 PM,4:00:00 AM,Canon 60D,1,,7.6,90,15.7,14.2,12.1,Slack,TRUE,1,Ballpark,
+784,1,24-Aug-18,Abby Shaughnessy,Atlanticat,8:30:00 AM,11:30:00 AM,Canon 60D,1,WSW,6.7,85,15.3,14.1,12.5,Ebb,TRUE,1,Ballpark,
+757,1,24-Aug-18,Hedda Samuelson,Friendship V,2:30:00 PM,5:30:00 PM,Canon 60D,2,SW,8.1,0,16.3,14.6,12.1,Ebb,TRUE,4,Ballpark,
+762,2,23-Aug-18,Kat Burns,Atlanticat,4:50:00 PM,7:55:00 PM,Canon 60D,2,SW,8,10,16.6,15,12.4,Flood,TRUE,1,Ballpark,
+756,1,23-Aug-18,Hedda Samuelson,Atlanticat,1:00:00 PM,4:00:00 PM,Canon 60D,3,WSW,11.1,40,16.2,15.1,12,Ebb,TRUE,4,Mount Desert Rock,
+761,2,21-Aug-18,Kat Burns,Friendship V,1:00:00 PM,4:00:00 PM,Canon 60D,1,E,8.2,40,15.8,15.3,11.6,Flood,TRUE,1,Ballpark,
+760,1,21-Aug-18,Kat Burns,Friendship V,8:30:00 AM,12:30:00 PM,Canon 60D,1,NNE,9,100,14.3,15.3,12,Ebb,TRUE,1,"MDR, Ballpark",
+751,3,21-Aug-18,Hedda Samuelson,Friendship V,4:30:00 PM,7:30:00 PM,Canon 60D,1,NE,2.4,0,17.2,14.7,11.3,Flood,TRUE,2,Ballpark,
+759,2,20-Aug-18,Kat Burns,Friendship V,1:00:00 PM,5:00:00 PM,Canon 60D,2,NE,9.8,20,13.7,12.2,11.6,Flood,TRUE,1,Mount Desert Rock,
+758,1,20-Aug-18,Kat Burns,Friendship V,8:30:00 AM,11:45:00 PM,Canon 60D,2,NE,7.8,30,14.3,12.6,11.7,Ebb,TRUE,1,Mount Desert Rock,
+750,3,20-Aug-18,Hedda Samuelson,Friendship V,4:30:00 PM,7:00:00 PM,Canon 60D,1,NE,12.1,5,16.1,13.3,11.7,Flood,TRUE,2,Mount Desert Rock,
+778,2,19-Aug-18,Abby Shaughnessy,Friendship V,1:00:00 PM,4:00:00 PM,Canon 60D,1,NNE,14.4,40,14.9,12.8,11.6,Flood,TRUE,0,Ballpark,
+777,1,19-Aug-18,Abby Shaughnessy,Friendship V,8:30:00 AM,12:00:00 PM,Canon 60D,2,NNE,13.5,15,14.5,12.7,11.6,Slack,TRUE,0,Ballpark,
+771,2,17-Aug-18,Abby Shaughnessy,Atlanticat,2:30:00 PM,5:00:00 PM,Canon 60D,1,NE,7.6,55,13.6,13.5,11.5,Flood,TRUE,1,Ballpark,
+766,1,17-Aug-18,Abby Shaughnessy,Atlanticat,8:30:00 AM,1:45:00 AM,Canon 60D,1,NE,5.8,5,13.9,12.8,11.6,Slack,TRUE,1,Ballpark,
+747,1,17-Aug-18,Trevor Barclay,Friendship V,1:00:00 PM,4:30:00 PM,Canon 60D,,SE,4.6,40,15.6,13.3,11.1,,TRUE,4,Mount Desert Rock,
+746,1,16-Aug-18,Francesca Gundrum,Friendship V,1:05:00 PM,,Canon 60D,,SW,6,40,15.6,12.8,52,Flood,TRUE,,Ballpark,
+745,2,16-Aug-18,Hedda Samuelson,Atlanticat,2:30:00 PM,6:00:00 PM,Canon 60D,1,SW,5.2,5,16.2,14.4,11.7,Ebb,TRUE,2,Ballpark,
+744,1,16-Aug-18,Hedda Samuelson,Atlanticat,8:30:00 AM,12:00:00 PM,Canon 60D,1,SW,4.5,90,15.1,13.2,11.9,Ebb,TRUE,2,Ballpark,
+765,1,15-Aug-18,Abby Shaughnessy,Atlanticat,1:00:00 AM,4:30:00 AM,Canon 60D,1,SSW,5.1,100,15.4,12.4,11.5,Flood,TRUE,1,Ballpark,
+764,1,14-Aug-18,Abby Shaughnessy,Atlanticat,8:30:00 AM,1:00:00 AM,Canon 60D,1,NE,10.4,100,14.2,13.4,11.6,Flood,TRUE,0,Ballpark,
+740,1,14-Aug-18,Hedda Samuelson,Friendship V,1:00:00 PM,4:30:00 PM,Canon 60D,1,NE,4.7,100,14.1,14.6,14.5,Slack,TRUE,2,Ballpark,
+739,2,13-Aug-18,Hedda Samuelson,Atlanticat,2:36:00 PM,6:30:00 PM,Canon 60D,1,NE,9.7,70,14.7,14.2,12.1,Flood,TRUE,1,Ballpark,
+738,1,13-Aug-18,Hedda Samuelson,Atlanticat,8:30:00 AM,1:00:00 PM,Canon 60D,1,NE,7.1,80,15.5,13.8,12.1,Flood,TRUE,0,Ballpark,
+737,1,13-Aug-18,Trevor Barclay,Atlanticat,1:00:00 PM,4:45:00 PM,Canon 60D,2,NE,6.9,100,15.6,13.3,11.1,Slack,TRUE,1,Ballpark,
+736,2,12-Aug-18,Trevor Barclay,Atlanticat,1:00:00 PM,4:40:00 PM,Canon 60D,2,NE,9.2,100,15,15,11.1,Ebb,TRUE,0,Ballpark,
+735,1,12-Aug-18,Trevor Barclay,Atlanticat,8:30:00 AM,12:00:00 PM,Canon 60D,2,NNE,8.1,100,15,15,13.9,Flood,TRUE,0,Ballpark,
+749,2,11-Aug-18,Kat Burns,Atlanticat,2:30:00 PM,5:00:00 PM,Canon 60D,1,S,4.3,80,20,16.9,11.4,Ebb,TRUE,0,Ballpark,
+748,1,11-Aug-18,Kat Burns,Atlanticat,8:30:00 AM,11:50:00 AM,Canon 60D,1,SW,0.9,60,16.5,14.9,11.9,Flood,TRUE,0,Ballpark,
+734,1,11-Aug-18,Zoe Wong,Friendship V,1:00:00 PM,4:00:00 PM,Canon 60D,1,SSW,4.4,80,16.1,17.4,11.7,Ebb,TRUE,1,Ballpark,
+755,1,10-Aug-18,Kat Burns,Friendship V,1:00:00 PM,5:00:00 PM,Canon 60D,2,WNW,10.7,10,18.7,14.1,11,Ebb,TRUE,0,Ballpark,
+733,2,10-Aug-18,Zoe Wong,Atlanticat,2:30:00 PM,5:50:00 PM,Canon 60D,2,WNW,10.6,0,19.1,13.9,11.3,Ebb,TRUE,1,Ballpark,
+732,1,10-Aug-18,Zoe Wong,Atlanticat,8:30:00 AM,1:30:00 PM,Canon 60D,2,W,5.5,5,16.5,13.8,11.1,Flood,TRUE,1,"Ballpark, MDR",
+729,1,08-Aug-18,Trevor Barclay,Atlanticat,8:30:00 AM,12:30:00 PM,Canon 60D,1,WSW,4.6,100,16.7,14.4,11.1,Slack,FALSE,1,Ballpark,
+754,1,07-Aug-18,Kat Burns,Friendship V,1:00:00 PM,5:30:00 PM,Canon 60D,2,SW,10.3,60,18.1,16.2,10.9,Flood,TRUE,1,Ballpark,
+731,2,07-Aug-18,Zoe Wong,Atlanticat,2:30:00 PM,5:10:00 PM,Canon 60D,2,SSW,12.7,30,18.2,16.1,11.6,Flood,TRUE,1,Ballpark,
+730,1,07-Aug-18,Zoe Wong,Atlanticat,8:30:00 AM,1:10:00 PM,Canon 60D,1,SW,6.2,0,18.5,15.7,10.8,Ebb,TRUE,1,Ballpark,
+728,2,06-Aug-18,Hedda Samuelson,Atlanticat,2:30:00 PM,5:30:00 PM,Canon 60D,2,SSW,9.6,10,17.8,15.4,11.6,Flood,TRUE,0,Ballpark,
+727,1,06-Aug-18,Hedda Samuelson,Atlanticat,8:30:00 AM,1:00:00 PM,Canon 60D,1,SW,6.1,0,16.3,14.8,12.2,Ebb,TRUE,0,Ballpark,
+726,1,06-Aug-18,Zoe Wong,Friendship V,1:00:00 PM,4:30:00 PM,Canon 60D,2,SW,8.2,5,17.2,15.2,11.8,Flood,TRUE,0,Ballpark,
+725,2,05-Aug-18,Trevor Barclay,Atlanticat,1:00:00 PM,4:30:00 PM,Canon 60D,2,NNW,6.9,20,16.7,13.9,10.6,Flood,FALSE,1,Ballpark,
+724,1,05-Aug-18,Trevor Barclay,Atlanticat,8:30:00 AM,12:00:00 PM,Canon 60D,1,SW,11.5,0,16.7,12.8,10.6,Ebb,FALSE,1,Ballpark,
+763,1,04-Aug-18,Abby Shaughnessy,Atlanticat,8:30:00 AM,1:00:00 AM,Canon 60D,1,SW,5.8,100,15.7,14.4,11.4,Slack,TRUE,1,Ballpark,
+723,1,04-Aug-18,Trevor Barclay,Friendship V,1:00:00 PM,5:00:00 AM,Canon 60D,2,SSW,12.7,100,16.7,13.9,11.1,Flood,TRUE,1,Ballpark,
+722,1,03-Aug-18,Zoe Wong,Atlanticat,8:30:00 AM,12:35:00 PM,Canon 60D,2,SSW,6.2,10,15.5,15,10.8,Flood,TRUE,1,Schoodic Ridges/Ballpark,
+753,1,01-Aug-18,Kat Burns,Friendship V,1:00:00 PM,5:30:00 PM,Canon 60D,1,S,8.7,100,15.9,13.6,10.9,Flood,FALSE,0,Ballpark,
+743,1,01-Aug-18,Abby Shaughnessy,Atlanticat,8:30:00 AM,1:00:00 AM,Canon 60D,1,SSW,4.3,75,13.4,12.5,10.6,Flood,TRUE,1,Ballpark,
+752,1,31-Jul-18,Kat Burns,Friendship V,1:00:00 PM,5:30:00 PM,Canon 60D,1,SW,6.4,60,16.2,12.9,10.8,Flood,TRUE,1,Ballpark,
+721,2,31-Jul-18,Trevor Barclay,Atlanticat,2:35:00 PM,6:00:00 PM,Canon 60D,2,SSW,4.6,20,15,12.8,11.1,Ebb,TRUE,1,Ballpark,
+720,1,31-Jul-18,Trevor Barclay,Atlanticat,8:30:00 AM,1:00:00 PM,Canon 60D,0,SSW,3.5,100,15,12.8,11.1,Slack,TRUE,1,Ballpark,
+742,2,30-Jul-18,Abby Shaughnessy,Friendship V,1:00:00 AM,5:00:00 AM,Canon 60D,1,WSW,8.5,80,15.1,13.2,10.5,Ebb,TRUE,1,Ballpark,
+741,1,30-Jul-18,Abby Shaughnessy,Friendship V,8:30:00 AM,12:00:00 PM,Canon 60D,1,,5.8,65,14.9,12.2,10.4,Flood,TRUE,1,Ballpark,
+715,1,22-Jul-18,Abby Shaughnessy,Atlanticat,8:30:00 AM,1:00:00 PM,Canon 60D,1,NE,7.76,100,12.9,12.6,10,Ebb,TRUE,1,East Bumps,
+714,1,21-Jul-18,Kat Burns,Friendship V,2:30:00 PM,7:20:00 PM,Canon 60D,1,S,4,100,14.2,13.3,10,Flood,TRUE,1,Grand Manan,
+713,1,21-Jul-18,Hedda Samuelson,Atlanticat,1:00:00 PM,6:00:00 PM,Canon 60D,1,SE,1.8,75,13.9,13.2,10,Slack,TRUE,1,Grand Manan,
+716,1,20-Jul-18,Hedda Samuelson,Friendship V,1:00:00 PM,4:00:00 PM,Canon 60D,2,NE,5.3,40,14.3,16.7,10.1,Flood,TRUE,1,Mount Desert Rock,
+712,2,20-Jul-18,Kat Burns,Atlanticat,2:30:00 PM,6:30:00 PM,Canon 60D,2,S,4,5,14.2,13.3,10,Flood,TRUE,1,Grand Manan,
+711,1,20-Jul-18,Kat Burns,Atlanticat,8:30:00 AM,1:30:00 PM,Canon 60D,1,WSW,3.7,5,14.7,11.7,9.9,Ebb,TRUE,1,"Petit Manan, Grand Manan Banks",
+717,1,19-Jul-18,Hedda Samuelson,Atlanticat,2:30:00 PM,5:30:00 PM,Canon 60D,2,NE,5.8,10,16.7,13.7,10.1,Flood,FALSE,1,"Ballpark, MDR",
+710,2,19-Jul-18,Kat Burns,Friendship V,1:10:00 PM,5:30:00 PM,Canon 60D,1,SW,7.8,0,14.3,12.1,10,Flood,TRUE,1,Grand Manan,
+709,1,19-Jul-18,Kat Burns,Friendship V,8:30:00 AM,1:30:00 PM,Canon 60D,2,WSW,1.1,0,15.7,11,10.2,Ebb,TRUE,1,"Petit Manan, MDR, East Bumps",
+701,2,15-Jul-18,Hedda Samuelson,Atlanticat,1:33:00 PM,6:30:00 PM,Canon 60D,2,SE,1.9,70,13.9,13.1,9.5,Slack,TRUE,1,Grand Manan,
+700,1,15-Jul-18,Hedda Samuelson,Atlanticat,8:30:00 AM,1:30:00 PM,Canon 60D,1,SE,1.9,70,13.1,12.2,10.1,Flood,TRUE,1,Grand Manan,
+697,1,14-Jul-18,Kat Burns,Atlanticat,8:30:00 AM,1:00:00 PM,Canon 60D,1,NNE,3.3,20,14,12.4,11.1,Ebb,TRUE,1,Grand Manan,
+696,1,14-Jul-18,Zoe Wong,Friendship V,1:00:00 PM,5:30:00 PM,Canon 60D,0,NNE,4.5,60,13.2,13.5,9.9,Ebb,TRUE,1,Grand Manan,
+698,1,13-Jul-18,Hedda Samuelson,Friendship V,1:00:00 PM,4:00:00 PM,Canon 60D,1,SW,3,20,14.7,13.4,10.1,Ebb,FALSE,1,Mount Desert Rock,
+695,2,13-Jul-18,Trevor Barclay,Atlanticat,2:30:00 PM,7:00:00 PM,Canon 60D,0,E,10.4,0,13.3,11.2,9.7,Ebb,TRUE,1,Grand Manan,
+694,1,13-Jul-18,Trevor Barclay,Atlanticat,8:30:00 AM,1:45:00 PM,Canon 60D,1,NW,9.2,10,13.3,12.2,0,Flood,FALSE,2,Grand Manan,
+699,1,12-Jul-18,Hedda Samuelson,Friendship V,1:00:00 PM,5:57:00 PM,Canon 60D,2,SSW,5,20,14.8,13.9,9.4,Ebb,TRUE,1,Grand Manan,
+686,2,12-Jul-18,Zoe Wong,Atlanticat,2:30:00 PM,7:30:00 PM,Canon 60D,1,SSW,4.5,30,16.4,15.7,9.9,Ebb,TRUE,1,Grand Manan,
+685,1,12-Jul-18,Zoe Wong,Atlanticat,8:30:00 AM,1:30:00 PM,Canon 60D,3,N,6.7,10,14.9,12.9,9.9,Flood,TRUE,1,Grand Manan,
+684,2,11-Jul-18,Zoe Wong,Atlanticat,2:30:00 PM,6:45:00 PM,Canon 60D,2,NE,6.7,30,15.6,14.8,9.8,Ebb,TRUE,1,Grand Manan,
+683,1,11-Jul-18,Zoe Wong,Atlanticat,8:30:00 AM,1:36:00 PM,Canon 60D,3,NNE,12.7,80,14.4,13.1,9.8,Ebb,TRUE,1,Grand Manan,
+682,1,11-Jul-18,Trevor Barclay,Friendship V,1:00:00 PM,6:00:00 PM,Canon 60D,,NE,8.1,10,15.6,12.5,10,Ebb,FALSE,1,Grand Manan,
+693,2,09-Jul-18,Hedda Samuelson,Atlanticat,2:30:00 PM,7:00:00 PM,Canon 60D,2,SE,9.2,0,14.3,13.9,9.3,Flood,FALSE,1,Grand Manan,
+692,1,09-Jul-18,Hedda Samuelson,Atlanticat,8:30:00 AM,1:30:00 PM,Canon 60D,2,SE,9.2,0,13.6,13.9,9.3,Ebb,TRUE,1,Grand Manan,
+678,1,09-Jul-18,Abby Shaughnessy,Friendship V,1:00:00 PM,4:00:00 PM,Canon 60D,3,SSW,8.6,25,13.7,11.8,9.5,Ebb,FALSE,1,Ballpark,
+677,2,08-Jul-18,Zoe Wong,Atlanticat,1:00:00 PM,6:00:00 PM,Canon 60D,2,SSW,9,20,13.6,11.5,10.4,Flood,TRUE,0,Grand Manan,
+676,1,08-Jul-18,Zoe Wong,Atlanticat,8:30:00 AM,12:15:00 PM,Canon 60D,2,SSW,8,5,14.3,11.8,9.9,Ebb,FALSE,0,Mount Desert Rock,
+718,1,07-Jul-18,Hedda Samuelson,Atlanticat,8:30:00 AM,1:00:00 PM,Canon 60D,2,SE,4.9,10,12.9,13.1,9.2,Ebb,TRUE,0,Mount Desert Rock,
+691,2,07-Jul-18,Hedda Samuelson,Atlanticat,2:30:00 PM,6:00:00 PM,Canon 60D,2,NE,5.5,10,14.9,12.8,9.5,Flood,TRUE,0,Mount Desert Rock,
+690,1,07-Jul-18,Hedda Samuelson,Atlanticat,8:30:00 AM,1:00:00 PM,Canon 60D,2,SW,4.9,10,12.9,13.1,9.2,Ebb,TRUE,0,Mount Desert Rock,
+675,1,07-Jul-18,Trevor Barclay,Friendship V,1:00:00 PM,4:20:00 PM,Canon 60D,2,SW,9.2,10,14.4,12.2,9.4,Flood,FALSE,1,Mount Desert Rock,
+680,2,05-Jul-18,Abby Shaughnessy,Atlanticat,2:30:00 PM,6:30:00 PM,Canon 60D,2,SW,8.3,60,14.4,11.9,9.2,Flood,FALSE,1,East Bumps,
+679,1,05-Jul-18,Abby Shaughnessy,Atlanticat,8:30:00 AM,1:30:00 PM,Canon 60D,1,SW,7.8,20,13.8,10.3,8.9,Ebb,TRUE,1,Grand Manan/ Southwest Bank,
+674,1,05-Jul-18,Zoe Wong,Friendship V,1:00:00 PM,5:45:00 PM,Canon 60D,2,S,11.5,10,15.8,12.9,9.4,Flood,TRUE,1,Grand Manan Banks,
+673,2,04-Jul-18,Trevor Barclay,Atlanticat,1:00:00 PM,6:30:00 PM,Canon 60D,1,SW,3.5,20,17.2,15,0,Flood,FALSE,1,Grand Manan,
+672,1,04-Jul-18,Trevor Barclay,Atlanticat,8:30:00 AM,12:00:00 PM,Canon 60D,0,NNW,3.5,20,17.2,11.1,0,Ebb,FALSE,1,Grand Manan,
+671,1,02-Jul-18,Abby Shaughnessy,Friendship V,8:30:00 AM,12:00:00 PM,Canon 60D,2,NE,12.5,100,11.3,10.3,8.9,Flood,FALSE,1,East Bumps (southern edge)/ Ballpark,
+670,2,01-Jul-18,Trevor Barclay,Atlanticat,1:00:00 PM,6:30:00 PM,Canon 60D,1,W,4.7,40,16.7,12.8,8.9,Flood,TRUE,1,Grand Manan,
+669,1,01-Jul-18,Trevor Barclay,Atlanticat,8:30:00 AM,11:30:00 AM,Canon 60D,1,SSW,3.5,60,15.6,10.6,8.7,Flood,FALSE,1,Grand Manan,
+806,2,27-Jun-18,Zoe Wong,Friendship V,1:00:00 PM,,Canon 60D,2,SW,10.1,10,11.4,9.9,9.2,Ebb,TRUE,1,,
+663,1,27-Jun-18,Zoe Wong,Friendship V,8:30:00 AM,12:00:00 PM,Canon 60D,3,SW,10.1,60,11.4,9.9,9.2,Flood,FALSE,1,East Bumps/Ballpark,
+706,2,26-Jun-18,Kat Burns,Friendship V,1:15:00 PM,6:00:00 PM,Canon 60D,2,SW,15.8,5,12,9.1,8.4,Ebb,TRUE,1,Grand Manan,
+705,1,26-Jun-18,Kat Burns,Friendship V,8:15:00 AM,12:15:00 PM,Canon 60D,2,SW,8.2,7,11.2,9.8,9.1,Ebb,FALSE,0,"Petit Manan, Mount Desert Rock Island",
+708,1,24-Jun-18,Kat Burns,Friendship V,8:35:00 AM,12:30:00 PM,Canon 60D,1,WSW,5.9,85,11.4,9.5,8.1,Flood,FALSE,1,"East Bumps, Ballpark",
+703,2,24-Jun-18,Kat Burns,Friendship V,1:10:00 PM,5:25:00 PM,Canon 60D,1,SW,8.2,5,11.7,9.5,8.4,Ebb,FALSE,1,Mount Desert Rock,
+662,2,23-Jun-18,Zoe Wong,Friendship V,1:10:00 PM,6:00:00 PM,Canon 60D,0,E,2.2,100,11.2,9.7,8.1,Ebb,TRUE,0,Grand Manan,
+661,1,23-Jun-18,Zoe Wong,Friendship V,8:30:00 AM,12:50:00 PM,Canon 60D,0,E,4.3,100,11.4,9.4,8,Ebb,TRUE,0,"East Bumps, Ballpark",
+704,1,22-Jun-18,Kat Burns,Friendship V,8:30:00 AM,12:30:00 PM,Canon 60D,0,NNE,4,0,11.3,9.8,8.5,Ebb,TRUE,0,"East Bumps, Ballpark",
+702,2,22-Jun-18,Kat Burns,Friendship V,1:15:00 PM,5:30:00 PM,Canon 60D,2,SSW,11.5,30,12.1,10.6,8.6,Flood,TRUE,0,Grand Manan,
+707,2,21-Jun-18,Kat Burns,Friendship V,1:05:00 PM,6:00:00 PM,Canon 60D,1,S,4.8,35,13.8,11.4,9,Flood,TRUE,,,
+689,1,20-Jun-18,Hedda Samuelson,Friendship V,8:30:00 AM,12:00:00 PM,Canon 60D,2,SW,5.8,30,11.8,10.3,8.5,Ebb,FALSE,1,Ballpark,
+719,1,17-Jun-18,Hedda Samuelson,Friendship V,12:00:00 PM,6:00:00 PM,Canon 60D,2,SW,4.8,30,11.4,9.5,8.3,Ebb,TRUE,1,Grand Manan,
+668,1,16-Jun-18,Abby Shaughnessy,Atlanticat,12:00:00 PM,5:00:00 PM,Canon 60D,,WSW,9,,11.2,9.4,7.8,Flood,FALSE,1,Grand Manan Banks,
+658,1,12-Jun-18,Zoe Wong,Friendship V,12:05:00 PM,4:30:00 PM,Canon 60D,4,SW,14.3,80,10.8,9.4,7.8,Ebb,FALSE,1,Ballpark,
+667,1,11-Jun-18,Abby Shaughnessy,Atlanticat,12:00:00 PM,5:00:00 PM,Canon 60D,,E,8,,9.1,9.4,7.4,Ebb,TRUE,0,East Bumps,
+681,1,10-Jun-18,Kat Burns,Friendship V,12:00:00 PM,5:30:00 PM,Canon 60D,1,SSE,7.6,0,12,10.1,7.9,Ebb,TRUE,0,Grand Manan,
+688,1,09-Jun-18,Hedda Samuelson,Friendship V,12:00:00 PM,6:00:00 PM,Canon 60D,2,W,3.9,30,11.7,8.9,7.7,Ebb,TRUE,0,Grand Manan,
+656,1,07-Jun-18,Zoe Wong,Friendship V,12:05:00 PM,6:00:00 PM,Canon 60D,3,S,9,33,10.4,9.6,7.2,Slack,TRUE,0,Grand Manan,
+666,1,06-Jun-18,Abby Shaughnessy,Friendship V,12:00:00 PM,5:00:00 PM,Canon 60D,,NNE,4,,8.1,8.1,7.7,Flood,FALSE,1,Ballpark,
+657,1,02-Jun-18,Zoe Wong,Friendship V,12:00:00 PM,5:00:00 PM,Canon 60D,,NNE,10.2,,14.1,8.9,7.3,Flood,FALSE,1,,
+665,1,01-Jun-18,Abby Shaughnessy,Friendship V,12:00:00 PM,5:00:00 PM,Canon 60D,3,SW,8,,10.6,8.9,7.9,Flood,FALSE,1,Ballpark,
+664,1,31-May-18,Abby Shaughnessy,Friendship V,12:00:00 PM,5:00:00 PM,Canon 60D,,SSW,10,,9.9,9.2,8.4,Flood,TRUE,1,Outer Falls,
+687,1,30-May-18,Hedda Samuelson,Friendship V,12:00:00 PM,5:34:00 PM,Canon 60D,2,SW,8.7,30,20,8.9,7.2,Ebb,TRUE,1,Outer Falls,
+653,1,13-Oct-17,Natalie Hunter,Atlanticat,12:00:00 PM,4:00:00 PM,Canon 60D,1,SSE,8,5,13.1,12.6,,Flood,FALSE,1,,
+652,1,06-Oct-17,Lauri Leach,Atlanticat,12:00:00 PM,2:10:00 PM,Canon 60D,2,SSW,5,95,14.2,13.4,0,Ebb,TRUE,1,,
+650,1,03-Oct-17,Liz Virgl,Atlanticat,1:00:00 PM,3:45:00 PM,Canon 60D,3,ESE,3,20,11.7,12.1,0,Ebb,TRUE,0,,
+651,1,01-Oct-17,Lauri Leach,Atlanticat,12:05:00 PM,4:45:00 PM,Canon 60D,3,SW,14,0,12.6,12.1,0,Slack,TRUE,0,,
+647,1,17-Sep-17,Lauri Leach,Atlanticat,6:20:00 AM,2:35:00 PM,Canon 60D,2,SW,5,100,13.3,12.7,0,Ebb,TRUE,1,,
+648,1,15-Sep-17,Natalie Hunter,Friendship V,12:00:00 PM,4:00:00 PM,Canon 60D,1,NE,9,100,12.9,13,,Slack,FALSE,1,,
+649,1,14-Sep-17,Lauri Leach,Atlanticat,12:00:00 PM,5:35:00 PM,Canon 60D,2,SW,7,50,14.6,13.6,0,Flood,TRUE,1,,
+646,1,13-Sep-17,Liz Virgl,Atlanticat,12:44:00 PM,2:38:00 PM,Canon 60D,1,W,4,0,14.4,11.9,0,Flood,FALSE,1,,
+645,1,12-Sep-17,Lauri Leach,Atlanticat,12:05:00 PM,3:45:00 PM,Canon 60D,3,SW,10,40,14,12.2,0,Flood,TRUE,0,,
+644,1,10-Sep-17,Natalie Hunter,Atlanticat,12:00:00 PM,4:00:00 PM,Canon 60D,1,SW,1,45,14.5,12.1,,Flood,TRUE,1,,
+635,2,03-Sep-17,Lauri Leach,Atlanticat,1:05:00 PM,4:00:00 PM,Canon 60D,4,ESE,11,100,13.3,12,0,Ebb,FALSE,1,,
+634,1,03-Sep-17,Lauri Leach,Atlanticat,8:30:00 AM,11:50:00 AM,Canon 60D,4,SE,11,100,13.2,11.8,0,Slack,TRUE,0,,
+638,3,02-Sep-17,Natalie Hunter,Friendship V,5:00:00 PM,8:15:00 PM,Canon 60D,2,SW,14,5,13.7,12.4,,Flood,FALSE,1,,
+637,2,02-Sep-17,Natalie Hunter,Friendship V,1:00:00 PM,4:30:00 PM,Canon 60D,2,SSW,9,5,13.7,12.4,,Ebb,TRUE,0,,
+636,1,02-Sep-17,Natalie Hunter,Friendship V,8:30:00 AM,12:15:00 PM,Canon 60D,2,WNW,7,10,12.8,11.8,,Ebb,TRUE,1,,
+629,2,30-Aug-17,Lauri Leach,Friendship V,1:00:00 PM,4:25:00 PM,Canon 60D,2,NE,7,100,12.6,11.9,0,Flood,TRUE,1,,
+628,1,30-Aug-17,Lauri Leach,Friendship V,8:30:00 AM,12:10:00 PM,Canon 60D,1,NNE,5,100,12.5,11.8,0,Ebb,TRUE,1,,
+627,3,29-Aug-17,Lauri Leach,Friendship V,4:45:00 PM,7:55:00 PM,Canon 60D,2,SW,7,100,13.8,12.4,0,Slack,TRUE,1,,
+626,2,29-Aug-17,Lauri Leach,Friendship V,1:00:00 PM,4:00:00 PM,Canon 60D,1,SSW,4,100,13.6,12.3,0,Flood,TRUE,0,,
+625,1,29-Aug-17,Lauri Leach,Friendship V,8:30:00 AM,12:00:00 PM,Canon 60D,1,S,2,40,14.2,11.7,0,Ebb,TRUE,0,,
+624,3,28-Aug-17,Lauri Leach,Friendship V,4:30:00 PM,7:15:00 PM,Canon 60D,1,WSW,6,0,14.7,13,0,Ebb,TRUE,0,,
+623,2,28-Aug-17,Lauri Leach,Friendship V,1:05:00 PM,3:55:00 PM,Canon 60D,1,SW,2,2,15.7,13,0,Flood,TRUE,0,,
+622,1,28-Aug-17,Lauri Leach,Friendship V,8:30:00 AM,11:35:00 AM,Canon 60D,2,NE,7,0,12.7,12.6,0,Ebb,TRUE,0,,
+577,1,28-Aug-17,Lauri Leach,,12:15:00 PM,7:20:00 PM,Canon 40D,2,SSE,4,20,15,11.8,0,Flood,TRUE,1,,
+633,1,27-Aug-17,Liz Virgl,Friendship V,9:13:00 AM,11:20:00 AM,Canon 60D,0,NNE,3,30,13.5,11.3,0,Ebb,TRUE,0,,
+632,2,27-Aug-17,Liz Virgl,Friendship V,1:41:00 PM,2:59:00 PM,Canon 60D,0,SSE,4,5,14.6,13.9,0,Flood,TRUE,0,,
+631,3,26-Aug-17,Liz Virgl,Friendship V,5:16:00 PM,6:33:00 PM,Canon 60D,2,SW,9,50,15.1,12.8,0,Ebb,TRUE,0,,
+630,2,26-Aug-17,Liz Virgl,Friendship V,1:48:00 PM,3:50:00 PM,Canon 60D,0,WSW,9,15,14.9,12.6,0,Flood,TRUE,0,,
+621,3,25-Aug-17,Lauri Leach,Friendship V,4:30:00 PM,7:00:00 PM,Canon 60D,3,SW,12,30,15,12.9,0,Ebb,TRUE,0,,
+620,2,25-Aug-17,Lauri Leach,Friendship V,1:00:00 PM,3:45:00 PM,Canon 60D,2,SW,10,10,14.3,12.4,0,Slack,TRUE,1,,
+619,1,25-Aug-17,Lauri Leach,Friendship V,8:40:00 AM,12:25:00 PM,Canon 60D,2,W,6,35,14.3,12.3,0,Flood,TRUE,1,,
+618,3,24-Aug-17,Liz Virgl,Atlanticat,5:43:00 PM,7:30:00 PM,Canon 60D,1,SW,9,45,15.3,13.2,0,Ebb,TRUE,1,,
+617,2,24-Aug-17,Liz Virgl,Atlanticat,2:10:00 PM,3:09:00 PM,Canon 60D,1,SW,11,45,15.7,14.1,0,Slack,FALSE,1,,
+643,2,22-Aug-17,Natalie Hunter,Friendship V,1:10:00 PM,4:30:00 PM,Canon 60D,1,SSW,11,100,15.3,12.9,,Ebb,TRUE,0,,
+642,1,22-Aug-17,Natalie Hunter,Friendship V,8:35:00 AM,12:18:00 PM,Canon 60D,1,,0,5,0,0,0,,TRUE,,,
+641,3,21-Aug-17,Natalie Hunter,Atlanticat,4:50:00 PM,9:00:00 PM,Canon 60D,1,W,4,5,13.8,,,Ebb,TRUE,,,
+640,2,21-Aug-17,Natalie Hunter,Atlanticat,1:02:00 PM,4:20:00 PM,Canon 60D,1,,,10,,,,Ebb,FALSE,,,
+639,1,21-Aug-17,Natalie Hunter,Atlanticat,8:35:00 AM,12:00:00 PM,Canon 60D,1,WSW,4,10,14.6,12.1,,Flood,TRUE,1,,
+616,2,18-Aug-17,Liz Virgl,Atlanticat,1:48:00 PM,3:03:00 PM,Canon 60D,2,SE,8,100,13.5,11.7,0,Slack,TRUE,1,,
+615,1,18-Aug-17,Liz Virgl,Atlanticat,9:54:00 AM,11:11:00 AM,Canon 60D,1,ESE,7,99,13.6,11.6,0,Ebb,TRUE,1,,
+609,3,16-Aug-17,Emma Ober,Atlanticat,4:30:00 PM,8:21:00 PM,Canon 60D,3,WNW,7,30,17.2,13.1,0,Slack,TRUE,1,,
+608,2,16-Aug-17,Emma Ober,Atlanticat,1:00:00 PM,3:45:00 PM,Canon 60D,2,WNW,5,40,18,13.6,0,Ebb,TRUE,1,,
+607,1,16-Aug-17,Emma Ober,Atlanticat,8:30:00 AM,12:15:00 PM,Canon 60D,3,WNW,4,10,15.1,12.3,0,Ebb,TRUE,1,,
+613,3,14-Aug-17,Natalie Hunter,Atlanticat,4:35:00 PM,7:30:00 PM,Canon 60D,3,SSW,7,65,15.1,11.1,,Ebb,TRUE,1,,
+612,2,14-Aug-17,Natalie Hunter,Atlanticat,1:07:00 PM,3:40:00 PM,Canon 60D,2,SW,8,50,14.3,12.1,,Flood,TRUE,1,,
+611,1,14-Aug-17,Natalie Hunter,Atlanticat,8:37:00 AM,12:18:00 PM,Canon 60D,1,SW,6,30,15.1,11.8,,Ebb,FALSE,1,,
+610,2,12-Aug-17,Natalie Hunter,Atlanticat,2:00:00 PM,6:00:00 PM,Canon 60D,1,E,1,99,14.5,11.8,,Flood,TRUE,0,,
+606,1,12-Aug-17,Natalie Hunter,Atlanticat,8:30:00 AM,1:30:00 AM,Canon 60D,2,NE,6,100,12.4,11.8,,Slack,TRUE,0,,
+605,1,12-Aug-17,Emma Ober,Friendship V,4:30:00 PM,7:40:00 PM,Canon 40D,1,NNW,4,85,13.4,11.7,0,Ebb,TRUE,0,,
+604,3,11-Aug-17,Lauri Leach,Atlanticat,5:00:00 PM,8:20:00 PM,Canon 60D,1,ESE,3,85,16.2,13.9,0,Ebb,FALSE,0,,
+603,2,11-Aug-17,Lauri Leach,Atlanticat,1:15:00 PM,4:30:00 PM,Canon 60D,1,SSE,3,70,17.6,13.5,0,Ebb,TRUE,0,,
+602,1,11-Aug-17,Lauri Leach,Atlanticat,8:35:00 AM,12:35:00 PM,Canon 60D,2,SSE,4,60,15.7,13,0,Flood,TRUE,0,,
+600,2,10-Aug-17,Emma Ober,Friendship V,1:00:00 PM,4:00:00 PM,Canon 60D,2,SSW,3,20,14.5,13,0,Ebb,FALSE,1,,
+599,1,10-Aug-17,Emma Ober,Friendship V,8:30:00 AM,12:15:00 PM,Canon 60D,1,SSW,4,10,14.4,12.6,0,Flood,TRUE,1,,
+595,1,08-Aug-17,Natalie Hunter,Friendship V,4:30:00 PM,8:45:00 PM,Canon 60D,1,SW,3,50,14.7,12.7,,Ebb,TRUE,1,,
+598,3,07-Aug-17,Emma Ober,Friendship V,4:30:00 PM,7:40:00 PM,Canon 60D,2,SSW,10,40,15.7,12.4,0,Slack,TRUE,1,,
+597,2,07-Aug-17,Emma Ober,Friendship V,1:00:00 PM,4:00:00 PM,Canon 60D,3,SSW,5,30,15,13.1,0,Ebb,TRUE,1,,
+596,1,07-Aug-17,Emma Ober,Friendship V,8:30:00 AM,12:00:00 PM,Canon 60D,2,SW,7,0,14.4,12.8,0,Flood,TRUE,1,,
+614,2,06-Aug-17,Liz Virgl,Friendship V,2:07:00 PM,3:30:00 PM,Canon 60D,2,WSW,8,25,16.9,12.3,0,Ebb,TRUE,1,,
+594,2,04-Aug-17,Emma Ober,Friendship V,1:00:00 PM,4:30:00 PM,Canon 60D,2,SE,5,7,15.6,14.1,0,Slack,FALSE,1,,
+592,1,04-Aug-17,Emma Ober,Friendship V,8:30:00 AM,12:40:00 PM,Canon 60D,1,SSE,4,10,15.9,14.2,0,Ebb,TRUE,1,,
+591,3,03-Aug-17,Liz Virgl,Friendship V,4:57:00 PM,7:15:00 PM,Canon 60D,0,SSE,6,90,15.9,14.7,0,Slack,TRUE,1,,
+590,2,03-Aug-17,Liz Virgl,Friendship V,2:14:00 PM,3:17:00 PM,Canon 60D,0,S,8,70,15.9,14.5,0,Ebb,TRUE,1,,
+589,1,02-Aug-17,Natalie Hunter,Atlanticat,8:30:00 AM,12:10:00 PM,Canon 60D,1,S,7,30,14.1,12.8,,Flood,FALSE,1,,
+583,3,01-Aug-17,Lauri Leach,Atlanticat,5:00:00 PM,8:10:00 PM,Canon 60D,2,SW,11,15,15.1,12.5,0,Flood,FALSE,1,,
+582,2,01-Aug-17,Lauri Leach,Atlanticat,1:10:00 PM,4:15:00 PM,Canon 60D,2,SSW,9,15,14.7,12.7,0,Flood,TRUE,1,,
+581,1,01-Aug-17,Lauri Leach,Atlanticat,8:30:00 AM,12:10:00 PM,Canon 60D,2,WSW,6,10,15.4,11.9,0,Ebb,TRUE,1,,
+576,3,31-Jul-17,Liz Virgl,Atlanticat,5:39:00 PM,6:50:00 PM,Canon 60D,1,SW,11,10,14.9,11.4,0,Flood,TRUE,1,,
+575,2,31-Jul-17,Liz Virgl,Atlanticat,1:51:00 PM,3:09:00 PM,Canon 60D,1,SW,9,5,13.6,11.9,0,Slack,TRUE,1,,
+588,2,30-Jul-17,Natalie Hunter,Atlanticat,1:10:00 PM,5:00:00 PM,Canon 60D,1,SSW,6,10,17.6,11.4,,Flood,TRUE,0,,
+587,1,30-Jul-17,Natalie Hunter,Atlanticat,8:30:00 AM,12:45:00 PM,Canon 60D,1,NNW,7,10,13.2,10.9,,Ebb,FALSE,0,,
+580,3,29-Jul-17,Lauri Leach,Atlanticat,4:40:00 PM,9:05:00 PM,Canon 60D,2,N,6,100,13.4,11.9,0,Ebb,TRUE,0,,
+579,2,29-Jul-17,Lauri Leach,Atlanticat,1:05:00 PM,4:10:00 PM,Canon 60D,2,ESE,6,90,14.5,12,0,Flood,TRUE,0,,
+578,1,29-Jul-17,Lauri Leach,Atlanticat,8:30:00 AM,12:25:00 PM,Canon 60D,2,NNW,7,85,13.2,10.9,0,Slack,FALSE,0,,
+574,1,29-Jul-17,Liz Virgl,Friendship V,1:35:00 PM,4:18:00 PM,Canon 40D,0,E,5,60,15.4,12.3,0,Flood,TRUE,0,,
+573,2,28-Jul-17,Liz Virgl,Friendship V,5:35:00 PM,7:00:00 PM,Canon 60D,1,WSW,9,65,14.6,11.4,0,Ebb,FALSE,1,,
+586,2,27-Jul-17,Natalie Hunter,Atlanticat,1:00:00 PM,4:00:00 PM,Canon 60D,3,SSW,14,100,14.2,11.6,,Flood,FALSE,1,,
+585,1,27-Jul-17,Natalie Hunter,Atlanticat,8:30:00 AM,12:00:00 PM,Canon 60D,2,S,10,100,13.4,11.5,,Flood,TRUE,1,,
+572,3,26-Jul-17,Lauri Leach,Atlanticat,4:35:00 PM,7:50:00 PM,Canon 60D,2,SSW,5,5,14.2,10.9,0,Ebb,TRUE,1,,
+571,2,26-Jul-17,Lauri Leach,Atlanticat,1:05:00 PM,3:50:00 PM,Canon 60D,2,SE,2,5,14.8,10.9,0,Slack,TRUE,1,,
+570,1,26-Jul-17,Lauri Leach,Atlanticat,8:35:00 AM,12:05:00 PM,Canon 60D,2,NE,3,0,13.6,10.4,0,Flood,TRUE,1,,
+568,1,25-Jul-17,Liz Virgl,Atlanticat,2:03:00 PM,3:08:00 PM,Canon 60D,3,E,6,95,13.2,10.5,0,Ebb,FALSE,1,,
+562,3,24-Jul-17,Lauri Leach,Friendship V,5:10:00 PM,8:10:00 PM,Canon 60D,2,NE,13,100,12,11,0,Slack,TRUE,1,,
+561,2,24-Jul-17,Lauri Leach,Friendship V,1:35:00 PM,4:40:00 PM,Canon 60D,2,NE,9,100,12.6,11.2,0,Ebb,TRUE,1,,
+560,1,24-Jul-17,Lauri Leach,Friendship V,8:30:00 AM,1:10:00 PM,Canon 60D,2,NE,8,100,12.6,11.8,0,Flood,TRUE,0,,
+565,2,23-Jul-17,Natalie Hunter,Friendship V,1:20:00 PM,6:30:00 PM,Canon 60D,1,SSW,7,20,14.1,12.4,,Ebb,TRUE,1,,
+564,1,23-Jul-17,Natalie Hunter,Friendship V,8:30:00 AM,12:55:00 PM,Canon 60D,2,,0,10,0,0,0,,FALSE,,,
+559,3,22-Jul-17,Liz Virgl,Atlanticat,5:38:00 PM,7:10:00 PM,Canon 60D,1,SSW,6,60,14.5,12.2,0,Flood,TRUE,0,,
+558,2,22-Jul-17,Liz Virgl,Atlanticat,1:50:00 PM,3:17:00 PM,Canon 60D,1,SSW,10,50,14.4,11.8,0,Slack,FALSE,1,,
+563,2,21-Jul-17,Natalie Hunter,Atlanticat,4:50:00 PM,8:30:00 PM,Canon 60D,1,SW,11,15,15.1,11.7,0,Flood,TRUE,1,,
+557,2,20-Jul-17,Lauri Leach,Atlanticat,4:45:00 PM,8:10:00 PM,Canon 60D,2,SSW,9,100,14.9,11.3,0,Flood,TRUE,1,,
+556,1,20-Jul-17,Lauri Leach,Atlanticat,1:00:00 PM,4:05:00 PM,Canon 60D,2,SSW,5,15,14.5,11,0,Slack,TRUE,1,,
+555,3,15-Jul-17,Lauri Leach,Friendship V,4:40:00 PM,8:10:00 PM,Canon 60D,1,E,2,25,13.5,10.2,0,Ebb,TRUE,1,,
+554,2,15-Jul-17,Lauri Leach,Friendship V,1:00:00 PM,4:00:00 PM,Canon 60D,1,NE,2,95,12.1,10.4,0,Flood,TRUE,1,,
+553,1,15-Jul-17,Lauri Leach,Friendship V,8:32:00 AM,11:50:00 AM,Canon 60D,1,NNE,1,100,12.6,10.3,0,Flood,TRUE,1,,
+552,3,14-Jul-17,Emma Ober,Friendship V,4:30:00 PM,8:30:00 PM,Canon 60D,0,SSE,2,80,13.4,10.1,0,Ebb,TRUE,1,,
+551,2,14-Jul-17,Emma Ober,Friendship V,1:00:00 PM,3:30:00 PM,Canon 60D,0,NNE,1,80,14,10.4,0,Flood,TRUE,1,,
+550,1,14-Jul-17,Emma Ober,Friendship V,8:30:00 AM,12:40:00 PM,Canon 60D,0,ESE,2,65,12.1,9.8,0,Flood,TRUE,1,,
+549,1,13-Jul-17,Emma Ober,Friendship V,8:30:00 AM,12:30:00 PM,Canon 60D,3,NNW,17,100,12.8,10.2,0,Flood,FALSE,1,,
+567,1,12-Jul-17,Liz Virgl,Atlanticat,1:53:00 PM,3:24:00 PM,Canon 60D,1,ESE,4,15,16.7,11.7,0,Flood,TRUE,1,,
+566,2,12-Jul-17,Liz Virgl,Atlanticat,5:45:00 PM,7:03:00 PM,Canon 60D,1,E,6,95,14.1,11.7,0,Ebb,FALSE,1,,
+548,3,10-Jul-17,Liz Virgl,Atlanticat,5:41:00 PM,7:20:00 PM,Canon 60D,1,SSW,11,60,14.2,12.1,0,Ebb,FALSE,1,,
+547,2,10-Jul-17,Liz Virgl,Atlanticat,2:02:00 PM,3:00:00 PM,Canon 60D,2,SSW,10,90,14.2,11.8,0,Ebb,TRUE,1,,
+546,1,10-Jul-17,Liz Virgl,Atlanticat,10:33:00 AM,11:45:00 AM,Canon 60D,2,SSW,9,55,13.7,11.8,0,Flood,FALSE,1,,
+538,2,09-Jul-17,Emma Ober,Atlanticat,1:00:00 AM,4:30:00 AM,Canon 60D,2,WSW,8,6,14.9,12,0,Ebb,FALSE,1,,
+537,1,09-Jul-17,Emma Ober,Atlanticat,8:30:00 AM,12:00:00 PM,Canon 60D,1,WSW,9,5,13.7,11.6,0,,FALSE,1,,
+539,1,07-Jul-17,Emma Ober,Atlanticat,1:00:00 AM,3:40:00 AM,Canon 60D,2,S,9,100,14,13.1,0,Ebb,FALSE,1,,
+535,1,06-Jul-17,Liz Virgl,Friendship V,9:56:00 AM,11:00:00 AM,Canon 60D,3,SSW,12,10,13.2,10.9,0,Slack,FALSE,0,,
+534,2,06-Jul-17,Liz Virgl,Friendship V,1:59:00 PM,2:30:00 PM,Canon 60D,2,SSW,9,20,13.4,10.4,0,Ebb,FALSE,0,,
+533,3,06-Jul-17,Liz Virgl,Friendship V,5:00:00 PM,6:47:00 PM,Canon 60D,1,SSW,10,100,14.3,13,0,Slack,FALSE,1,,
+545,3,05-Jul-17,Liz Virgl,Atlanticat,5:34:00 PM,7:00:00 AM,Canon 60D,1,SSW,8,50,14.6,11.7,0,Flood,FALSE,0,,
+544,2,05-Jul-17,Liz Virgl,Atlanticat,2:03:00 PM,3:00:00 PM,Canon 60D,1,SW,8,5,14,11.3,0,Ebb,FALSE,0,,
+543,1,05-Jul-17,Liz Virgl,Atlanticat,9:00:00 AM,11:15:00 AM,Canon 60D,1,WSW,3,0,14.3,10.8,0,Ebb,TRUE,1,,
+542,2,04-Jul-17,Liz Virgl,Atlanticat,2:05:00 PM,3:30:00 PM,Canon 60D,3,SW,9,30,13.6,10.6,0,Slack,TRUE,1,,
+532,1,03-Jul-17,Liz Virgl,Atlanticat,10:16:00 AM,12:02:00 PM,Canon 60D,3,SSW,12,50,13.3,11,0,Flood,FALSE,1,,
+531,2,29-Jun-17,Natalie Hunter,Atlanticat,1:00:00 PM,5:00:00 PM,Canon 40D,1,S,5,70,12.5,10,7.5,Flood,TRUE,0,,
+530,1,29-Jun-17,Natalie Hunter,Atlanticat,8:30:00 AM,12:15:00 PM,Canon 40D,1,SSW,5,50,12.2,9.7,7.5,Slack,FALSE,1,,
+527,2,27-Jun-17,Lauri Leach,Friendship V,1:05:00 PM,7:10:00 PM,Canon 40D,2,S,7,60,11.8,10.4,0,Ebb,FALSE,1,,
+526,1,27-Jun-17,Lauri Leach,Friendship V,8:30:00 AM,12:10:00 PM,Canon 40D,2,S,7,20,11.1,9.6,0,Flood,FALSE,1,,
+529,2,26-Jun-17,Natalie Hunter,Friendship V,1:00:00 PM,4:30:00 PM,Canon 40D,1,SW,11,40,9.3,7.1,6.8,Slack,FALSE,1,,
+528,1,26-Jun-17,Natalie Hunter,Friendship V,8:30:00 AM,12:10:00 PM,Canon 40D,1,SW,11,60,9.3,7.1,6.8,Flood,FALSE,1,,
+525,2,25-Jun-17,Lauri Leach,Friendship V,1:05:00 PM,4:10:00 PM,Canon 40D,3,SSW,8,5,12.4,10.8,0,Ebb,FALSE,1,,
+524,1,25-Jun-17,Lauri Leach,Friendship V,8:35:00 AM,12:00:00 PM,Canon 40D,2,SW,8,2,12.1,10.2,0,Flood,FALSE,1,,
+523,2,23-Jun-17,Lauri Leach,Friendship V,1:05:00 PM,4:05:00 PM,Canon 40D,2,SE,5,100,11.1,9.4,0,Ebb,FALSE,1,,
+522,1,23-Jun-17,Lauri Leach,Friendship V,8:30:00 AM,12:05:00 PM,Canon 40D,2,SE,5,100,11.2,9.2,0,Slack,FALSE,1,,
+521,2,22-Jun-17,Lauri Leach,Friendship V,1:05:00 PM,4:40:00 PM,Canon 40D,4,SSW,11,20,12.2,10,0,Ebb,FALSE,1,,
+520,1,22-Jun-17,Lauri Leach,Friendship V,8:30:00 AM,12:10:00 PM,Canon 40D,3,SW,7,40,11.9,9.2,0,Ebb,FALSE,1,,
+519,1,16-Jun-17,Liz Virgl,Friendship V,2:22:00 PM,4:30:00 PM,Canon 40D,1,SE,7,100,9.7,8.7,0,Flood,FALSE,1,,
+518,1,15-Jun-17,Lauri Leach,Friendship V,12:00:00 PM,5:05:00 PM,Canon 40D,1,S,6,50,11.1,9.7,0,Flood,TRUE,0,,
+584,1,14-Jun-17,Natalie Hunter,Friendship V,12:00:00 PM,4:00:00 PM,Canon 60D,1,W,5,40,12.9,9.5,,Flood,FALSE,0,,
+541,1,13-Jun-17,Emma Ober,Friendship V,12:00:00 PM,4:00:00 AM,Canon 40D,2,SW,12,35,13.8,9.7,0,Flood,FALSE,1,,
+516,1,12-Jun-17,Lauri Leach,Friendship V,12:05:00 PM,4:00:00 PM,Canon 40D,2,SW,5,5,12.4,9.5,0,Ebb,FALSE,1,,
+540,1,07-Jun-17,Emma Ober,Friendship V,1:30:00 AM,,Canon 40D,,S,8,0,14,13,0,Ebb,FALSE,1,,
+512,1,04-Jun-17,Liz Virgl,Friendship V,12:30:00 PM,4:00:00 PM,Canon 40D,1,SSW,6,75,10.2,9.1,0,Slack,FALSE,0,,
+515,2,03-Jun-17,Lauri Leach,Friendship V,12:00:00 PM,4:15:00 PM,Canon 40D,3,SW,10,50,10.1,8.3,0,Ebb,FALSE,1,,
+514,1,03-Jun-17,Lauri Leach,Friendship V,6:25:00 AM,10:45:00 AM,Canon 40D,2,W,8,95,9.4,7.4,0,Flood,FALSE,1,,
+508,1,02-Jun-17,Liz Virgl,Friendship V,12:00:00 PM,4:00:00 PM,Canon 40D,2,SW,5,30,11.1,8.4,0,Flood,FALSE,1,,
+510,1,30-May-17,Natalie Hunter,Friendship V,12:10:00 PM,4:45:00 PM,Canon 40D,1,SSE,5,55,8.7,7.4,6.7,Ebb,FALSE,1,,
+511,1,29-May-17,Liz Virgl,Friendship V,12:30:00 PM,3:00:00 PM,Canon 40D,2,NE,12,100,6.7,6.6,0,Ebb,FALSE,1,,
+513,1,28-May-17,Natalie Hunter,Friendship V,12:05:00 PM,4:00:00 PM,Canon 40D,1,SE,7,70,7.9,7.2,6.4,Ebb,FALSE,1,,
+507,1,18-Oct-16,Haley Saxe,Atlanticat,12:00:00 PM,3:25:00 PM,Canon 40D,3,E,14,100,12.5,13.1,12.9,Slack,TRUE,1,,
+506,1,15-Oct-16,Krisy Kelley,Atlanticat,12:00:00 PM,3:30:00 PM,Canon 40D,2,NNE,10,15,7.9,12.6,12.5,Ebb,TRUE,1,,
+505,1,13-Oct-16,Krisy Kelley,Atlanticat,12:00:00 PM,4:30:00 PM,Canon 40D,3,S,9,100,13.6,12.6,12.3,Ebb,TRUE,1,,
+504,1,12-Oct-16,Krisy Kelley,Atlanticat,12:00:00 PM,3:30:00 PM,Canon 40D,1,SSW,6,5,13.3,12.4,12.3,Ebb,TRUE,1,,
+503,1,11-Oct-16,Krisy Kelley,Atlanticat,12:00:00 PM,3:30:00 PM,Canon 40D,1,NNW,14,0,10.2,12.3,12.3,Slack,TRUE,1,,
+502,1,08-Oct-16,Krisy Kelley,Friendship V,12:00:00 PM,4:00:00 PM,Canon 40D,0,S,8,90,13.4,12.8,12.7,Flood,TRUE,1,,
+501,1,07-Oct-16,Krisy Kelley,Atlanticat,12:00:00 PM,3:30:00 PM,Canon 40D,1,NNE,6,0,13.6,12.7,12.6,Flood,TRUE,1,,
+500,1,06-Oct-16,Krisy Kelley,Atlanticat,12:00:00 PM,4:00:00 PM,Canon 40D,2,SW,4,0,12.8,12.4,12.3,Flood,TRUE,1,,
+499,1,05-Oct-16,Krisy Kelley,Atlanticat,12:00:00 PM,4:00:00 PM,Canon 40D,1,NNE,3,5,11,12.5,12.4,Flood,TRUE,1,,
+498,1,04-Oct-16,Krisy Kelley,Atlanticat,12:00:00 PM,4:00:00 PM,Canon 40D,3,NE,15,0,10.6,12.3,12.3,Slack,TRUE,1,,
+497,1,03-Oct-16,Krisy Kelley,Atlanticat,12:00:00 PM,3:30:00 PM,Canon 40D,2,NW,8,25,12.8,12.5,12.5,Slack,TRUE,1,,
+496,1,01-Oct-16,Haley Saxe,Atlanticat,12:00:00 PM,3:35:00 PM,Canon 40D,3,NE,13,100,12.7,13,12.9,Ebb,TRUE,3,,
+495,1,30-Sep-16,Haley Saxe,Atlanticat,12:00:00 PM,3:15:00 PM,Canon 40D,3,NE,13,80,11.3,12.5,12.5,Ebb,TRUE,2,,
+494,1,25-Sep-16,Krisy Kelley,Atlanticat,11:00:00 AM,3:30:00 PM,Canon 40D,4,NW,16,90,9.8,12.6,12.6,Slack,TRUE,1,,
+493,1,24-Sep-16,Haley Saxe,Atlanticat,12:00:00 PM,4:00:00 PM,Canon 40D,2,N,18,40,11.6,13.1,13.1,Flood,TRUE,2,,
+491,1,23-Sep-16,Krisy Kelley,Atlanticat,12:00:00 PM,3:30:00 PM,Canon 40D,2,SW,10,100,14.9,13.7,13,Flood,TRUE,1,,
+490,1,22-Sep-16,Krisy Kelley,Atlanticat,12:00:00 PM,4:00:00 PM,Canon 40D,1,W,3,5,15,13.6,12.8,Flood,TRUE,1,,
+489,1,21-Sep-16,Krisy Kelley,Atlanticat,12:00:00 PM,4:00:00 PM,Canon 40D,1,NW,4,20,14.7,13.5,13.1,Flood,TRUE,1,,
+492,1,17-Sep-16,Haley Saxe,Atlanticat,12:00:00 PM,3:30:00 PM,Canon 40D,2,SSW,11,15,14.6,13.8,13.8,Ebb,TRUE,2,,
+488,1,16-Sep-16,Krisy Kelley,Atlanticat,12:00:00 PM,4:30:00 PM,Canon 40D,1,SSW,6,50,14.3,13.9,13.1,Ebb,TRUE,1,,
+486,1,15-Sep-16,Haley Saxe,Atlanticat,12:00:00 PM,3:30:00 PM,Canon 40D,2,NNE,12,0,12.6,13.5,13.5,Ebb,TRUE,1,,
+487,1,13-Sep-16,Krisy Kelley,Atlanticat,12:00:00 PM,4:30:00 PM,Canon 40D,3,SSW,11,0,14.9,13.6,13.3,Slack,FALSE,1,,
+485,1,10-Sep-16,Haley Saxe,Atlanticat,12:00:00 PM,3:13:00 PM,Canon 40D,1,NNE,5,15,16.5,14.7,12.9,Flood,TRUE,1,,
+484,2,04-Sep-16,Francesca Gundrum,Atlanticat,1:05:00 PM,3:50:00 PM,Canon 40D,1,NNE,7,5,14.2,12.8,12.8,Ebb,TRUE,0,,
+483,1,04-Sep-16,Lizzy Beato,Atlanticat,8:20:00 AM,11:11:00 AM,Canon 40D,1,NE,1,0,14,14.1,12.9,Slack,TRUE,0,,
+482,3,03-Sep-16,Francesca Gundrum,Atlanticat,4:45:00 PM,7:50:00 PM,Canon 40D,1,E,2,50,16.1,14.3,12.4,Ebb,TRUE,0,,
+481,2,03-Sep-16,Francesca Gundrum,Atlanticat,1:08:00 PM,3:45:00 PM,Canon 40D,0,NNW,5,20,14.3,13.5,13.1,Slack,TRUE,1,,
+480,1,03-Sep-16,Francesca Gundrum,Atlanticat,8:35:00 AM,11:35:00 AM,Canon 40D,0,NNW,5,10,14.3,13.5,13.1,Flood,TRUE,1,,
+461,2,02-Sep-16,Haley Saxe,Friendship V,1:00:00 PM,4:00:00 PM,Canon 40D,1,NNE,8,85,15.1,14.1,13.8,Ebb,TRUE,0,,
+460,1,02-Sep-16,Haley Saxe,Friendship V,8:30:00 AM,11:00:00 AM,Canon 40D,2,NNE,12,25,14.6,14,13.7,Flood,TRUE,0,,
+479,3,01-Sep-16,Francesca Gundrum,Friendship V,4:35:00 PM,7:45:00 PM,Canon 40D,2,SSW,8,85,15.4,13.9,13.4,Ebb,TRUE,1,,
+459,2,01-Sep-16,Haley Saxe,Friendship V,1:00:00 PM,4:00:00 PM,Canon 40D,2,NW,4,100,15.1,13.1,12.2,Ebb,TRUE,1,,
+458,1,01-Sep-16,Haley Saxe,Friendship V,8:30:00 AM,11:00:00 AM,Canon 40D,2,SW,2,100,14.3,13.4,12.7,Flood,TRUE,1,,
+478,2,31-Aug-16,Francesca Gundrum,Atlanticat,4:35:00 PM,8:35:00 PM,Canon 40D,2,SW,7,90,15.9,14.2,12.6,Slack,TRUE,1,,
+477,1,31-Aug-16,Francesca Gundrum,Atlanticat,1:05:00 PM,4:02:00 PM,Canon 40D,2,NNW,2,70,16.2,13.9,12.2,Flood,TRUE,1,,
+454,3,30-Aug-16,Haley Saxe,Friendship V,4:45:00 PM,7:15:00 PM,Canon 40D,2,SW,12,75,15.9,14.1,13.3,Flood,TRUE,1,,
+453,2,30-Aug-16,Haley Saxe,Friendship V,1:00:00 PM,4:00:00 PM,Canon 40D,3,SW,7,50,15.5,13.8,13.2,Ebb,TRUE,1,,
+452,1,30-Aug-16,Haley Saxe,Friendship V,8:30:00 AM,12:00:00 PM,Canon 40D,2,NW,10,80,15.5,13.5,13.1,Slack,TRUE,1,,
+451,2,28-Aug-16,Haley Saxe,Friendship V,1:00:00 PM,4:00:00 AM,Canon 40D,1,E,5,10,15.2,14.1,12,Slack,TRUE,0,,
+450,1,28-Aug-16,Haley Saxe,Friendship V,8:30:00 AM,11:30:00 AM,Canon 40D,1,NE,5,20,14.5,14.1,12.7,Ebb,TRUE,0,,
+476,3,27-Aug-16,Francesca Gundrum,Atlanticat,4:40:00 PM,8:30:00 PM,Canon 40D,1,W,5,10,17.9,13,12.4,Flood,TRUE,0,,
+475,2,27-Aug-16,Francesca Gundrum,Atlanticat,12:35:00 PM,4:00:00 PM,Canon 40D,1,NW,6,5,16,13.8,13.1,Ebb,TRUE,0,,
+474,1,27-Aug-16,Francesca Gundrum,Atlanticat,8:35:00 AM,11:45:00 AM,Canon 40D,1,NW,4,5,16.8,14.3,13.2,Slack,TRUE,0,,
+449,2,25-Aug-16,Haley Saxe,Atlanticat,1:00:00 PM,4:00:00 PM,Canon 40D,4,SSW,14,50,16.1,13.4,13.1,Flood,TRUE,1,,
+448,1,25-Aug-16,Haley Saxe,Atlanticat,8:30:00 AM,11:45:00 AM,Canon 40D,3,SSW,10,25,15,13.1,12.7,Ebb,TRUE,0,,
+471,3,24-Aug-16,Francesca Gundrum,Friendship V,4:41:00 PM,7:25:00 PM,Canon 40D,2,,8,40,15.2,13.5,12.8,Slack,TRUE,8,,
+470,2,24-Aug-16,Francesca Gundrum,Friendship V,12:34:00 PM,3:45:00 PM,Canon 40D,3,SW,6,5,15.5,13.1,12.3,Flood,TRUE,6,,
+469,1,24-Aug-16,Francesca Gundrum,Friendship V,8:35:00 AM,11:45:00 AM,Canon 40D,2,W,7,0,14.6,13.3,12.3,Ebb,TRUE,0,,
+441,3,23-Aug-16,Haley Saxe,Atlanticat,4:45:00 PM,7:30:00 PM,Canon 40D,3,SW,14,0,15.5,13.9,13.6,Ebb,TRUE,1,,
+440,2,23-Aug-16,Haley Saxe,Atlanticat,1:00:00 PM,4:00:00 PM,Canon 40D,3,SW,8,0,14.6,13.1,12.9,Flood,TRUE,0,,
+439,1,23-Aug-16,Haley Saxe,Atlanticat,8:30:00 AM,11:30:00 AM,Canon 40D,2,W,9,0,13.6,12.9,12.9,Flood,TRUE,48,,
+468,1,22-Aug-16,Francesca Gundrum,Atlanticat,4:35:00 PM,7:45:00 PM,Canon 40D,5,E,5,25,14.3,12.7,12.4,Flood,TRUE,0,,
+467,3,20-Aug-16,Francesca Gundrum,Atlanticat,4:31:00 PM,8:00:00 PM,Canon 40D,2,SW,11,15,15.7,13.3,12,Ebb,TRUE,1,,
+466,3,20-Aug-16,Francesca Gundrum,Atlanticat,1:11:00 PM,3:30:00 PM,Canon 40D,2,W,7,40,14.6,12.4,12,Slack,TRUE,1,,
+465,1,20-Aug-16,Francesca Gundrum,Atlanticat,8:33:00 AM,11:20:00 AM,Canon 40D,1,NW,4,15,14,12.8,12.8,Flood,TRUE,0,,
+438,3,19-Aug-16,Haley Saxe,Atlanticat,4:45:00 PM,7:15:00 PM,Canon 40D,2,S,7,30,16.6,15.2,12.9,Slack,TRUE,0,,
+437,2,19-Aug-16,Haley Saxe,Atlanticat,1:00:00 PM,4:00:00 PM,Canon 40D,2,S,4,10,15.9,13.5,13.4,Ebb,TRUE,0,,
+436,1,19-Aug-16,Haley Saxe,Atlanticat,8:30:00 AM,12:15:00 PM,Canon 40D,2,NW,5,0,16.1,13.9,12.2,Flood,TRUE,1,,
+457,3,18-Aug-16,Krisy Kelley,Atlanticat,4:30:00 PM,8:00:00 PM,Canon 40D,3,SW,11,10,16,14.4,12.6,Flood,TRUE,1,,
+456,2,18-Aug-16,Krisy Kelley,Atlanticat,1:00:00 PM,4:00:00 PM,Canon 40D,4,W,6,50,16.1,13.8,13.2,Ebb,TRUE,1,,
+455,1,18-Aug-16,Krisy Kelley,Atlanticat,8:30:00 AM,11:30:00 AM,Canon 40D,2,SW,6,90,14.8,13.1,13,Flood,TRUE,1,,
+434,2,16-Aug-16,Krisy Kelley,Atlanticat,1:00:00 PM,4:00:00 PM,Canon 40D,1,SSE,2,90,17.3,13.7,12.7,Ebb,TRUE,0,,
+433,1,16-Aug-16,Krisy Kelley,Atlanticat,8:30:00 AM,11:30:00 AM,Canon 40D,1,W,5,25,14.7,12.9,12.3,Slack,TRUE,0,,
+429,2,14-Aug-16,Krisy Kelley,Atlanticat,2:05:00 PM,2:10:00 PM,Canon 40D,3,SW,9,50,16.2,13.9,13.5,Slack,TRUE,1,,
+432,3,13-Aug-16,Teagan White,Friendship V,4:30:00 PM,7:30:00 PM,Canon 40D,2,NE,9,100,14.2,13.6,12.2,Flood,TRUE,1,,
+431,2,13-Aug-16,Teagan White,Friendship V,1:30:00 PM,4:00:00 PM,Canon 40D,2,NE,11,100,14.9,13.7,12.1,Slack,TRUE,1,,
+430,1,13-Aug-16,Teagan White,Friendship V,8:30:00 AM,12:00:00 PM,Canon 40D,2,NNW,9,100,14.7,13.7,13.4,Ebb,TRUE,1,,
+428,3,12-Aug-16,Krisy Kelley,Atlanticat,2:30:00 PM,7:30:00 PM,Canon 40D,2,NNE,7,75,16.4,14.8,13.6,Flood,TRUE,1,,
+427,2,12-Aug-16,Krisy Kelley,Atlanticat,1:00:00 PM,4:00:00 PM,Canon 40D,2,SSW,10,100,15.9,14.2,13.2,Flood,TRUE,1,,
+426,1,12-Aug-16,Krisy Kelley,Atlanticat,8:30:00 AM,11:30:00 AM,Canon 40D,1,S,8,100,15.1,14,12.6,Ebb,TRUE,1,,
+425,3,11-Aug-16,Krisy Kelley,Atlanticat,4:30:00 PM,8:00:00 PM,Canon 40D,2,SW,7,100,15.5,14.7,13.5,Ebb,TRUE,1,,
+464,3,10-Aug-16,Francesca Gundrum,Atlanticat,4:40:00 PM,8:20:00 PM,Canon 40D,2,SW,11,100,15.7,13.8,12,Slack,TRUE,1,,
+463,2,10-Aug-16,Francesca Gundrum,Atlanticat,1:04:00 PM,3:45:00 PM,Canon 40D,2,W,6,100,15.2,12.2,12,Ebb,TRUE,1,,
+462,1,10-Aug-16,Francesca Gundrum,Atlanticat,8:37:00 AM,12:00:00 PM,Canon 40D,2,NW,8,40,15.2,13.2,12.7,Flood,TRUE,1,,
+447,3,09-Aug-16,Francesca Gundrum,Atlanticat,4:50:00 PM,7:45:00 PM,Canon 40D,2,,11,90,15.7,13.8,13,Slack,TRUE,1,,
+446,2,09-Aug-16,Francesca Gundrum,Atlanticat,1:02:00 PM,3:45:00 PM,Canon 40D,2,W,6,85,15.2,12.2,12,Ebb,TRUE,1,,
+445,1,09-Aug-16,Francesca Gundrum,Atlanticat,8:37:00 AM,12:30:00 PM,Canon 40D,1,NW,4,5,14,12.8,12.8,Flood,TRUE,0,,
+424,3,08-Aug-16,Krisy Kelley,Atlanticat,4:30:00 PM,8:00:00 PM,Canon 40D,4,SW,20,25,16.6,13.6,12.7,Ebb,TRUE,1,,
+423,2,08-Aug-16,Krisy Kelley,Atlanticat,1:00:00 PM,4:00:00 PM,Canon 40D,4,SW,9,25,15.3,13.6,12.6,Flood,TRUE,1,,
+422,1,08-Aug-16,Krisy Kelley,Atlanticat,8:30:00 AM,12:00:00 PM,Canon 40D,3,NW,6,5,15.3,13.2,11.5,Slack,TRUE,0,,
+420,2,07-Aug-16,Haley Saxe,Atlanticat,1:15:00 PM,4:05:00 PM,Canon 40D,2,W,8,25,16.5,14.2,12.4,Flood,TRUE,1,,
+419,1,07-Aug-16,Haley Saxe,Atlanticat,8:30:00 AM,12:20:00 PM,Canon 40D,2,NNW,7,0,6.4,17,14.2,Flood,TRUE,1,,
+418,3,05-Aug-16,Krisy Kelley,Atlanticat,4:30:00 PM,7:00:00 PM,Canon 40D,4,SSW,9,25,15.6,13.4,12.1,Ebb,TRUE,1,,
+417,2,05-Aug-16,Krisy Kelley,Atlanticat,1:00:00 PM,4:00:00 PM,Canon 40D,3,SSW,8,50,14.6,12.5,11.8,Slack,TRUE,1,,
+416,1,05-Aug-16,Krisy Kelley,Atlanticat,8:30:00 AM,12:00:00 PM,Canon 40D,2,SSW,9,50,14.9,12.7,12,Flood,TRUE,1,,
+415,3,04-Aug-16,Krisy Kelley,Atlanticat,4:30:00 PM,7:30:00 PM,Canon 40D,3,SSW,9,10,15.2,12.4,12.3,Slack,TRUE,1,,
+414,2,04-Aug-16,Krisy Kelley,Atlanticat,1:00:00 PM,4:00:00 PM,Canon 40D,3,SSW,6,20,14.8,13,11.5,Ebb,TRUE,1,,
+413,1,04-Aug-16,Krisy Kelley,Atlanticat,8:30:00 AM,11:50:00 AM,Canon 40D,2,S,7,10,14.7,12.4,11.2,Flood,TRUE,1,,
+444,3,03-Aug-16,Francesca Gundrum,Atlanticat,4:43:00 PM,7:15:00 PM,Canon 40D,2,SSE,3,10,16.4,13.3,12,Ebb,TRUE,1,,
+443,2,03-Aug-16,Francesca Gundrum,Atlanticat,1:10:00 PM,4:00:00 PM,Canon 40D,2,SE,1,0,16.8,13,12.4,Slack,TRUE,1,,
+435,1,03-Aug-16,Francesca Gundrum,Atlanticat,8:33:00 AM,11:45:00 AM,Canon 40D,1,SSE,3,5,13.9,12.4,12.1,Flood,TRUE,0,,
+421,4,02-Aug-16,Haley Saxe,Mirus,1:15:00 PM,1:50:00 PM,Canon 30D,,NE,9,,13,12.2,11.9,Slack,TRUE,0,,
+409,3,02-Aug-16,Krisy Kelley,Atlanticat,4:30:00 PM,7:30:00 PM,Canon 40D,0,NE,4,10,14,12.7,11.1,Slack,TRUE,0,,
+408,2,02-Aug-16,Krisy Kelley,Atlanticat,1:00:00 PM,4:00:00 PM,Canon 40D,1,E,8,20,13.6,12.4,11.9,Ebb,TRUE,0,,
+407,1,02-Aug-16,Krisy Kelley,Atlanticat,8:30:00 AM,12:10:00 PM,Canon 40D,1,NNE,8,75,14.2,12.1,11.8,Slack,TRUE,0,,
+412,3,01-Aug-16,Francesca Gundrum,Atlanticat,4:45:00 PM,7:45:00 PM,Canon 40D,0,W,3,95,13.1,12.1,11.1,Slack,TRUE,0,,
+411,2,01-Aug-16,Francesca Gundrum,Atlanticat,1:10:00 PM,4:10:00 PM,Canon 40D,0,E,5,85,14.6,11.9,11.8,Ebb,TRUE,5,,
+410,1,01-Aug-16,Francesca Gundrum,Atlanticat,8:36:00 AM,12:30:00 PM,Canon 40D,1,N,4,95,14.3,12,11.4,Flood,TRUE,0,,
+406,2,31-Jul-16,Krisy Kelley,Friendship V,1:00:00 PM,4:30:00 PM,Canon 40D,0,NNE,4,90,15.9,12.9,11.5,Slack,TRUE,1,,
+405,1,31-Jul-16,Krisy Kelley,Friendship V,8:30:00 AM,12:00:00 PM,Canon 40D,0,NE,6,50,14.4,12.2,11.6,Ebb,TRUE,1,,
+404,1,31-Jul-16,Francesca Gundrum,Borealis,12:30:00 PM,3:40:00 PM,Canon 40D,0,NE,6,85,14.6,12.4,12.2,Slack,TRUE,0,,
+403,3,30-Jul-16,Francesca Gundrum,Atlanticat,4:32:00 PM,8:30:00 PM,Canon 40D,1,SSW,4,70,18.1,12.9,11.4,Ebb,TRUE,0,,
+402,2,30-Jul-16,Francesca Gundrum,Atlanticat,1:05:00 PM,4:00:00 PM,Canon 40D,0,NW,5,80,14.9,13.1,11.9,Slack,TRUE,0,,
+401,1,30-Jul-16,Francesca Gundrum,Atlanticat,8:32:00 AM,12:30:00 PM,Canon 40D,0,W,4,5,13.1,12.2,11.5,Ebb,TRUE,0,,
+397,1,29-Jul-16,Krisy Kelley,Friendship V,8:30:00 AM,12:00:00 PM,Canon 40D,1,E,4,100,14.5,13.1,12.1,Slack,FALSE,0,,
+396,3,28-Jul-16,Krisy Kelley,Friendship V,4:30:00 PM,8:00:00 PM,Canon 40D,1,SSE,5,100,17.1,15,11.5,Slack,TRUE,0,,
+395,2,28-Jul-16,Krisy Kelley,Friendship V,1:00:00 PM,3:50:00 PM,Canon 40D,1,S,5,50,16.1,14.4,10.8,Flood,TRUE,0,,
+394,1,28-Jul-16,Krisy Kelley,Atlanticat,8:30:00 AM,12:00:00 PM,Canon 40D,1,S,6,50,15,13.8,12.1,Ebb,FALSE,0,,
+388,2,26-Jul-16,Haley Saxe,Atlanticat,4:45:00 PM,7:30:00 PM,Canon 40D,1,SW,9,25,15.5,14.3,11.9,Flood,TRUE,1,,
+387,1,26-Jul-16,Haley Saxe,Atlanticat,1:05:00 PM,4:00:00 PM,Canon 40D,1,SW,5,100,17.5,13.3,11.9,Flood,TRUE,1,,
+386,2,24-Jul-16,Krisy Kelley,Friendship V,1:00:00 PM,3:45:00 PM,Canon 40D,1,N,2,10,18,13.2,12.5,Flood,TRUE,1,,
+385,1,24-Jul-16,Krisy Kelley,Friendship V,8:30:00 AM,12:05:00 PM,Canon 40D,2,NW,7,5,15.7,12.8,10.9,Flood,TRUE,1,,
+384,1,23-Jul-16,Haley Saxe,Friendship V,1:00:00 PM,3:45:00 PM,Canon 40D,1,SW,8,25,15.1,13.5,12.6,Flood,TRUE,1,,
+383,2,23-Jul-16,Haley Saxe,Friendship V,4:30:00 PM,7:15:00 PM,Canon 40D,1,SW,9,5,16,13.9,12.5,Slack,TRUE,1,,
+393,3,21-Jul-16,Teagan White,Friendship V,4:30:00 PM,7:30:00 PM,Canon 40D,3,SW,6,100,15,12.5,11.2,Ebb,TRUE,0,,
+392,2,21-Jul-16,Teagan White,Friendship V,1:00:00 PM,4:00:00 PM,Canon 40D,2,SW,10,60,14.1,12.4,11.9,Ebb,TRUE,0,,
+391,1,21-Jul-16,Teagan White,Friendship V,8:30:00 AM,12:30:00 PM,Canon 40D,2,NW,0,40,14.7,12.8,12.2,Flood,TRUE,1,,
+389,1,21-Jul-16,Teagan White,Friendship V,8:30:00 AM,12:30:00 PM,Canon 40D,2,NW,0,40,14.7,12.8,12.2,Flood,TRUE,1,,
+379,3,20-Jul-16,Haley Saxe,Friendship V,4:40:00 PM,7:45:00 PM,Canon 40D,1,SW,15,0,15.2,12.2,10.4,Slack,TRUE,1,,
+378,2,20-Jul-16,Haley Saxe,Friendship V,1:00:00 PM,4:10:00 PM,Canon 40D,2,SSW,14,50,14.3,12.3,11.3,Ebb,TRUE,0,,
+377,1,20-Jul-16,Haley Saxe,Friendship V,8:30:00 AM,12:10:00 PM,Canon 40D,2,W,11,5,14.3,12,10.8,Flood,TRUE,1,,
+400,3,19-Jul-16,Francesca Gundrum,Friendship V,4:30:00 AM,8:15:00 AM,Canon 40D,1,W,6,20,16.6,13.2,10.4,Slack,TRUE,1,,
+399,2,19-Jul-16,Francesca Gundrum,Friendship V,1:02:00 AM,4:30:00 AM,Canon 40D,2,NNE,5,20,15.5,13.3,11,Ebb,TRUE,1,,
+398,1,19-Jul-16,Francesca Gundrum,Friendship V,8:35:00 AM,12:40:00 PM,Canon 40D,2,SW,4,25,14,13,12.7,Flood,TRUE,1,,
+376,2,18-Jul-16,Haley Saxe,Friendship V,4:30:00 PM,7:20:00 PM,Canon 40D,2,SSW,8,70,15.3,12.4,10.3,Flood,TRUE,1,,
+375,1,18-Jul-16,Haley Saxe,Friendship V,1:00:00 PM,3:40:00 PM,Canon 40D,2,S,8,75,14.1,12.4,10.8,Ebb,TRUE,1,,
+374,3,17-Jul-16,Francesca Gundrum,Friendship V,4:30:00 PM,8:30:00 PM,Canon 40D,2,NE,6,70,15.3,13.1,10.8,Slack,TRUE,1,,
+373,2,17-Jul-16,Francesca Gundrum,Friendship V,1:00:00 PM,4:00:00 PM,Canon 40D,2,E,10,70,15.5,12.7,11.2,Ebb,TRUE,1,,
+372,1,17-Jul-16,Francesca Gundrum,Friendship V,8:30:00 AM,12:30:00 PM,Canon 40D,1,N,1,100,14.9,13.5,11.4,Flood,TRUE,1,,
+371,3,16-Jul-16,Teagan White,Friendship V,4:30:00 PM,7:30:00 PM,Canon 40D,2,SW,4,50,16,13.4,11,Flood,TRUE,1,,
+370,2,16-Jul-16,Teagan White,Friendship V,1:00:00 PM,3:30:00 PM,Canon 40D,2,SW,3.5,70,15.2,13.2,12.2,Ebb,TRUE,1,,
+369,1,16-Jul-16,Teagan White,Friendship V,8:30:00 AM,12:30:00 PM,Canon 40D,1,S,2.1,100,14.3,13.2,12.3,Flood,FALSE,1,,
+366,3,13-Jul-16,Francesca Gundrum,Friendship V,4:35:00 PM,7:50:00 PM,Canon 40D,2,SSW,9,10,14.1,12.3,10.7,Flood,TRUE,0,,
+365,2,13-Jul-16,Francesca Gundrum,Friendship V,1:10:00 PM,3:50:00 PM,Canon 40D,1,SSW,6,5,13.2,10.6,9.9,Slack,TRUE,0,,
+364,1,13-Jul-16,Francesca Gundrum,Friendship V,8:31:00 AM,12:45:00 PM,Canon 40D,0,SW,8,0,14.3,11.8,10.4,Ebb,TRUE,0,,
+390,2,12-Jul-16,Teagan White,Friendship V,1:00:00 PM,4:00:00 PM,Canon 40D,2,SW,10,60,14.1,12.4,11.9,Ebb,TRUE,0,,
+363,3,12-Jul-16,Teagan White,Friendship V,4:00:00 PM,6:30:00 PM,Canon 40D,3,SW,5.3,80,14,11.5,10.2,Flood,TRUE,1,,
+362,2,12-Jul-16,Teagan White,Friendship V,1:00:00 PM,3:30:00 PM,Canon 40D,2,SW,4,80,12.6,11.9,11.9,Flood,TRUE,1,,
+361,1,12-Jul-16,Teagan White,Friendship V,8:00:00 AM,12:30:00 AM,Canon 40D,2,SW,4,70,12.6,11.9,11.9,Ebb,TRUE,1,,
+382,3,11-Jul-16,Krisy Kelley,Friendship V,4:30:00 PM,8:00:00 PM,Canon 40D,1,N,7,2,14.1,10.7,9.6,Ebb,TRUE,0,,
+381,2,11-Jul-16,Krisy Kelley,Friendship V,1:00:00 PM,4:05:00 PM,Canon 40D,1,N,11,5,13.2,10.4,9.9,Flood,TRUE,0,,
+380,1,11-Jul-16,Krisy Kelley,Friendship V,8:30:00 AM,12:10:00 PM,Canon 40D,1,NW,7,5,12.2,10.5,10.3,Ebb,TRUE,1,,
+472,2,09-Jul-16,Teagan White,Friendship V,1:30:00 AM,3:30:00 PM,Canon 40D,2,NE,13,100,52.3,51.7,51.2,Flood,TRUE,1,,
+360,1,09-Jul-16,Teagan White,Friendship V,8:30:00 AM,12:30:00 PM,Canon 40D,2,NE,4.7,95,11.2,10.3,10.6,Ebb,TRUE,1,,
+359,2,08-Jul-16,Krisy Kelley,Friendship V,4:30:00 PM,8:15:00 PM,Canon 40D,1,NE,7,1,11.6,10.3,10.1,Ebb,TRUE,1,,
+358,1,08-Jul-16,Krisy Kelley,Friendship V,1:00:00 PM,3:45:00 PM,Canon 40D,2,NE,12,1,11.1,9.9,9.8,Flood,TRUE,1,,
+368,2,06-Jul-16,Haley Saxe,Friendship V,4:35:00 PM,7:30:00 PM,Canon 40D,1,SE,8,5,13.2,12.4,10.7,Ebb,FALSE,1,,
+367,1,06-Jul-16,Haley Saxe,Friendship V,1:00:00 PM,4:00:00 PM,Canon 40D,2,NE,4,5,14.8,11.7,10.5,Slack,TRUE,1,,
+354,1,05-Jul-16,Francesca Gundrum,Friendship V,8:35:00 AM,11:45:00 AM,Canon 40D,3,W,2,20,13.6,10.9,10.1,Flood,FALSE,2,,
+350,2,04-Jul-16,Krisy Kelley,Friendship V,1:00:00 PM,4:30:00 PM,Canon 40D,3,SW,12,10,13.3,11.1,10.3,Slack,FALSE,1,,
+349,1,04-Jul-16,Krisy Kelley,Friendship V,8:30:00 AM,12:15:00 PM,Canon 40D,2,SW,7,0,12.8,10.9,10.4,Flood,TRUE,1,,
+346,1,03-Jul-16,Haley Saxe,Friendship V,8:30:00 AM,12:00:00 PM,Canon 40D,3,SW,15,0,13,11.2,10.9,Slack,FALSE,1,,
+345,2,03-Jul-16,Haley Saxe,Friendship V,1:15:00 PM,4:00:00 PM,Canon 40D,3,SW,16,0,13.2,11.4,10.8,Ebb,FALSE,0,,
+341,2,30-Jun-16,Haley Saxe,Friendship V,4:50:00 PM,8:15:00 PM,Canon 40D,2,SW,9,0,14.2,12.2,9.8,Flood,TRUE,1,,
+340,1,30-Jun-16,Haley Saxe,Friendship V,1:00:00 PM,4:40:00 PM,Canon 40D,2,NW,5,0,13,11.1,10.4,Flood,TRUE,1,,
+357,2,27-Jun-16,Teagan White,Friendship V,1:30:00 PM,4:30:00 PM,Canon 40D,5,SSW,5.6,40,13.6,11.8,11.7,Flood,TRUE,1,,
+356,2,27-Jun-16,Teagan White,Friendship V,1:30:00 PM,4:30:00 PM,Canon 40D,5,SSW,5.6,40,13.6,11.8,11.7,Flood,TRUE,1,,
+355,1,27-Jun-16,Teagan White,Friendship V,8:30:00 AM,12:30:00 PM,Canon 40D,4,SSW,3.3,0,13.3,12,11.8,Ebb,TRUE,1,,
+339,2,26-Jun-16,Haley Saxe,Friendship V,1:00:00 PM,4:05:00 PM,Canon 40D,1,SSW,3,0,14.4,12.2,10.9,Flood,TRUE,1,,
+338,1,26-Jun-16,Haley Saxe,Friendship V,8:30:00 AM,11:50:00 AM,Canon 40D,0,SW,0.9,5,13.8,12.6,11.4,Flood,TRUE,1,,
+337,,24-Jun-16,Haley Saxe,Friendship V,1:00:00 PM,4:30:00 PM,Canon 40D,1,SW,6,0,13.8,12.9,9.9,Ebb,FALSE,1,,
+335,2,23-Jun-16,Teagan White,Friendship V,12:30:00 PM,4:30:00 PM,Canon 40D,5,SW,8,15,53.1,50.5,49.8,Ebb,TRUE,1,,
+334,1,23-Jun-16,Teagan White,Friendship V,8:30:00 AM,12:00:00 PM,Canon 40D,5,SW,7,30,52.8,51.1,50.4,Flood,FALSE,1,,
+353,1,22-Jun-16,Francesca Gundrum,Friendship V,8:40:00 AM,12:00:00 PM,Canon 40D,7,NNE,2,50,13.9,10.9,10.1,Slack,FALSE,2,,
+351,2,22-Jun-16,Francesca Gundrum,Friendship V,12:15:00 PM,4:00:00 PM,Canon 40D,5,NNE,4,40,14,11.5,10.2,Slack,FALSE,1,,
+327,1,19-Jun-16,Francesca Gundrum,Friendship V,12:10:00 PM,4:10:00 PM,Canon 40D,8,SW,12,10,12,10,9,Ebb,FALSE,0,,
+326,1,17-Jun-16,Francesca Gundrum,Friendship V,12:05:00 PM,4:15:00 PM,Canon 40D,3,NNW,5,10,11,10,9,Ebb,TRUE,0,,
+325,1,16-Jun-16,Francesca Gundrum,Friendship V,12:00:00 PM,4:00:00 PM,Canon 40D,2,NNW,3,20,12,10,9,Ebb,FALSE,0,,
+336,1,14-Jun-16,Haley Saxe,Friendship V,12:00:00 PM,4:10:00 PM,Canon 40D,2,NW,15,80,10.8,8.9,8.9,Flood,TRUE,1,,
+328,1,11-Jun-16,Krisy Kelley,Friendship V,12:00:00 PM,4:00:00 PM,Canon 40D,2,SSW,8,100,10.6,9.2,8.7,Flood,FALSE,0,,
+344,1,10-Jun-16,Haley Saxe,Friendship V,12:05:00 PM,4:00:00 PM,Canon 40D,2,NNW,12,70,10.8,9.1,8.9,Flood,TRUE,1,,
+348,1,04-Jun-16,Haley Saxe,Friendship V,12:00:00 PM,4:10:00 PM,Canon 40D,2,S,4,100,9.8,8.6,8.8,Ebb,FALSE,1,,
+347,1,02-Jun-16,Haley Saxe,Friendship V,12:00:00 PM,3:45:00 PM,Canon 40D,3,NE,7,25,9.6,8.8,8.2,Ebb,FALSE,1,,
+330,1,01-Jun-16,Krisy Kelley,Friendship V,12:00:00 PM,4:05:00 PM,Canon 40D,1,NE,12,10,11.8,9.3,8.1,Ebb,FALSE,1,,
+342,1,29-May-16,Haley Saxe,Friendship V,11:15:00 AM,3:00:00 PM,Canon 40D,3,NE,12,80,8.7,8.2,7.6,Flood,FALSE,1,,
+332,1,28-May-16,Krisy Kelley,Friendship V,12:00:00 PM,4:27:00 PM,Canon 40D,1,SW,2,35,11.5,8.5,7.6,Flood,FALSE,1,,
+343,1,27-May-16,Haley Saxe,Friendship V,12:10:00 PM,4:00:00 PM,Canon 40D,4,SW,10,40,10.2,8.8,7.6,Flood,FALSE,1,,
+333,1,26-May-16,Krisy Kelley,Friendship V,12:00:00 PM,4:20:00 PM,Canon 40D,2,W,4,5,12.3,8.6,8.3,Ebb,FALSE,1,,
+169,1,18-Oct-15,Amanda Liebau,Atlanticat,11:00:00 PM,3:00:00 PM,Canon 40D,3,NNW,1.7,30,3.3,11.5,11.5,Flood,FALSE,2,,
+168,1,15-Oct-15,Amanda Liebau,Atlanticat,12:00:00 PM,4:00:00 PM,Canon 40D,3,W,10,0,9.9,11.8,11.7,Slack,FALSE,4,,
+167,1,08-Oct-15,Amanda Liebau,Atlanticat,12:00:00 PM,4:00:00 PM,Canon 40D,2,NNW,2,10,12,12,11.6,Ebb,TRUE,2,,
+170,1,07-Oct-15,Lizzy Beato,Atlanticat,1:07:00 PM,2:56:00 PM,Canon 40D,4,NW,7,20,11.6,11.9,11.6,Slack,FALSE,1,,
+165,1,28-Sep-15,Lizzy Beato,Friendship V,1:01:00 PM,3:09:00 PM,Canon 40D,3,SW,9,50,13.4,12.2,11.8,Ebb,FALSE,1,,
+166,1,26-Sep-15,Lizzy Beato,Friendship V,1:12:00 PM,3:21:00 PM,Canon 40D,4,NE,15,0,10.3,11.9,11.8,Ebb,TRUE,1,,
+164,1,25-Sep-15,Amanda Liebau,Atlanticat,12:00:00 PM,4:00:00 PM,Canon 40D,2,NE,5,60,12.4,12.7,11.4,Ebb,TRUE,3,,
+160,1,24-Sep-15,Lizzy Beato,Atlanticat,1:06:00 PM,2:40:00 PM,Canon 40D,2,N,6,15,14.6,12.4,11.5,Ebb,TRUE,4,,
+158,1,23-Sep-15,Amanda Liebau,Atlanticat,12:00:00 PM,4:00:00 PM,Canon 40D,2,N,2,30,14,12.9,11.9,Ebb,TRUE,3,,
+162,1,22-Sep-15,Lizzy Beato,Atlanticat,12:46:00 PM,3:30:00 PM,Canon 40D,1,NNE,7,100,12.8,12.2,11.2,Slack,TRUE,1,,
+161,1,20-Sep-15,Lizzy Beato,Atlanticat,11:59:00 AM,1:36:00 PM,Canon 40D,2,SSW,11,99,15.3,13,11.4,Flood,FALSE,1,,
+159,1,19-Sep-15,Amanda Liebau,Atlanticat,12:00:00 PM,4:00:00 PM,Canon 40D,1,SW,4,0,15.4,13.8,11.4,Flood,TRUE,2,,
+157,1,18-Sep-15,Amanda Liebau,Atlanticat,12:00:00 PM,4:00:00 PM,Canon 40D,1,SSW,6,0,16.2,13.6,12.5,Flood,TRUE,1,,
+163,1,17-Sep-15,Lizzy Beato,Atlanticat,1:04:00 PM,2:38:00 PM,Canon 40D,3,SW,4,0,14.5,13.5,12.5,Slack,TRUE,1,,
+156,1,12-Sep-15,Amanda Liebau,Friendship V,6:00:00 AM,2:00:00 PM,Canon 40D,2,N,13,100,13.1,12.2,11.9,Flood,TRUE,3,,
+155,1,10-Sep-15,Amanda Liebau,Atlanticat,12:00:00 PM,3:30:00 PM,Canon 40D,2,NNW,5,90,15.9,13.6,10.9,Ebb,TRUE,3,,
+154,1,07-Sep-15,Amanda Liebau,Friendship V,8:30:00 AM,12:30:00 PM,Canon 40D,3,SW,15,0,14.7,12.5,10.8,Ebb,FALSE,3,,
+153,1,06-Sep-15,Amanda Liebau,Atlanticat,11:00:00 AM,3:00:00 PM,Canon 40D,1,SW,7,0,13.8,12.2,11.8,Ebb,FALSE,1,,
+152,2,05-Sep-15,Amanda Liebau,Friendship V,1:00:00 PM,4:00:00 PM,Canon 40D,1,SW,8,10,14.3,12.5,10.7,Slack,TRUE,1,,
+151,1,05-Sep-15,Amanda Liebau,Friendship V,8:30:00 AM,12:15:00 PM,Canon 40D,1,SW,3,10,13.6,11.7,10.8,Ebb,FALSE,1,,
+150,2,04-Sep-15,Amanda Liebau,Friendship V,1:00:00 PM,4:15:00 PM,Canon 40D,1,SE,4,30,14.5,12.5,10.8,Flood,TRUE,1,,
+149,1,04-Sep-15,Amanda Liebau,Friendship V,8:30:00 AM,12:15:00 PM,Canon 40D,3,NNE,13,50,13,11.2,10.8,Ebb,FALSE,2,,
+148,2,03-Sep-15,Lizzy Beato,Friendship V,2:02:00 PM,3:56:00 PM,Canon 40D,1,SW,5,75,16.2,13.2,11.2,Flood,FALSE,1,,
+147,1,03-Sep-15,Lizzy Beato,Friendship V,9:25:00 AM,11:35:00 AM,Canon 40D,1,W,6,70,14.6,12.7,11.2,Slack,TRUE,1,,
+146,2,02-Sep-15,Lizzy Beato,Friendship V,1:53:00 PM,3:40:00 PM,Canon 40D,3,SW,9,100,14,13.1,10.8,Slack,FALSE,1,,
+145,1,02-Sep-15,Lizzy Beato,Friendship V,9:23:00 AM,11:12:00 AM,Canon 40D,2,SW,3,100,13.5,12.1,10.7,Flood,FALSE,1,,
+144,2,30-Aug-15,Lizzy Beato,Friendship V,2:09:00 PM,3:34:00 PM,Canon 40D,1,SW,5,10,15.2,13.2,11.7,Ebb,TRUE,1,,
+143,1,30-Aug-15,Lizzy Beato,Friendship V,9:21:00 AM,11:25:00 AM,Canon 40D,1,W,5,95,14.6,12.6,11.7,Slack,TRUE,1,,
+142,2,29-Aug-15,Lizzy Beato,Friendship V,1:37:00 PM,3:02:00 PM,Canon 40D,1,SW,5,98,15.5,12.9,11.4,Slack,TRUE,1,,
+141,1,29-Aug-15,Lizzy Beato,Friendship V,9:12:00 AM,10:09:00 AM,Canon 40D,1,W,6,5,13.6,12.7,10.9,Flood,TRUE,1,,
+140,2,28-Aug-15,Lizzy Beato,Atlanticat,1:52:00 PM,3:06:00 PM,Canon 40D,2,SW,7,10,13.8,12.5,11.7,Ebb,TRUE,1,,
+139,1,28-Aug-15,Lizzy Beato,Atlanticat,9:12:00 AM,10:34:00 AM,Canon 40D,1,NW,7,0,14.6,12.8,10.7,Slack,TRUE,1,,
+138,2,27-Aug-15,Lizzy Beato,Atlanticat,5:16:00 PM,6:22:00 PM,Canon 40D,3,SW,9,25,15.7,12.2,10.2,Flood,TRUE,1,,
+137,1,27-Aug-15,Lizzy Beato,Atlanticat,1:48:00 PM,2:52:00 PM,Canon 40D,2,W,5,40,14.6,13,11.3,Slack,TRUE,1,,
+136,1,23-Aug-15,Amanda Liebau,Friendship V,8:30:00 AM,11:45:00 AM,Canon 40D,2,NE,8,100,14.6,12.2,10.7,Ebb,TRUE,3,,
+135,3,18-Aug-15,Savannah Bryant,Friendship V,4:30:00 PM,7:30:00 PM,Canon 40D,1,S,3,100,16.7,11.6,10.2,Ebb,FALSE,1,,
+134,2,18-Aug-15,Savannah Bryant,Friendship V,1:00:00 PM,4:00:00 PM,Canon 40D,1,SSE,3,75,13.9,11.7,9.9,Flood,FALSE,2,,
+133,1,18-Aug-15,Savannah Bryant,Friendship V,8:30:00 AM,12:15:00 PM,Canon 40D,0,SSW,3,100,13.5,11.6,9.8,Ebb,FALSE,2,,
+126,3,17-Aug-15,Amanda Liebau,Friendship V,4:30:00 PM,8:00:00 PM,Canon 40D,1,SSW,6,100,15.6,12.4,10,Ebb,FALSE,2,,
+125,2,17-Aug-15,Amanda Liebau,Friendship V,1:00:00 PM,4:15:00 PM,Canon 40D,1,S,6,100,13.9,12.1,9.8,Slack,TRUE,2,,
+124,1,17-Aug-15,Amanda Liebau,Friendship V,8:30:00 AM,12:00:00 PM,Canon 40D,1,S,2,100,14.4,12.7,10.1,Flood,TRUE,2,,
+132,2,16-Aug-15,Savannah Bryant,Friendship V,8:40:00 AM,12:00:00 PM,Canon 40D,1,S,5,25,13.3,12.9,9.8,Flood,TRUE,,,
+131,1,16-Aug-15,Savannah Bryant,Friendship V,8:40:00 AM,12:00:00 PM,Canon 40D,1,S,5,25,13.3,12.9,9.8,Flood,FALSE,2,,
+123,3,15-Aug-15,Amanda Liebau,Friendship V,4:40:00 PM,8:00:00 PM,Canon 40D,2,S,8,50,15.2,12.8,10,Ebb,TRUE,3,,
+122,2,15-Aug-15,Amanda Liebau,Friendship V,1:00:00 PM,4:00:00 PM,Canon 40D,2,SSW,3,50,15.4,12.1,9.9,Slack,TRUE,2,,
+121,1,15-Aug-15,Amanda Liebau,Friendship V,8:30:00 AM,12:10:00 PM,Canon 40D,2,SSW,7,40,13.9,11.6,10,Flood,TRUE,3,,
+120,3,14-Aug-15,Amanda Liebau,Atlanticat,4:30:00 PM,7:30:00 PM,Canon 40D,2,SSW,6,0,15.4,12.8,10,Flood,TRUE,3,,
+119,2,14-Aug-15,Amanda Liebau,Atlanticat,1:00:00 PM,4:00:00 PM,Canon 40D,2,SW,4,10,14.9,13.4,9.9,Ebb,TRUE,3,,
+118,1,14-Aug-15,Amanda Liebau,Atlanticat,8:30:00 AM,12:20:00 PM,Canon 40D,2,NW,4,0,14,11.1,10.3,Flood,TRUE,3,,
+130,2,13-Aug-15,Savannah Bryant,Atlanticat,1:00:00 PM,5:30:00 PM,Canon 40D,2,SSW,4,25,14.9,14.2,10.8,Ebb,TRUE,4,,
+129,1,13-Aug-15,Savannah Bryant,Friendship V,8:00:00 AM,12:00:00 PM,Canon 40D,2,W,1,25,11.8,11.2,10.2,Ebb,FALSE,3,,
+128,2,11-Aug-15,Savannah Bryant,Atlanticat,1:00:00 PM,4:00:00 PM,Canon 40D,3,SSE,9,100,14.4,12,9.7,Flood,TRUE,3,,
+127,1,11-Aug-15,Savannah Bryant,Atlanticat,8:30:00 AM,12:00:00 PM,Canon 40D,2,SSE,9,50,13.7,11.1,10.1,Ebb,TRUE,2,,
+115,3,10-Aug-15,Lizzy Beato,Friendship V,5:56:00 PM,6:51:00 PM,Canon 40D,3,SSW,10.7,25,13.9,11.9,9.8,Flood,TRUE,1,,
+114,2,10-Aug-15,Lizzy Beato,Friendship V,2:11:00 PM,3:39:00 PM,Canon 40D,3,SSW,10.7,15,14.1,11,9.7,Slack,TRUE,1,,
+113,1,10-Aug-15,Lizzy Beato,Friendship V,9:55:00 AM,11:50:00 AM,Canon 40D,1,NNW,8,0,12.8,11.1,10,Ebb,TRUE,1,,
+117,2,09-Aug-15,Katy Bonaro,Friendship V,1:00:00 PM,4:35:00 PM,Canon 40D,1,NNE,10,80,13.2,10.9,9.7,Flood,TRUE,1,,
+116,1,09-Aug-15,Katy Bonaro,Friendship V,8:30:00 AM,12:10:00 PM,Canon 40D,2,NE,10,80,12.4,11,9.8,Ebb,TRUE,1,,
+112,3,08-Aug-15,Savannah Bryant,Friendship V,4:30:00 PM,7:45:00 PM,Canon 40D,1,S,10,50,13.3,10.5,7.9,Slack,TRUE,2,,
+111,2,08-Aug-15,Savannah Bryant,Friendship V,1:18:00 PM,4:00:00 PM,Canon 40D,1,S,7,25,12.4,10.4,7.8,Ebb,TRUE,2,,
+110,1,08-Aug-15,Savannah Bryant,Friendship V,8:30:00 AM,12:00:00 PM,Canon 40D,1,SSW,7,0,12.2,10.3,7.8,Slack,TRUE,2,,
+98,3,07-Aug-15,Lizzy Beato,Atlanticat,5:11:00 PM,6:54:00 PM,Canon 40D,2,SSW,6,30,14.7,13.7,9.9,Flood,FALSE,1,,
+97,2,07-Aug-15,Lizzy Beato,Atlanticat,2:00:00 PM,2:57:00 PM,Canon 40D,2,SW,3,20,14.4,12.2,10,Ebb,TRUE,1,,
+96,1,07-Aug-15,Lizzy Beato,Atlanticat,9:59:00 AM,11:02:00 AM,Canon 40D,2,SSW,4,15,12.8,11.8,10.4,Slack,TRUE,1,,
+106,3,06-Aug-15,Katy Bonaro,Atlanticat,5:04:00 PM,7:45:00 PM,Canon 40D,1,SW,13,65,13.9,12.1,9.8,Slack,TRUE,1,,
+105,2,06-Aug-15,Katy Bonaro,Atlanticat,1:20:00 PM,4:25:00 PM,Canon 40D,1,SW,11,15,13.5,11.6,9.8,Flood,TRUE,1,,
+104,1,06-Aug-15,Katy Bonaro,Atlanticat,8:30:00 AM,12:35:00 AM,Canon 40D,1,W,11,0,13.3,11.1,9.9,Ebb,FALSE,1,,
+92,2,05-Aug-15,Lizzy Beato,Atlanticat,5:41:00 PM,6:48:00 PM,Canon 40D,4,SW,6.4,80,13.9,12.9,9.7,Slack,TRUE,1,,
+91,1,05-Aug-15,Lizzy Beato,Atlanticat,2:01:00 PM,3:02:00 PM,Canon 40D,3,SSW,2,60,13.7,11.7,9.7,Flood,TRUE,1,,
+103,2,03-Aug-15,Katy Bonaro,Atlanticat,1:00:00 PM,5:00:00 PM,Canon 40D,2,S,11,100,14.5,12,9.9,Slack,FALSE,1,,
+102,1,03-Aug-15,Katy Bonaro,Atlanticat,8:30:00 AM,12:15:00 PM,Canon 40D,2,SSW,7,2,13.9,11.7,9.9,Flood,TRUE,1,,
+90,2,02-Aug-15,Lizzy Beato,Atlanticat,1:45:00 PM,3:24:00 PM,Canon 40D,2,SW,6,15,14.9,11.6,9.5,Ebb,TRUE,3,,
+89,1,02-Aug-15,Lizzy Beato,Atlanticat,10:10:00 AM,11:10:00 AM,Canon 40D,2,SSW,7,30,13.4,11.2,10.1,Flood,TRUE,4,,
+88,3,01-Aug-15,Lizzy Beato,Friendship V,5:23:00 PM,6:04:00 PM,Canon 40D,3,SSW,12,60,15.3,11.7,9.4,Slack,TRUE,3,,
+87,2,01-Aug-15,Lizzy Beato,Friendship V,1:45:00 PM,2:52:00 PM,Canon 40D,3,SW,6,25,14.8,12.2,9.8,Ebb,TRUE,3,,
+86,1,01-Aug-15,Lizzy Beato,Friendship V,10:02:00 AM,11:04:00 AM,Canon 40D,2,SSW,9,10,13.4,11.4,9.9,Flood,TRUE,2,,
+84,2,31-Jul-15,Amanda Liebau,Atlanticat,4:30:00 PM,7:30:00 PM,Canon 40D,2,SW,6,25,14.3,11.4,9.5,Ebb,TRUE,2,,
+83,1,31-Jul-15,Amanda Liebau,Atlanticat,1:00:00 PM,4:00:00 PM,Canon 40D,3,SW,12,40,14.1,11.5,9.6,Ebb,TRUE,3,,
+95,3,29-Jul-15,Savannah Bryant,Atlanticat,4:30:00 PM,8:00:00 PM,Canon 40D,2,SW,5,75,15.2,11.2,9.1,Slack,TRUE,1,,
+94,2,29-Jul-15,Savannah Bryant,Atlanticat,12:30:00 PM,4:00:00 PM,Canon 40D,1,SSW,4,75,14.1,11.9,9.1,Ebb,TRUE,1,,
+93,1,29-Jul-15,Savannah Bryant,Atlanticat,8:30:00 AM,12:00:00 PM,Canon 40D,1,NW,6,25,14.1,10.7,9.1,Flood,TRUE,1,,
+85,1,28-Jul-15,Lizzy Beato,Atlanticat,2:08:00 PM,3:29:00 PM,Canon 40D,3,SSE,4,100,11.9,10.8,9.2,Slack,FALSE,2,,
+82,2,26-Jul-15,Lizzy Beato,Friendship V,1:49:00 PM,3:15:00 PM,Canon 40D,0,SE,3,100,11.5,10.7,8.8,Slack,FALSE,2,,
+81,1,26-Jul-15,Lizzy Beato,Friendship V,9:57:00 AM,10:58:00 AM,Canon 40D,1,NNE,3,100,12.1,10.6,8.9,Ebb,TRUE,2,,
+80,3,25-Jul-15,Amanda Liebau,Atlanticat,4:30:00 PM,7:50:00 PM,Canon 40D,1,E,6,40,13.2,11.1,8.9,Flood,TRUE,2,,
+79,2,25-Jul-15,Amanda Liebau,Atlanticat,1:00:00 PM,3:50:00 PM,Canon 40D,2,NE,8,50,12.8,11.3,9.3,Slack,TRUE,2,,
+78,1,25-Jul-15,Amanda Liebau,Atlanticat,8:30:00 AM,12:00:00 PM,Canon 40D,3,NE,8,100,11.4,10.4,8.8,Ebb,TRUE,2,,
+77,2,24-Jul-15,Amanda Liebau,Friendship V,1:00:00 PM,4:00:00 PM,Canon 40D,1,SSE,2,50,14.8,11.3,9,Flood,TRUE,2,,
+76,1,24-Jul-15,Amanda Liebau,Friendship V,8:30:00 AM,11:45:00 AM,Canon 40D,1,NW,3,100,13.7,10.8,8.8,Ebb,TRUE,2,,
+101,3,23-Jul-15,Katy Bonaro,Atlanticat,4:50:00 PM,8:10:00 PM,Canon 40D,1,SW,10,40,13.6,11,8.9,Slack,TRUE,1,,
+100,2,23-Jul-15,Katy Bonaro,Atlanticat,1:10:00 PM,4:15:00 PM,Canon 40D,1,SW,7,60,13,10.4,9,Flood,TRUE,1,,
+99,1,23-Jul-15,Katy Bonaro,Atlanticat,8:35:00 AM,12:06:00 PM,Canon 40D,1,SW,4,2,12.4,10.9,9.3,Slack,TRUE,1,,
+75,3,22-Jul-15,Amanda Liebau,Atlanticat,4:30:00 PM,8:00:00 PM,Canon 40D,2,NNW,6,0,16.7,11.9,8.7,Slack,TRUE,2,,
+74,2,22-Jul-15,Amanda Liebau,Atlanticat,1:00:00 PM,4:00:00 PM,Canon 40D,1,SW,8,1,13.7,11.5,8.7,Flood,TRUE,2,,
+73,1,22-Jul-15,Amanda Liebau,Atlanticat,8:30:00 AM,12:00:00 PM,Canon 40D,1,NW,5,100,12.1,10.3,8.6,Ebb,FALSE,2,,
+72,2,21-Jul-15,Katy Bonaro,Friendship V,1:25:00 PM,4:10:00 PM,Canon 40D,1,NE,9,100,10.7,10,8.9,Flood,FALSE,1,,
+71,1,21-Jul-15,Katy Bonaro,Friendship V,8:30:00 AM,12:45:00 PM,Canon 40D,1,NE,10,100,10.5,10.1,9.5,Flood,TRUE,1,,
+70,2,20-Jul-15,Amanda Liebau,Friendship V,1:05:00 PM,4:30:00 PM,Canon 40D,2,SE,4,0,13.1,11.1,8.5,Flood,FALSE,2,,
+69,1,20-Jul-15,Amanda Liebau,Friendship V,8:30:00 AM,12:45:00 PM,Canon 40D,3,NNW,4,100,10.9,9.4,8.6,Slack,FALSE,2,,
+68,1,19-Jul-15,Katy Bonaro,Friendship V,8:40:00 AM,12:08:00 PM,Canon 40D,3,SSW,7,100,12,9.7,8.5,Flood,FALSE,1,,
+109,3,18-Jul-15,Savannah Bryant,Friendship V,4:30:00 PM,7:30:00 PM,Canon 40D,4,S,12,100,12.9,10.6,8.9,Ebb,TRUE,2,,
+108,2,18-Jul-15,Savannah Bryant,Friendship V,12:30:00 PM,3:45:00 PM,Canon 40D,4,SSW,8,100,12.6,10.4,8.9,Flood,TRUE,2,,
+107,1,18-Jul-15,Savannah Bryant,Friendship V,8:30:00 AM,12:00:00 PM,Canon 40D,3,SSW,8,100,12.6,10.1,7.8,Flood,TRUE,2,,
+64,3,17-Jul-15,Amanda Liebau,Friendship V,5:00:00 PM,8:00:00 PM,Canon 40D,1,SW,6,75,14,10.9,8.6,Ebb,FALSE,2,,
+63,2,17-Jul-15,Amanda Liebau,Friendship V,1:00:00 PM,4:30:00 PM,Canon 40D,1,SE,4,40,15.1,10,8.7,Slack,TRUE,2,,
+62,1,17-Jul-15,Amanda Liebau,Friendship V,8:30:00 AM,12:10:00 PM,Canon 40D,2,NE,4,10,12.1,10.2,8.5,Flood,TRUE,3,,
+67,3,16-Jul-15,Katy Bonaro,Atlanticat,5:00:00 PM,7:50:00 PM,Canon 40D,0,W,5,10,13.9,9.5,8.1,Slack,TRUE,1,,
+66,2,16-Jul-15,Katy Bonaro,Atlanticat,1:26:00 PM,4:20:00 PM,Canon 40D,1,NNE,4,20,12.8,10.2,8.3,Ebb,TRUE,1,,
+65,1,16-Jul-15,Katy Bonaro,Atlanticat,8:30:00 AM,12:45:00 PM,Canon 40D,2,N,14,10,11.5,9.5,8.3,Flood,TRUE,1,,
+61,1,15-Jul-15,Savannah Bryant,Friendship V,4:30:00 PM,7:30:00 PM,Canon 40D,4,SW,4,100,14.2,10.7,8.6,Ebb,TRUE,2,,
+55,2,14-Jul-15,Amanda Liebau,Friendship V,1:00:00 PM,4:30:00 PM,Canon 40D,1,SE,6,0,13.6,10.8,8.2,Ebb,TRUE,2,,
+54,1,14-Jul-15,Amanda Liebau,Friendship V,8:30:00 AM,12:10:00 PM,Canon 40D,1,SE,6,40,13.7,10.7,8.5,Flood,TRUE,1,,
+60,3,13-Jul-15,Katy Bonaro,Friendship V,4:40:00 PM,7:50:00 PM,Canon 40D,0,SW,3,50,17.9,2.95,8.1,Flood,TRUE,0,,
+59,2,13-Jul-15,Katy Bonaro,Friendship V,1:00:00 PM,4:05:00 PM,Canon 40D,0,NNW,4,30,15.2,10.1,8.2,Ebb,TRUE,0,,
+58,1,13-Jul-15,Katy Bonaro,Friendship V,8:30:00 AM,12:06:00 PM,Canon 40D,0,N,5,5,13.3,9.7,8.2,Ebb,TRUE,0,,
+50,3,12-Jul-15,Savannah Bryant,Friendship V,5:00:00 PM,8:00:00 PM,Canon 40D,3,SW,9,75,15.2,12.4,8.2,Slack,TRUE,1,,
+49,2,12-Jul-15,Savannah Bryant,Friendship V,1:00:00 PM,5:00:00 PM,Canon 40D,2,S,5,95,14.3,10.9,8.5,Ebb,TRUE,1,,
+48,1,12-Jul-15,Savannah Bryant,Friendship V,8:30:00 AM,12:30:00 PM,Canon 40D,2,SW,7,75,12.2,10.8,8.3,Flood,TRUE,2,,
+47,3,11-Jul-15,Lizzy Beato,Friendship V,5:19:00 PM,7:12:00 PM,Canon 40D,3,SW,7,5,14.8,11.7,8.6,Flood,FALSE,2,,
+46,2,11-Jul-15,Lizzy Beato,Friendship V,1:47:00 PM,3:00:00 PM,Canon 40D,2,SW,5,5,14.8,10.5,8.1,Slack,TRUE,2,,
+45,1,11-Jul-15,Lizzy Beato,Friendship V,9:52:00 AM,11:18:00 AM,Canon 40D,2,NNW,7,0,13,9.8,8.1,Ebb,FALSE,2,,
+57,2,10-Jul-15,Katy Bonaro,Friendship V,1:00:00 PM,4:35:00 PM,Canon 40D,0,SW,7,5,11.9,8.9,7.9,Flood,TRUE,1,,
+56,1,10-Jul-15,Katy Bonaro,Friendship V,8:30:00 AM,12:45:00 PM,Canon 40D,0,W,5,0,11.5,9.7,7.9,Ebb,TRUE,1,,
+38,3,09-Jul-15,Lizzy Beato,Friendship V,5:19:00 PM,7:16:00 PM,Canon 40D,0,SSE,1,80,14.4,12,8.8,Ebb,TRUE,1,,
+37,2,09-Jul-15,Lizzy Beato,Friendship V,1:49:00 PM,3:00:00 PM,Canon 40D,1,NE,3,90,13.6,10.2,8,Slack,TRUE,2,,
+36,1,09-Jul-15,Lizzy Beato,Friendship V,9:49:00 AM,11:21:00 AM,Canon 40D,1,NNW,4,50,12.5,10.1,8.2,Flood,TRUE,4,,
+41,3,07-Jul-15,Savannah Bryant,Friendship V,5:00:00 PM,8:15:00 PM,Canon 40D,2,SSW,11,75,13.3,10.6,7.9,Flood,FALSE,2,,
+40,2,07-Jul-15,Savannah Bryant,Friendship V,1:05:00 PM,4:45:00 PM,Canon 40D,2,S,6,50,12.6,10.8,7.7,Slack,TRUE,2,,
+39,1,07-Jul-15,Savannah Bryant,Friendship V,8:00:00 AM,12:30:00 PM,Canon 40D,1,SE,5,100,11.8,10.6,7.8,Ebb,TRUE,2,,
+44,3,06-Jul-15,Katy Bonaro,Friendship V,5:05:00 PM,8:01:00 PM,Canon 40D,0,SSW,6,40,14.5,11.8,8,Ebb,FALSE,2,,
+43,2,06-Jul-15,Katy Bonaro,Friendship V,1:05:00 PM,4:40:00 PM,Canon 40D,0,SW,14,20,13.1,9.5,7.8,Flood,TRUE,4,,
+42,1,06-Jul-15,Katy Bonaro,Friendship V,8:30:00 AM,12:20:00 PM,Canon 40D,0,NNW,3,0,2.4,9.6,8,Slack,TRUE,3,,
+53,2,05-Jul-15,Amanda Liebau,Friendship V,1:00:00 PM,5:00:00 PM,Canon 40D,2,SW,9,50,12.9,10.6,7.7,Flood,FALSE,1,,
+52,1,05-Jul-15,Amanda Liebau,Friendship V,8:30:00 AM,12:00:00 PM,Canon 40D,3,SW,7,50,11.1,9.4,7.8,Slack,FALSE,1,,
+33,1,04-Jul-15,Lizzy Beato,Friendship V,1:44:00 PM,3:57:00 PM,Canon 40D,2,SSW,5,98,11.3,9.7,8.1,Slack,FALSE,1,,
+32,1,04-Jul-15,Lizzy Beato,Friendship V,10:09:00 AM,10:30:00 AM,Canon 40D,2,NW,1,90,11.5,9.2,8.4,Flood,FALSE,1,,
+31,3,03-Jul-15,Lizzy Beato,Friendship V,5:21:00 PM,7:35:00 PM,Canon 40D,3,SW,12,0,12.9,9.8,7.4,Ebb,FALSE,1,,
+30,2,03-Jul-15,Lizzy Beato,Friendship V,1:52:00 PM,3:06:00 PM,Canon 40D,3,SW,7,1,12.3,10.2,7.3,Slack,FALSE,1,,
+29,1,03-Jul-15,Lizzy Beato,Friendship V,10:01:00 AM,11:35:00 AM,Canon 40D,2,NNE,3,0,11.4,9,8.3,Flood,FALSE,1,,
+35,2,02-Jul-15,Katy Bonaro,Friendship V,4:40:00 PM,7:50:00 PM,Canon 40D,3,SW,11,,11.5,9.9,7.7,Ebb,FALSE,4,,
+34,1,02-Jul-15,Katy Bonaro,Friendship V,1:00:00 PM,4:10:00 PM,Canon 40D,4,SSW,12,,11.1,9.7,7.7,Ebb,FALSE,4,,
+51,1,01-Jul-15,Amanda Liebau,Friendship V,1:00:00 PM,4:00:00 PM,Canon 40D,4,NE,1,100,14.5,9.1,7.9,Ebb,FALSE,4,,
+28,2,30-Jun-15,Lizzy Beato,Friendship V,5:42:00 PM,7:56:00 PM,Canon 40D,2,S,7,5,12.1,9.3,7.4,Flood,FALSE,1,,
+27,1,30-Jun-15,Lizzy Beato,Friendship V,2:18:00 PM,3:35:00 PM,Canon 40D,3,NNW,3,5,12.6,9.1,8,Slack,FALSE,1,,
+26,2,27-Jun-15,Amanda Liebau,Friendship V,1:00:00 PM,5:30:00 PM,Canon 40D,2,SE,4,40,10.8,9.9,7.5,Flood,TRUE,2,,
+25,1,27-Jun-15,Amanda Liebau,Friendship V,8:30:00 AM,12:15:00 PM,Canon 40D,3,NE,7,10,10,9.3,7.8,Ebb,FALSE,1,,
+24,2,26-Jun-15,Lizzy Beato,Friendship V,1:45:00 PM,3:09:00 PM,Canon 40D,1,NNE,5,10,10.4,8.8,7.2,Ebb,TRUE,2,,
+23,1,26-Jun-15,Lizzy Beato,Friendship V,9:52:00 AM,11:28:00 AM,Canon 40D,1,NE,7,95,10.5,8.9,7.3,Slack,TRUE,1,,
+22,2,25-Jun-15,Savannah Bryant,Friendship V,1:00:00 PM,5:00:00 PM,Canon 40D,4,NW,9,25,12.2,9.3,7.3,Ebb,FALSE,3,,
+21,1,25-Jun-15,Savannah Bryant,Friendship V,8:30:00 AM,12:15:00 PM,Canon 40D,3,NW,6,0,11.7,9.1,7.5,Flood,FALSE,2,,
+18,2,22-Jun-15,Lizzy Beato,Friendship V,1:57:00 PM,3:35:00 PM,Canon 40D,2,NNW,2,40,12.4,8.7,7.6,Flood,TRUE,1,,
+17,1,22-Jun-15,Lizzy Beato,Friendship V,9:52:00 AM,12:15:00 PM,Canon 40D,2,NNW,4,60,11.2,8,7.3,Slack,TRUE,1,,
+15,2,20-Jun-15,Katy Bonaro,Friendship V,1:10:00 PM,5:00:00 PM,Canon 40D,0,NW,2,40,12.2,8.6,7,Flood,FALSE,1,,
+14,1,20-Jun-15,Katy Bonaro,Friendship V,8:40:00 AM,12:30:00 PM,Canon 40D,0,NNW,4,2,9.7,8.7,7.4,Flood,FALSE,1,,
+13,1,19-Jun-15,Amanda Liebau,Friendship V,1:00:00 PM,4:30:00 PM,Canon 40D,2,SSE,4,25,11.4,9.2,6.8,Ebb,TRUE,,,
+12,1,18-Jun-15,Lizzy Beato,Friendship V,1:36:00 PM,4:00:00 PM,Canon 40D,3,SSW,8,40,10,9.4,7.3,Ebb,TRUE,,,
+10,1,15-Jun-15,Amanda Liebau,Friendship V,12:00:00 PM,4:30:00 PM,Canon 40D,2,SSE,10,1,10.2,7.9,5.9,Ebb,TRUE,,,
+20,1,14-Jun-15,Lizzy Beato,Friendship V,12:20:00 PM,1:30:00 PM,Canon 40D,2,NW,6,50,11.7,7.2,6,Slack,FALSE,1,,
+16,1,13-Jun-15,Savannah Bryant,Friendship V,12:00:00 PM,5:00:00 PM,Canon 40D,4,NNW,6,20,10.4,7.2,6.6,Slack,FALSE,1,,
+11,1,09-Jun-15,Katy Bonaro,Friendship V,12:00:00 PM,6:30:00 PM,Canon 40D,0,S,19,15,10.1,6.2,6.2,Ebb,TRUE,,,
+19,1,07-Jun-15,Lizzy Beato,Friendship V,12:30:00 PM,3:30:00 PM,Canon 40D,2,NW,4,15,10.4,8.1,7.3,Flood,FALSE,1,,
+9,1,04-Jun-15,Amanda Liebau,Friendship V,12:00:00 PM,6:00:00 PM,Canon 40D,1,NW,4.5,0,8.5,7.5,0,Ebb,TRUE,,,
+319,1,12-Oct-14,Julie Sharp,Atlanticat,11:00:00 AM,,Canon 40D,2,,0,5,0,0,0,,TRUE,,,
+322,1,06-Oct-14,Keri Smith,Atlanticat,12:00:00 PM,,Canon 10D,2,SSW,9,5,13.8,12.9,12.6,Ebb,TRUE,1,,
+318,1,28-Sep-14,Julie Sharp,Atlanticat,11:00:00 AM,,Canon 40D,1,,0,0,0,0,0,,TRUE,,,
+317,1,27-Sep-14,Julie Sharp,Atlanticat,12:10:00 PM,,Canon 40D,2,,0,5,0,0,0,,TRUE,,,
+316,1,27-Sep-14,Julie Sharp,Atlanticat,12:10:00 PM,,Canon 40D,2,,0,5,0,0,0,,TRUE,,,
+321,1,25-Sep-14,Keri Smith,Atlanticat,12:00:00 PM,4:00:00 PM,Canon 30D,2,,5,50,13.3,12.4,12.1,Ebb,TRUE,0,,
+320,1,24-Sep-14,Keri Smith,Friendship V,12:00:00 PM,4:00:00 PM,Canon 30D,2,NE,10,15,11.1,12.3,12.2,Ebb,TRUE,1,,
+315,1,19-Sep-14,Keri Smith,Atlanticat,12:00:00 PM,4:00:00 PM,Canon 10D,3,N,16,0,8.2,11.9,11.7,Slack,TRUE,1,,
+314,1,18-Sep-14,Keri Smith,Atlanticat,12:00:00 PM,3:45:00 PM,Canon 10D,2,SW,9,15,13.1,12.3,11.6,Slack,TRUE,2,,
+311,1,17-Sep-14,Keri Smith,Atlanticat,12:00:00 PM,3:45:00 PM,Canon 10D,2,SW,5,0,13.2,12,11.6,Flood,TRUE,0,,
+313,1,16-Sep-14,Julie Sharp,Atlanticat,12:00:00 PM,,Canon 30D,0,SW,6,100,12.9,11.8,11.7,,TRUE,,,
+312,1,15-Sep-14,Julie Sharp,Friendship V,12:00:00 PM,,Canon 40D,1,NNW,4,30,12.4,11.8,11.6,,TRUE,0,,
+310,1,13-Sep-14,Julie Sharp,Friendship V,12:00:00 PM,,Canon 40D,3,NE,15,75,11.2,12.3,12.1,,TRUE,1,,
+309,1,12-Sep-14,Keri Smith,Atlanticat,12:00:00 PM,4:20:00 PM,Canon 30D,2,NW,15,0,12.9,12.2,12.2,Slack,TRUE,1,,
+308,1,11-Sep-14,Keri Smith,Friendship V,12:00:00 PM,4:00:00 PM,Canon 30D,3,SSE,9,80,14.2,12.1,11.6,Slack,TRUE,1,,
+307,1,10-Sep-14,Julie Sharp,Atlanticat,12:00:00 PM,,Canon 40D,2,NE,9,10,12.8,12.5,11.7,,TRUE,1,,
+306,1,09-Sep-14,Julie Sharp,Atlanticat,11:00:00 AM,,Canon 40D,3,NE,12,10,12.8,12.9,12,,TRUE,1,,
+305,1,08-Sep-14,Julie Sharp,Friendship V,12:00:00 PM,,Canon 40D,3,NNE,9,0,13.7,13.3,12.2,,TRUE,0,,
+304,1,07-Sep-14,Julie Sharp,Atlanticat,11:00:00 AM,,Canon 40D,1,N,11,5,14.3,13.3,11.4,,TRUE,1,,
+303,1,05-Sep-14,Keri Smith,Atlanticat,12:00:00 PM,,Canon 30D,2,SSW,7,5,16,14,11.8,Slack,TRUE,1,,
+302,1,05-Sep-14,Keri Smith,,,,,,,0,,0,0,0,,FALSE,,,
+301,1,04-Sep-14,Keri Smith,Friendship V,12:00:00 PM,5:00:00 PM,Canon 30D,2,SW,6,10,15.9,14.2,11.5,Flood,TRUE,6,,
+300,3,30-Aug-14,Julie Sharp,Friendship V,5:30:00 PM,,Canon 30D,1,SSW,12,20,60,56,52,Ebb,TRUE,2,,
+299,,30-Aug-14,Keri Smith,Friendship V,1:00:00 PM,5:00:00 PM,Canon 40D,1,S,9,64,60,55,51,Ebb,TRUE,4,,
+298,1,30-Aug-14,Keri Smith,Friendship V,8:30:00 AM,12:30:00 PM,Canon 40D,1,S,6,70,13,55,0,,TRUE,,,
+296,3,29-Aug-14,Keri Smith,Friendship V,4:30:00 PM,8:00:00 PM,Canon 30D,2,SW,8,0,15.4,13.6,11.9,Ebb,TRUE,1,,
+295,2,28-Aug-14,Anastasia Czarnecki,Atlanticat,1:00:00 PM,6:00:00 PM,Canon 40D,2,,0,15,0,0,0,,TRUE,,,
+286,1,26-Aug-14,Marina Cucuzza,Friendship V,8:30:00 AM,1:00:00 PM,Canon 40D,3,NNE,12,95,14.2,11.9,10.9,Ebb,TRUE,1,,
+294,3,25-Aug-14,Keri Smith,Friendship V,4:30:00 PM,9:00:00 PM,Canon 30D,2,SSW,6,40,15.8,13.5,10.7,Flood,TRUE,1,,
+293,2,25-Aug-14,Keri Smith,Friendship V,1:00:00 PM,4:00:00 PM,Canon 30D,2,SSE,3,35,15.8,12.9,11.1,Ebb,TRUE,1,,
+292,1,25-Aug-14,Keri Smith,Friendship V,8:30:00 AM,12:30:00 PM,Canon 30D,2,SW,4,20,14.9,13.5,10.7,Flood,TRUE,1,,
+291,3,24-Aug-14,Keri Smith,Friendship V,4:30:00 PM,8:30:00 PM,Canon 30D,2,SSW,7,20,15.6,12.9,10.6,Flood,TRUE,1,,
+290,2,24-Aug-14,Keri Smith,Friendship V,1:00:00 PM,4:00:00 PM,Canon 30D,2,S,5,5,14.9,13.7,11.1,Ebb,TRUE,1,,
+289,1,24-Aug-14,Keri Smith,Friendship V,8:30:00 AM,12:10:00 PM,Canon 30D,1,W,5,0,13.4,12.1,10.5,Slack,TRUE,1,,
+288,3,23-Aug-14,Marina Cucuzza,Friendship V,4:30:00 PM,7:00:00 PM,Canon 40D,2,NNE,6,5,14,13,10.6,Flood,TRUE,1,,
+287,2,23-Aug-14,Marina Cucuzza,Friendship V,1:00:00 PM,4:00:00 PM,Canon 40D,3,NE,9,85,14.5,11.7,10.5,Slack,TRUE,1,,
+285,2,22-Aug-14,Anastasia Czarnecki,Friendship V,1:00:00 PM,4:00:00 PM,Canon 40D,2,,0,85,0,0,0,,TRUE,,,
+284,1,22-Aug-14,Anastasia Czarnecki,Friendship V,8:30:00 AM,12:00:00 PM,Canon 40D,3,,0,90,0,0,0,,TRUE,,,
+283,3,21-Aug-14,Julie Sharp,Friendship V,4:30:00 PM,,Canon 40D,2,NE,8,90,13.4,12.5,10.4,,TRUE,,,
+282,2,21-Aug-14,Julie Sharp,Friendship V,1:00:00 PM,,,2,NE,11,50,13.8,12.3,10.5,,TRUE,,,
+281,1,21-Aug-14,Julie Sharp,Friendship V,8:30:00 AM,,Canon 40D,3,NE,2,50,14,13.2,10.4,,TRUE,0,,
+280,2,20-Aug-14,Anastasia Czarnecki,Friendship V,1:00:00 PM,4:00:00 PM,Canon 40D,1,,0,5,0,0,0,,TRUE,,,
+279,3,20-Aug-14,Anastasia Czarnecki,Friendship V,4:30:00 PM,8:00:00 PM,Canon 40D,1,,0,75,0,0,0,,TRUE,,,
+278,3,19-Aug-14,Keri Smith,Friendship V,4:30:00 PM,8:30:00 PM,Canon 30D,2,SW,10,5,14,13,10,Slack,TRUE,0,,
+277,2,19-Aug-14,Keri Smith,Friendship V,1:00:00 PM,4:00:00 PM,Canon 30D,2,SW,6,8,13.9,12.6,11.3,Flood,TRUE,0,,
+276,1,19-Aug-14,Keri Smith,Friendship V,8:30:00 AM,12:30:00 PM,Canon 30D,2,NW,10,5,13.6,12.3,11.3,Ebb,TRUE,,,
+275,3,18-Aug-14,Julie Sharp,Friendship V,4:30:00 PM,,Canon 40D,2,SW,5,20,15.7,13,10.8,,TRUE,1,,
+274,1,18-Aug-14,Julie Sharp,Friendship V,8:30:00 AM,,Canon 40D,2,NW,7,75,14,11.9,10.5,,TRUE,1,,
+273,2,17-Aug-14,Anastasia Czarnecki,Friendship V,1:00:00 PM,4:00:00 PM,Canon 40D,2,,0,95,0,0,0,,TRUE,,,
+272,1,17-Aug-14,Anastasia Czarnecki,Friendship V,8:30:00 AM,12:00:00 PM,Canon 40D,1,,0,95,0,0,0,,TRUE,,,
+271,3,16-Aug-14,Julie Sharp,Atlanticat,4:40:00 PM,,Canon 40D,3,SW,11,70,14,12.1,10.8,,TRUE,1,,
+270,2,16-Aug-14,Julie Sharp,Atlanticat,1:00:00 PM,,Canon 40D,3,SW,7,50,13.7,11.8,10.8,,TRUE,1,,
+269,1,16-Aug-14,Julie Sharp,Atlanticat,8:30:00 AM,,Canon 40D,2,SW,8,10,13,11.7,10.6,,TRUE,1,,
+247,1,16-Aug-14,Julie Sharp,Friendship V,8:30:00 AM,,Canon 40D,0,E,1,100,14,13.1,11,,TRUE,,,
+268,2,13-Aug-14,Keri Smith,Friendship V,1:00:00 PM,4:00:00 PM,Canon 30D,3,SE,11,85,13.6,11.8,10.4,Ebb,TRUE,1,,
+267,1,13-Aug-14,Keri Smith,Friendship V,8:30:00 AM,12:30:00 PM,Canon 30D,3,SE,9,100,13.7,11.8,10.5,Flood,TRUE,0,,
+266,3,12-Aug-14,Keri Smith,Friendship V,4:30:00 PM,8:20:00 PM,Canon 30D,2,NE,5,25,14.4,12.9,10.6,Slack,TRUE,0,,
+265,3,12-Aug-14,Keri Smith,Friendship V,4:30:00 PM,8:30:00 PM,Canon 30D,2,NE,5,25,0,0,0,,TRUE,,,
+264,2,12-Aug-14,Keri Smith,Friendship V,1:00:00 PM,4:00:00 PM,Canon 30D,2,NE,6,5,13,12,10,Ebb,TRUE,4,,
+263,1,12-Aug-14,Keri Smith,Friendship V,8:30:00 AM,12:30:00 PM,Canon 30D,2,,0,15,0,0,0,,TRUE,,,
+262,3,11-Aug-14,Julie Sharp,Friendship V,4:30:00 PM,,Canon 40D,1,NE,10,5,13.1,11.9,10.1,,TRUE,2,,
+261,2,11-Aug-14,Julie Sharp,Atlanticat,1:00:00 PM,,Canon 40D,2,NNE,5,30,13.1,11.1,10.1,,FALSE,,,
+260,1,11-Aug-14,Julie Sharp,Atlanticat,8:30:00 AM,,Canon 40D,0,SE,3,75,11.8,12.5,10.3,,TRUE,,,
+259,2,10-Aug-14,Marina Cucuzza,Friendship V,1:00:00 PM,4:00:00 PM,Canon 40D,1,NE,6,35,13.6,12.4,10.2,Ebb,TRUE,0,,
+258,1,10-Aug-14,Marina Cucuzza,Friendship V,8:30:00 AM,1:00:00 PM,Canon 40D,2,NNE,4,30,14,12.2,10,Flood,TRUE,1,,
+257,3,09-Aug-14,Marina Cucuzza,Friendship V,4:00:00 PM,,Canon 40D,2,SSE,5,60,16.2,13,9.9,Ebb,TRUE,1,,
+256,2,09-Aug-14,Marina Cucuzza,Friendship V,1:00:00 PM,4:00:00 PM,Canon 40D,2,NNW,7,40,14.9,12.8,10.3,Slack,TRUE,0,,
+252,1,09-Aug-14,Marina Cucuzza,Friendship V,8:30:00 AM,1:00:00 PM,Canon 40D,2,NW,6,30,14.5,12.5,10.1,Flood,TRUE,3,,
+251,2,08-Aug-14,Julie Sharp,Borealis,1:00:00 PM,,Canon 40D,1,SW,12,30,15.7,14.4,10.5,,TRUE,,,
+250,1,08-Aug-14,Julie Sharp,Friendship V,8:30:00 AM,,Canon 40D,0,W,7,10,14.6,13.2,10.5,,TRUE,,,
+255,3,07-Aug-14,Anastasia Czarnecki,Friendship V,4:30:00 PM,8:00:00 PM,Canon 40D,3,,0,30,0,0,0,,TRUE,,,
+254,3,07-Aug-14,Anastasia Czarnecki,Friendship V,,,,,,0,,0,0,0,,TRUE,,,
+253,2,07-Aug-14,Anastasia Czarnecki,Friendship V,1:00:00 PM,4:00:00 PM,Canon 40D,1,,0,10,0,0,0,,TRUE,,,
+249,2,07-Aug-14,Anastasia Czarnecki,Friendship V,1:00:00 PM,4:00:00 PM,Canon 40D,1,,0,10,0,0,0,,TRUE,,,
+248,1,07-Aug-14,Anastasia Czarnecki,Atlanticat,8:30:00 AM,12:00:00 PM,Canon 40D,2,,0,20,0,0,0,,TRUE,,,
+246,1,06-Aug-14,Julie Sharp,,,,,,,0,,0,0,0,,FALSE,,,
+245,3,05-Aug-14,Julie Sharp,Friendship V,4:30:00 PM,,Canon 40D,1,SSW,6,40,15.3,12.8,10.3,,TRUE,1,,
+244,2,05-Aug-14,Julie Sharp,Atlanticat,1:00:00 PM,,Canon 40D,1,SW,8,30,14.4,11.6,9.8,,TRUE,1,,
+243,1,05-Aug-14,Julie Sharp,Atlanticat,8:30:00 AM,,Canon 40D,1,SSW,4,20,13.9,12,10,,TRUE,1,,
+242,3,04-Aug-14,Anastasia Czarnecki,Friendship V,4:30:00 PM,8:00:00 PM,Canon 40D,2,,0,20,0,0,0,,TRUE,,,
+240,1,04-Aug-14,Anastasia Czarnecki,Friendship V,8:30:00 AM,12:00:00 PM,Canon 40D,1,,0,90,0,0,0,,TRUE,,,
+239,2,03-Aug-14,Anastasia Czarnecki,Friendship V,1:00:00 PM,4:00:00 PM,Canon 40D,1,,0,40,0,0,0,,TRUE,,,
+238,1,03-Aug-14,Anastasia Czarnecki,Friendship V,8:30:00 AM,12:15:00 PM,Canon 40D,1,,0,100,0,0,0,,TRUE,,,
+237,3,02-Aug-14,Julie Sharp,Atlanticat,4:30:00 PM,,Canon 40D,2,SSW,4,95,15.5,11.8,9.8,,TRUE,1,,
+236,3,02-Aug-14,Julie Sharp,Atlanticat,4:30:00 PM,,Canon 40D,2,SSW,4,95,15.5,11.8,9.8,,TRUE,1,,
+235,2,02-Aug-14,Julie Sharp,Atlanticat,1:00:00 PM,,Canon 40D,0,SSW,6,95,14.7,12.6,10.3,,TRUE,1,,
+234,1,02-Aug-14,Julie Sharp,Atlanticat,8:30:00 AM,,Canon 40D,1,S,8,95,14.6,12.4,9.7,,TRUE,1,,
+233,3,01-Aug-14,Julie Sharp,Atlanticat,4:50:00 PM,,Canon 40D,1,SSW,3,50,15.4,11.1,10.3,,TRUE,1,,
+232,2,01-Aug-14,Julie Sharp,Atlanticat,1:00:00 PM,,Canon 40D,1,SSW,7,90,14.1,11.9,9.8,,TRUE,,,
+231,2,01-Aug-14,Julie Sharp,Atlanticat,1:00:00 PM,,Canon 40D,1,S,7,90,14.1,11.9,9.8,,TRUE,1,,
+230,1,01-Aug-14,Julie Sharp,Atlanticat,8:30:00 AM,12:30:00 PM,Canon 40D,0,SSW,3,100,12.9,11.8,9.6,,TRUE,1,,
+229,2,27-Jul-14,Anastasia Czarnecki,Friendship V,1:00:00 PM,,Canon 40D,3,,0,95,0,0,0,,TRUE,,,
+228,3,26-Jul-14,Keri Smith,Atlanticat,4:40:00 PM,8:30:00 PM,Canon 40D,3,SSW,,60,0,0,0,,TRUE,,,
+227,2,26-Jul-14,Keri Smith,Atlanticat,1:20:00 PM,4:10:00 PM,Canon 40D,3,SSW,8,65,14.2,11.8,10.1,Ebb,TRUE,1,,
+226,1,26-Jul-14,Keri Smith,Atlanticat,8:30:00 AM,12:30:00 PM,Canon 40D,2,SW,9,75,13.7,12,9.5,Flood,TRUE,1,,
+208,3,25-Jul-14,Marina Cucuzza,Atlanticat,4:30:00 PM,7:00:00 PM,Canon 40D,3,S,5,70,14,12,9.3,Flood,TRUE,1,,
+207,2,25-Jul-14,Marina Cucuzza,Friendship V,1:15:00 PM,4:00:00 PM,Canon 40D,2,SW,5,5,13.2,11,9.2,Flood,TRUE,1,,
+206,1,25-Jul-14,Marina Cucuzza,Atlanticat,8:30:00 AM,12:45:00 PM,Canon 40D,2,NNE,4,80,12.5,11.1,9.4,Flood,TRUE,1,,
+225,2,23-Jul-14,Julie Sharp,Friendship V,1:00:00 PM,,Canon 40D,3,SSW,12,10,14.3,11.7,9.2,,TRUE,1,,
+224,1,23-Jul-14,Julie Sharp,Friendship V,8:30:00 AM,12:15:00 PM,Canon 40D,3,SSW,7,20,12.9,11.5,9.2,,TRUE,1,,
+223,1,23-Jul-14,Julie Sharp,Friendship V,8:30:00 AM,12:15:00 PM,Canon 40D,3,SSW,7,20,12.9,11.5,9.2,,FALSE,,,
+205,3,22-Jul-14,Marina Cucuzza,Friendship V,4:30:00 PM,7:00:00 PM,Canon 40D,3,SSE,2,10,12.5,11.1,9.4,Flood,TRUE,1,,
+203,2,22-Jul-14,Marina Cucuzza,Friendship V,1:15:00 AM,4:00:00 AM,Canon 40D,4,NE,4,30,12.5,4.1,9.4,Slack,TRUE,3,,
+202,1,22-Jul-14,Marina Cucuzza,Friendship V,8:30:00 AM,1:00:00 PM,Canon 40D,4,NE,4,90,12.5,11.1,9.4,Flood,TRUE,3,,
+204,2,21-Jul-14,Marina Cucuzza,Friendship V,1:00:00 PM,4:00:00 PM,Canon 40D,1,NE,5,10,13.9,11.09,9,Ebb,TRUE,2,,
+201,3,21-Jul-14,Marina Cucuzza,Friendship V,4:30:00 PM,7:15:00 PM,Canon 40D,,,0,,15.5,11.6,9,Flood,TRUE,2,,
+200,2,21-Jul-14,Marina Cucuzza,Friendship V,11:00:00 AM,4:00:00 PM,Canon 40D,1,NE,5,10,13.9,11.09,9,Ebb,TRUE,2,,
+199,1,21-Jul-14,Marina Cucuzza,Friendship V,8:30:00 AM,12:30:00 PM,Canon 40D,1,NE,4,30,12.6,11.4,9.3,Ebb,TRUE,1,,
+222,2,20-Jul-14,Julie Sharp,Friendship V,1:00:00 PM,4:30:00 PM,Canon 40D,1,NNW,3,75,13.6,10.5,8.9,,TRUE,1,,
+221,1,20-Jul-14,Julie Sharp,Friendship V,8:30:00 AM,,Canon 40D,1,NE,5,50,13,11.3,8.9,,TRUE,8,,
+198,3,19-Jul-14,Julie Sharp,Friendship V,4:30:00 PM,,Canon 40D,1,SSE,5,85,18.7,11.4,9.1,,TRUE,1,,
+197,2,19-Jul-14,Julie Sharp,Friendship V,1:00:00 PM,4:15:00 PM,Canon 40D,0,SSW,2,70,15.3,10.8,9,,TRUE,1,,
+196,1,19-Jul-14,Julie Sharp,Friendship V,8:30:00 AM,,Canon 40D,1,SW,3,50,12.5,10.8,9.1,,TRUE,1,,
+195,1,19-Jul-14,Julie Sharp,Friendship V,8:30:00 AM,,Canon 40D,1,SW,3,50,12.5,10.8,9.1,,TRUE,11,,
+220,3,18-Jul-14,Julie Sharp,Friendship V,3:00:00 PM,,,4,SW,11,40,14.3,12.1,9,Ebb,TRUE,1,,
+219,2,18-Jul-14,Julie Sharp,Friendship V,1:15:00 PM,4:15:00 PM,Canon 40D,3,SSW,6,40,13.1,11.4,9.7,Flood,TRUE,1,,
+218,2,13-Jul-14,Keri Smith,Friendship V,1:10:00 PM,4:30:00 PM,Canon 40D,4,S,13,25,13.6,11.7,9.1,Ebb,TRUE,1,,
+217,1,13-Jul-14,Keri Smith,Friendship V,8:30:00 AM,12:10:00 PM,Canon 40D,3,SSW,12,10,13.7,112,8.7,Flood,TRUE,1,,
+216,3,12-Jul-14,Keri Smith,Friendship V,4:45:00 PM,7:50:00 PM,Canon 40D,2,SW,9,20,14.3,21.1,8.3,Flood,TRUE,1,,
+215,2,12-Jul-14,Keri Smith,Friendship V,1:20:00 PM,4:10:00 PM,Canon 40D,2,SW,7,0,14.3,11.9,9,Ebb,TRUE,1,,
+214,1,12-Jul-14,Keri Smith,Friendship V,8:30:00 AM,12:30:00 PM,Canon 40D,2,SW,4,0,13.4,12,9,Slack,TRUE,1,,
+194,3,11-Jul-14,Marina Cucuzza,Friendship V,4:30:00 PM,7:00:00 PM,Canon 40D,3,SSW,10,100,13.9,11.9,8.6,Ebb,TRUE,1,,
+193,2,11-Jul-14,Marina Cucuzza,Friendship V,1:00:00 PM,4:00:00 PM,Canon 40D,4,SSW,10,70,13.9,11.9,8.6,Flood,TRUE,1,,
+192,1,11-Jul-14,Marina Cucuzza,Friendship V,8:30:00 AM,1:00:00 PM,Canon 40D,4,SSW,4,70,14,12,9,Ebb,TRUE,2,,
+191,2,10-Jul-14,Marina Cucuzza,Friendship V,1:15:00 PM,4:00:00 PM,Canon 40D,4,SSW,5,60,14.2,11.8,8.5,Ebb,TRUE,,,
+190,2,30-Jun-14,Anastasia Czarnecki,Friendship V,1:00:00 PM,,Canon 40D,3,,0,40,0,0,0,,TRUE,,,
+189,1,30-Jun-14,Anastasia Czarnecki,Friendship V,8:30:00 AM,,Canon 40D,2,,0,20,0,0,0,,TRUE,,,
+187,1,29-Jun-14,Marina Cucuzza,Friendship V,8:30:00 AM,12:00:00 PM,Canon 40D,2,SW,6,5,11.6,9.2,8.1,Ebb,TRUE,0,,
+186,2,28-Jun-14,Keri Smith,Friendship V,1:30:00 AM,6:30:00 AM,Canon 40D,2,SSW,6,30,13.8,9.5,8.4,Ebb,TRUE,0,,
+185,1,28-Jun-14,Keri Smith,Friendship V,8:30:00 AM,12:45:00 PM,Canon 40D,1,NW,4,0,12.8,9.1,7.6,Flood,TRUE,1,,
+188,2,24-Jun-14,Marina Cucuzza,Friendship V,1:00:00 AM,4:00:00 AM,Canon 40D,2,SW,6,5,11.6,9.2,8.1,Ebb,TRUE,0,,
+184,1,24-Jun-14,Keri Smith,Friendship V,8:30:00 AM,1:00:00 AM,Canon 40D,3,SSW,15,30,12.4,10.1,7.9,Ebb,TRUE,0,,
+183,2,23-Jun-14,Anastasia Czarnecki,Friendship V,1:00:00 PM,,Canon 40D,1,,0,5,0,0,0,,TRUE,,,
+182,2,23-Jun-14,Anastasia Czarnecki,Friendship V,1:00:00 PM,,Canon 40D,1,,0,5,0,0,0,,TRUE,,,
+181,2,23-Jun-14,Anastasia Czarnecki,Friendship V,1:00:00 PM,,Canon 40D,1,,0,5,0,0,0,,FALSE,,,
+180,2,23-Jun-14,Anastasia Czarnecki,Friendship V,1:00:00 PM,,Canon 40D,1,,0,5,0,0,0,,TRUE,,,
+179,1,23-Jun-14,Anastasia Czarnecki,Friendship V,8:30:00 AM,,Canon 40D,1,,0,0,0,0,0,,TRUE,,,
+178,2,22-Jun-14,Marina Cucuzza,Friendship V,1:00:00 PM,6:00:00 PM,Canon 40D,1,SW,4,10,13,10.2,7.6,Ebb,TRUE,0,,
+213,1,21-Jun-14,Julie Sharp,Friendship V,1:00:00 PM,6:00:00 PM,Canon 40D,3,,0,20,0,0,0,,TRUE,,,
+177,1,20-Jun-14,Anastasia Czarnecki,Friendship V,8:30:00 AM,12:00:00 PM,Canon 40D,1,NW,7,20,11.2,9,7.3,Ebb,TRUE,1,,
+176,1,19-Jun-14,Anastasia Czarnecki,Friendship V,8:30:00 AM,,Canon 40D,2,,0,5,0,0,0,,TRUE,,,
+212,2,17-Jun-14,Julie Sharp,Friendship V,1:00:00 PM,5:40:00 PM,Canon 40D,3,,10,30,11.3,9,7.3,Slack,TRUE,0,,
+175,1,16-Jun-14,Keri Smith,Friendship V,12:00:00 PM,5:30:00 AM,Canon 40D,1,NNW,11,10,12.6,8.2,7.2,Ebb,TRUE,1,,
+174,1,11-Jun-14,Anastasia Czarnecki,Friendship V,12:00:00 PM,,Canon 40D,,,0,,0,0,0,,TRUE,,,
+210,1,10-Jun-14,Julie Sharp,Friendship V,12:00:00 PM,,Canon 40D,2,SW,0,90,11.4,9.3,7.1,Ebb,TRUE,0,,
+173,,09-Jun-14,Marina Cucuzza,Friendship V,12:00:00 PM,8:00:00 AM,Canon 40D,2,SW,0,90,0,49.4,44.9,Flood,TRUE,0,,
+211,1,07-Jun-14,Julie Sharp,Friendship V,8:30:00 AM,12:30:00 PM,Canon 40D,2,SE,6,30,10.2,8.5,7.4,Flood,TRUE,0,,
+209,1,02-Jun-14,Julie Sharp,Friendship V,12:00:00 PM,,Canon 40D,3,,0,75,0,0,0,,TRUE,,,
+1262,,,,,,,,,,0,75,0,0,0,,FALSE,,,
+1184,1,,,Friendship V,,4:00:00 PM,,,,0,75,0,0,0,,FALSE,,East bumps,
+1070,1,,,,,,,,,0,,0,0,0,,FALSE,,,
+938,1,,,,,,,,,0,,0,0,0,,FALSE,,,
+917,1,,Grace Leary,Atlanticat,1:30:00 PM,5:30:00 PM,Canon 60D,1,SSW,2.4,10,15.8,13.4,9.4,Slack,TRUE,1,Grand Manan Banks,10+
+660,,,,,,,,,,0,,0,0,0,,FALSE,,,
+659,2,,,,,,,,,0,,0,0,0,,FALSE,,,
+601,3,,,,,,,,,0,,0,0,0,,FALSE,,,
+593,,,,,,,,,,0,,0,0,0,,FALSE,,,
+569,2,,Liz Virgl,Atlanticat,5:50:00 PM,6:45:00 PM,Canon 60D,2,W,4,50,14.3,10.4,0,Ebb,FALSE,1,,
+473,,,,,,,,,WSW,,,,,,,TRUE,,,
+442,,,,,,,,,,0,,0,0,0,,FALSE,,,
+352,,,Francesca Gundrum,,,,,,,0,,0,0,0,,FALSE,,,
+241,2,,Anastasia Czarnecki,Friendship V,1:00:00 PM,4:00:00 PM,Canon 40D,1,,0,30,0,0,0,,TRUE,,,
