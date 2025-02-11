@@ -163,6 +163,18 @@ ggsave(plot = density_map, filename = here("Figures_Tables", "denisty_map.png"),
 ```{r}
 #white sided dolphin density map
 
+la_lat_long <- dolphin_clean %>%
+  filter(Species == "La") %>%
+  dplyr::select(Latitude, Longitude)
+
+la_kde <- kde(x = la_lat_long)
+
+plot(la_kde, main = "Kernel Density Estimate of Lat-Long Coordinates")
+
+png("Figures_Tables/la_kde_plot.png", width = 800, height = 600)  
+plot(kde, main = "Kernel Density Estimate of Lat-Long Coordinates")
+dev.off()
+
 La_dolphin <- dolphin_clean %>%
   filter(Species == "La")
 
@@ -184,6 +196,18 @@ ggsave(plot = La_density_map, filename = here("Figures_Tables", "La_denisty_map.
 
 ```{r}
 #Common dolphin density map
+
+Dd_lat_long <- dolphin_clean %>%
+  filter(Species == "Dd") %>%
+  dplyr::select(Latitude, Longitude)
+
+Dd_kde <- kde(x = Dd_lat_long)
+
+plot(Dd_kde, main = "Kernel Density Estimate of Lat-Long Coordinates")
+
+png("Figures_Tables/Dd_kde_plot.png", width = 800, height = 600)  
+plot(kde, main = "Kernel Density Estimate of Lat-Long Coordinates")
+dev.off()
 
 Dd_dolphin <- dolphin_clean %>%
   filter(Species == "Dd")
@@ -226,6 +250,18 @@ ggsave(plot = Lal_density_map, filename = here("Figures_Tables", "Lal_denisty_ma
 ```{r}
 #Harbor Porpoise density map
 
+Pp_lat_long <- dolphin_clean %>%
+  filter(Species == "Pp") %>%
+  dplyr::select(Latitude, Longitude)
+
+Pp_kde <- kde(x = Pp_lat_long)
+
+plot(Pp_kde, main = "Kernel Density Estimate of Lat-Long Coordinates")
+
+png("Figures_Tables/Pp_kde_plot.png", width = 800, height = 600)  
+plot(kde, main = "Kernel Density Estimate of Lat-Long Coordinates")
+dev.off()
+
 Pp_dolphin <- dolphin_clean %>%
   filter(Species == "Pp")
 
@@ -246,6 +282,18 @@ ggsave(plot = Pp_density_map, filename = here("Figures_Tables", "Pp_denisty_map.
 
 ```{r}
 #Bottlenose dolphin density map
+
+Tt_lat_long <- dolphin_clean %>%
+  filter(Species == "Tt") %>%
+  dplyr::select(Latitude, Longitude)
+
+Tt_kde <- kde(x = Tt_lat_long)
+
+plot(Tt_kde, main = "Kernel Density Estimate of Lat-Long Coordinates")
+
+png("Figures_Tables/Dd_kde_plot.png", width = 800, height = 600)  
+plot(kde, main = "Kernel Density Estimate of Lat-Long Coordinates")
+dev.off()
 
 Tt_dolphin <- dolphin_clean %>%
   filter(Species == "Tt")
