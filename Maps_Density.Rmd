@@ -78,15 +78,7 @@ dolphin_clean <- all_ww %>%
   filter(dolphin_presence == 1)
 ```
 
-```{r standardizing by year}
-dolphins_standardized <- all_ww %>%
-  group_by(year) %>%
-  summarize(total_trips = n(),
-            trips_w_dolphin = sum(dolphin_presence),
-            percentage = (trips_w_dolphin/total_trips)*100) %>%
-  mutate(
-    percentage_standardized = scale(percentage))
-```
+
 
 
 ```{r}

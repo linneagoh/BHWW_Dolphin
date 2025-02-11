@@ -1,0 +1,247 @@
+---
+title: "Temp_Species_Analysis"
+output: html_document
+date: "2025-02-11"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(here)
+library(lubridate)
+library(broom)
+library(readxl)
+library(tidyr)
+library(anytime)
+library(glue)
+library(iNEXT)
+library(kableExtra)
+library(cowplot)
+library(glmmTMB)
+library(dplyr)
+library(raster)
+library(hillR)
+library(sf)
+library(tmap)
+library(tidyverse)
+library(leaflet)
+library(ks)
+library(DHARMa)
+library(ggeffects)
+library(performance)
+library(car)
+library(mgcv)
+library(fitdistrplus)
+library(goft)
+library(gamlss)
+library(vegan)
+```
+
+```{r}
+dolphin <- read.csv(here("00_Raw_Data", "Dolphin_Data_2014-2024.csv"))
+
+ww_data <- read.csv(here("00_Raw_Data", "Complete_Trip_Data_2014-2024.csv"))
+
+GOM_shp <- st_read(dsn = here::here("00_Raw_Data/Ocean/Ocean.shp"))
+```
+
+```{r}
+
+dolphin <- dolphin %>%
+  filter(!is.na(Latitude),
+         Latitude != 0,
+         Longitude <= -65,
+         Latitude != 45.10,
+         Latitude != 44.99,
+         Latitude != 44.90,
+         Latitude != 44.80,
+         TripKey != 766)
+
+dolphin$Longitude <- abs(dolphin$Longitude) 
+dolphin$Longitude <- (dolphin$Longitude)* -1
+
+all_ww <- dolphin %>%
+  full_join(ww_data)
+
+all_ww$date <- dmy(all_ww$dDate)
+all_ww$year <- year(all_ww$date)
+all_ww$month <- month(all_ww$date)
+
+all_ww <- all_ww %>%
+  mutate(dolphin_presence = case_when(Species %in% c("La", "Tt", "Dd", "Lal", "Gg", "Pp") ~ 1,
+                                       is.na(Species) ~ 0)) %>%
+  filter(!is.na(date))
+
+dolphin_clean <- all_ww %>%
+  filter(dolphin_presence == 1)
+
+dolphin_clean$year_month <- paste(dolphin_clean$year, dolphins_standardized_month$month, "01",sep = "-")
+dolphin_clean$year_month <- as.Date(dolphins_standardized_month$year_month)
+```
+```{r standardizing by year}
+dolphins_standardized_year <- all_ww %>%
+  group_by(year) %>%
+  summarize(total_trips = n(),
+            trips_w_dolphin = sum(dolphin_presence),
+            percentage = (trips_w_dolphin/total_trips)*100) %>%
+  mutate(
+    percentage_standardized = scale(percentage))
+```
+
+```{r}
+dolphins_year_graph <- dolphins_standardized_year %>%
+  ggplot(mapping = aes(x = year, y = percentage)) +
+  geom_point() +
+  geom_smooth() +
+  theme_classic() +
+  scale_x_continuous(breaks = seq(min(dolphins_standardized_year$year), 
+                                  max(dolphins_standardized_year$year), 
+                                  by = 1))
+dolphins_year_graph
+
+ggsave(plot = dolphins_year_graph, filename = here("Figures_Tables", "dolphins_year.png"), width = 7.5, height = 5.5, 
+    units = "in", pointsize = 15, dpi = 220)
+```
+
+
+```{r standardizing by species}
+
+dolphins_standardized_month <- all_ww %>%
+  group_by(year, month) %>%
+  summarize(total_trips = n(),
+            trips_w_dolphin = sum(dolphin_presence),
+            percentage = (trips_w_dolphin/total_trips)*100) %>%
+  mutate(
+    percentage_standardized = scale(percentage))
+
+dolphins_standardized_month$year_month <- paste(dolphins_standardized_month$year, dolphins_standardized_month$month, "01",sep = "-")
+dolphins_standardized_month$year_month <- as.Date(dolphins_standardized_month$year_month)
+
+temperature <- all_ww %>%
+  filter(!is.na(Surface.Temp..C.)) %>%
+  group_by(year, month) %>%
+  summarize(mean_SST = mean(Surface.Temp..C.),
+             se = sd(Surface.Temp..C., na.rm = TRUE) / sqrt(length(Surface.Temp..C.[!is.na(Surface.Temp..C.)])))
+
+temperature$year_month <- paste(temperature$year, temperature$month, "01",sep = "-")
+temperature$year_month <- as.Date(temperature$year_month)
+
+dolphins_standardized_month <- dolphins_standardized_species %>%
+  full_join(dolphin_clean)
+
+```
+```{r percentage of sightings with dolphins by month}
+dolphins_month_graph <- 
+  ggplot() +
+    geom_point(data = dolphins_standardized_month, mapping = aes(x = year_month, y = percentage), colour = "blue") +
+  geom_smooth(data = dolphins_standardized_month, mapping = aes(x = year_month, y = percentage), colour = "blue") +
+  geom_point(data = temperature, mapping = aes(x = year_month, y = (mean_SST)), colour = "red") +
+  geom_smooth(data = temperature, mapping = aes(x = year_month, y = (mean_SST)), colour = "red") +
+   scale_y_continuous(
+    name = "Percentage of whale watch trips with\n dolphin sightings (%)",
+    sec.axis = sec_axis(~ . / 1, name = "Temperature (°C)")) +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1)) +
+  scale_x_date(date_labels = "%Y-%m", date_breaks = "6 months") +
+  labs(x = "Year and month", y = "Percentage of whale watch trips with\n dolphin sightings (%)")
+  
+dolphins_month_graph
+
+ggsave(plot = dolphins_month_graph, filename = here("Figures_Tables", "dolphins_month.png"), width = 7.5, height = 5.5, 
+    units = "in", pointsize = 15, dpi = 220)
+```
+```{r percentage vs temp}
+dolphins_standardized_month %>%
+  ggplot(mapping = aes(x = mean_SST, y = percentage)) +
+  geom_point()
+```
+
+```{r models}
+#linear: NO
+
+dolphin.lm <- lm(percentage ~ Species + Surface.Temp..C., 
+             data = dolphins_standardized_month)
+
+summary(dolphin.lm)
+
+vif(dolphin.lm)
+
+plot(simulateResiduals(dolphin.lm))
+
+#gaussian
+
+dolphin.gaussian <- glmmTMB(percentage ~ Species + Surface.Temp..C.,
+                       data = dolphins_standardized_month,
+                       family = gaussian(link = "identity"))
+
+dolphin.gaussian.residuals <- simulateResiduals(dolphin.gaussian)
+plot(dolphin.gaussian.residuals)
+
+#Gamma: NO
+
+dolphin.gamma <- glmmTMB(percentage ~ Species + Surface.Temp..C.,
+                       data = dolphins_standardized_month,
+                       family = Gamma(link = "inverse"))
+
+dolphin.gamma.residuals <- simulateResiduals(dolphin.gamma)
+plot(dolphin.gamma.residuals)
+
+#inverse.gaussian: NO
+dolphin.inv.gaussian <- glmmTMB(percentage ~ Species + Surface.Temp..C.,
+                       data = dolphins_standardized_month,
+                       family = inverse.gaussian(link = "1/mu^2"))
+
+dolphin.inv.gaussian.residuals <- simulateResiduals(dolphin.inv.gaussian)
+plot(dolphin.inv.gaussian.residuals)
+
+#poisson: NO
+
+dolphin.poisson <- glmmTMB(percentage ~ Species + Surface.Temp..C.,
+                       data = dolphins_standardized_month,
+                       family = poisson(link = "log"))
+
+dolphin.poisson.residuals <- simulateResiduals(dolphin.poisson)
+plot(dolphin.poisson.residuals)
+
+#quasi: NO
+
+#dolphin.quasi <- glmmTMB(percentage ~ Species + Surface.Temp..C.,
+     #                  data = dolphins_standardized_month,
+      #                 family = quasi("identity", variance = "constant"))
+
+#dolphin.quasi.residuals <- simulateResiduals(dolphin.poisson)
+#plot(dolphin.quasi.residuals)
+
+#quasi poisson: No
+#dolphin.quasi.poisson <- glmmTMB(percentage ~ Species + Surface.Temp..C.,
+ #                      data = dolphins_standardized_month,
+ #                      family = quasipoisson(link = "log"))
+
+#dolphin.quasi.poisson.residuals <- simulateResiduals(dolphin.quasi.poisson)
+#plot(dolphin.quasi.poisson.residuals)
+
+#Skewnormal distribution: NO
+#dolphin.skewnorm <- glmmTMB(percentage ~ Species + Surface.Temp..C.,
+#                       data = dolphins_standardized_month,
+ #                      family = skewnormal(link = "identity"))
+#dolphin.skewnorm.residuals <- simulateResiduals(dolphin.skewnorm)
+#plot(dolphin.skewnorm.residuals)
+
+#Lognormal distribution: NO
+dolphin.lognormal <- glmmTMB(percentage ~ Species + Surface.Temp..C.,
+                       data = dolphins_standardized_month,
+                       family = lognormal(link = "log"))
+dolphin.lognormal.residuals <- simulateResiduals(dolphin.lognormal)
+plot(dolphin.lognormal.residuals)
+
+#t_family distribution: NO
+dolphin.tfam <- glmmTMB(percentage ~ Species + Surface.Temp..C.,
+                       data = dolphins_standardized_month,
+                       family = t_family(link = "identity"))
+dolphin.tfam.residuals <- simulateResiduals(dolphin.tfam)
+plot(dolphin.tfam.residuals)
+```
+```{r}
+
+```
+
