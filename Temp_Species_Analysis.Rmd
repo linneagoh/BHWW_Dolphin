@@ -76,7 +76,7 @@ dolphin_clean <- all_ww %>%
   filter(dolphin_presence == 1)
 
 dolphin_clean$year_month <- paste(dolphin_clean$year, dolphins_standardized_month$month, "01",sep = "-")
-dolphin_clean$year_month <- as.Date(dolphins_standardized_month$year_month)
+dolphin_clean$year_month <- as.Date(dolphin_clean$year_month)
 ```
 ```{r standardizing by year}
 dolphins_standardized_year <- all_ww %>%
@@ -126,8 +126,9 @@ temperature <- all_ww %>%
 temperature$year_month <- paste(temperature$year, temperature$month, "01",sep = "-")
 temperature$year_month <- as.Date(temperature$year_month)
 
-dolphins_standardized_month <- dolphins_standardized_species %>%
-  full_join(dolphin_clean)
+dolphins_standardized_month <- dolphins_standardized_month %>%
+  full_join(dolphin_clean) %>%
+  full_join(temperature)
 
 ```
 ```{r percentage of sightings with dolphins by month}
@@ -240,6 +241,13 @@ dolphin.tfam <- glmmTMB(percentage ~ Species + Surface.Temp..C.,
                        family = t_family(link = "identity"))
 dolphin.tfam.residuals <- simulateResiduals(dolphin.tfam)
 plot(dolphin.tfam.residuals)
+
+#negative binomial
+dolphin.nbinom1 <- glmmTMB(percentage ~ Species + Surface.Temp..C.,
+                       data = dolphins_standardized_month,
+                       family = nbinom1(link = "log"))
+dolphin.nbinom1.residuals <- simulateResiduals(dolphin.nbinom1)
+plot(dolphin.nbiom1.residuals)
 ```
 ```{r}
 
