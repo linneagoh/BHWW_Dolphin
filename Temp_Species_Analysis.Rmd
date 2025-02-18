@@ -75,7 +75,7 @@ all_ww <- all_ww %>%
 dolphin_clean <- all_ww %>%
   filter(dolphin_presence == 1)
 
-dolphin_clean$year_month <- paste(dolphin_clean$year, dolphins_standardized_month$month, "01",sep = "-")
+dolphin_clean$year_month <- paste(dolphin_clean$year, dolphin_clean$month, "01",sep = "-")
 dolphin_clean$year_month <- as.Date(dolphin_clean$year_month)
 ```
 ```{r standardizing by year}
@@ -128,9 +128,14 @@ temperature$year_month <- as.Date(temperature$year_month)
 
 dolphins_standardized_month <- dolphins_standardized_month %>%
   full_join(dolphin_clean) %>%
-  full_join(temperature)
+  left_join(temperature) 
+
+dolphins_standardized_month <- dolphins_standardized_month %>%
+  filter(!is.na(TripKey)) %>%
+  dplyr::select(year, month, total_trips, trips_w_dolphin, percentage, year_month, dDate, Surface.Temp..C., mean_SST, Species)
 
 ```
+
 ```{r percentage of sightings with dolphins by month}
 dolphins_month_graph <- 
   ggplot() +
@@ -253,13 +258,175 @@ plot(dolphin.tfam.residuals)
 summary(dolphin.tfam)
 
 #negative binomial
-dolphin.nbinom1 <- glmmTMB(percentage ~ Species + Surface.Temp..C.,
-                       data = dolphins_standardized_month,
-                       family = nbinom1(link = "log"))
-dolphin.nbinom1.residuals <- simulateResiduals(dolphin.nbinom1)
-plot(dolphin.nbiom1.residuals)
+#dolphin.nbinom1 <- glmmTMB(percentage ~ Species + Surface.Temp..C.,
+#                       data = dolphins_standardized_month,
+#                       family = nbinom1(link = "log"))
+#dolphin.nbinom1.residuals <- simulateResiduals(dolphin.nbinom1)
+#plot(dolphin.nbiom1.residuals)
 ```
 ```{r}
+#linear: NO
 
+month.lm <- lm(percentage ~ month + Surface.Temp..C., 
+             data = dolphins_standardized_month)
+
+summary(month.lm)
+
+vif(month.lm)
+
+plot(simulateResiduals(month.lm))
+
+#gaussian: No
+
+month.gaussian <- glmmTMB(percentage ~ month + Surface.Temp..C., 
+                       data = dolphins_standardized_month,
+                       family = gaussian(link = "identity"))
+
+month.gaussian.residuals <- simulateResiduals(month.gaussian)
+plot(month.gaussian.residuals)
+
+#Gamma: No
+
+month.gamma <- glmmTMB(percentage ~ month + Surface.Temp..C.,
+                       data = dolphins_standardized_month,
+                       family = Gamma(link = "inverse"))
+
+month.gamma.residuals <- simulateResiduals(month.gamma)
+plot(month.gamma.residuals)
+
+#inverse.gaussian: fits but not significant
+month.inv.gaussian <- glmmTMB(percentage ~ month + Surface.Temp..C.,
+                       data = dolphins_standardized_month,
+                       family = inverse.gaussian(link = "1/mu^2"))
+
+month.inv.gaussian.residuals <- simulateResiduals(month.inv.gaussian)
+plot(month.inv.gaussian.residuals)
+
+#poisson: NO
+
+month.poisson <- glmmTMB(percentage ~ month + Surface.Temp..C.,
+                       data = dolphins_standardized_month,
+                       family = poisson(link = "log"))
+
+month.poisson.residuals <- simulateResiduals(month.poisson)
+plot(month.poisson.residuals)
+
+#Lognormal distribution: NO
+month.lognormal <- glmmTMB(percentage ~ month + Surface.Temp..C.,
+                       data = dolphins_standardized_month,
+                       family = lognormal(link = "log"))
+month.lognormal.residuals <- simulateResiduals(month.lognormal)
+plot(month.lognormal.residuals)
+
+#t_family distribution: fits but not significant
+month.tfam <- glmmTMB(percentage ~ month + Surface.Temp..C.,
+                       data = dolphins_standardized_month,
+                       family = t_family(link = "identity"))
+month.tfam.residuals <- simulateResiduals(month.tfam)
+plot(month.tfam.residuals)
+
+#negative binomial1: No
+#month.nbinom1 <- glmmTMB(percentage ~ month + #Surface.Temp..C.,
+#                       data = dolphins_standardized_month,
+#                       family = nbinom1(link = "log"))
+#month.nbinom1.residuals <- simulateResiduals(month.nbinom1)
+#plot(month.nbiom1.residuals)
+
+#compois: No
+month.compois <- glmmTMB(percentage ~ month + Surface.Temp..C.,
+                       data = dolphins_standardized_month,
+                       family = compois(link = "log"))
+month.compois.residuals <- simulateResiduals(month.compois)
+plot(month.compois.residuals)
+
+#truncated compois: No
+month.trunccompois <- glmmTMB(percentage ~ month + Surface.Temp..C.,
+                       data = dolphins_standardized_month,
+                       family = truncated_compois(link = "log"))
+month.trunccompois.residuals <- simulateResiduals(month.trunccompois)
+plot(month.trunccompois.residuals)
+
+#gen pois: No
+month.genpois <- glmmTMB(percentage ~ month + Surface.Temp..C.,
+                       data = dolphins_standardized_month,
+                       family = genpois(link = "log"))
+month.genpois.residuals <- simulateResiduals(month.genpois)
+plot(month.genpois.residuals)
+
+#truncated gen pois: No
+month.truncgenpois <- glmmTMB(percentage ~ month + Surface.Temp..C.,
+                       data = dolphins_standardized_month,
+                       family = truncated_genpois(link = "log"))
+month.truncgenpois.residuals <- simulateResiduals(month.truncgenpois)
+plot(month.truncgenpois.residuals)
+
+#truncated poisson: No
+month.truncpoiss <- glmmTMB(percentage ~ month + Surface.Temp..C.,
+                       data = dolphins_standardized_month,
+                       family = truncated_poisson(link = "log"))
+month.truncpoiss.residuals <- simulateResiduals(month.truncpoiss)
+plot(month.truncpoiss.residuals)
+
+#tweedie: No
+month.tweedie <- glmmTMB(percentage ~ month + Surface.Temp..C.,
+                       data = dolphins_standardized_month,
+                       family = tweedie(link = "log"))
+month.tweedie.residuals <- simulateResiduals(month.tweedie)
+plot(month.tweedie.residuals)
+
+#zigamma: No
+month.zigamma <- glmmTMB(percentage ~ month + Surface.Temp..C.,
+                       data = dolphins_standardized_month,
+                       family = ziGamma(link = "inverse"))
+month.zigamma.residuals <- simulateResiduals(month.zigamma)
+plot(month.zigamma.residuals)
+
+#Gam distributions
+#mSShash <- histDist(dolphins_standardized_month$percentage, "SHASH", density = T, main = "Shash")
+#mSBe <- histDist(dolphins_standardized_month$percentage, "BE", density = T, main = "Beta") 
+#mSDPo <- histDist(dolphins_standardized_month$percentage, "DPO", density = T, main = "Double Poisson") 
+#mSDel <- histDist(dolphins_standardized_month$percentage, "DEL", density = T, main = "Delaport")
+#mSGa <- histDist(dolphins_standardized_month$percentage, "GA", density = T, main = "Gamma") 
+#mSGenGa <- histDist(dolphins_standardized_month$percentage, "GG", density = T, main = "Gen Gamma")
+#mSGig <- histDist(dolphins_standardized_month$percentage, "GIG", density = T, main = "Gen Inverse Gaussian") 
+mSGum <- histDist(dolphins_standardized_month$percentage, "GU", density = T, main = "Gumbel") 
+#mSIGam <- histDist(dolphins_standardized_month$percentage, "IGAMMA", density = T, main = "Inverse Gamma")
+#mSIG <- histDist(dolphins_standardized_month$percentage, "IG", density = T, main = "Inverse Gaussian")
+mSJSU <- histDist(dolphins_standardized_month$percentage, "JSU", density = T, main = "Johnsons SU")
+#mSLoga <- histDist(dolphins_standardized_month$percentage, "LG", density = T, main = "Logarithmic")
+mSLogi <- histDist(dolphins_standardized_month$percentage, "LO", density = T, main = "Logistic") 
+#mSLogitNo <- histDist(dolphins_standardized_month$percentage, "LOGITNO", density = T, main = "Logit-Normal")
+#mSLoNorm <- histDist(dolphins_standardized_month$percentage, "LOGNO", density = T, main = "Log-normal")
+#mSLNoBox <- histDist(dolphins_standardized_month$percentage, "LNO", density = T, main = "Log-normal Box COx")
+mSNorm <- histDist(dolphins_standardized_month$percentage, "NO", density = T, main = "Normal")
+mSNormFam <- histDist(dolphins_standardized_month$percentage, "NOF", density = T, main = "Normal Family") 
+mSLQNO <- histDist(dolphins_standardized_month$percentage, "LQNO", density = T, main = "Normal Linear Quad")
+#mSPa <- histDist(dolphins_standardized_month$percentage, "PARETO2", density = T, main = "Pareto2") 
+#mSPoi <- histDist(dolphins_standardized_month$percentage, "PO", density = T, main = "Poisson")
+#mSPIG <- histDist(dolphins_standardized_month$percentage, "PIG", density = T, main = "Poisson Inv Gaussian")
+#mSReGE <- histDist(dolphins_standardized_month$percentage, "RGE", density = T, main = "Rev Gen Extreme")
+#mSRevGum <- histDist(dolphins_standardized_month$percentage, "RG", density = T, main = "Reverse Gumbel")
+#mShaOG <- histDist(dolphins_standardized_month$percentage, "SHASHo", density = T, main = "Shash OG")
+#mSSich <- histDist(dolphins_standardized_month$percentage, "SICHEL", density = T, main = "Sichel")
+#mSSimp <- histDist(dolphins_standardized_month$percentage, "SIMPLEX", density = T, main = "Simplex")
+mSSkewT1 <- histDist(dolphins_standardized_month$percentage, "ST1", density = T, main = "Skew Type 1")
+mSSkewT2 <- histDist(dolphins_standardized_month$percentage, "ST2", density = T, main = "Skew Type 2")
+mSSkewT3 <- histDist(dolphins_standardized_month$percentage, "ST3", density = T, main = "Skew Type 3")
+mSSkewT4 <- histDist(dolphins_standardized_month$percentage, "ST4", density = T, main = "Skew Type 4")
+mSSkewT5 <- histDist(dolphins_standardized_month$percentage, "ST5", density = T, main = "Skew Type 5")
+mST <- histDist(dolphins_standardized_month$percentage, "TF", density = T, main = "T distribution")
+#mSWa <- histDist(dolphins_standardized_month$percentage, "WARING", density = T, main = "Waring")
+#mSWeeb <- histDist(dolphins_standardized_month$percentage, "WEI", density = T, main = "Weibull")
+
+GAIC(mSGum, mSJSU, mSLogi, mSNorm, mSNormFam, mSLQNO, mSSkewT1, mSSkewT2, mSSkewT3, mSSkewT4, mSSkewT5, mST)
+
+
+
+month.Skew3.mod <- gamlss(percentage ~ month + Surface.Temp..C., 
+               family = ST3(), 
+               data = dolphins_standardized_month)
+
+summary(month.Skew3.mod)
+plot(month.Skew3.mod)
 ```
 
