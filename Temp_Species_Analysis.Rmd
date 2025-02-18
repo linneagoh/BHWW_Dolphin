@@ -154,11 +154,13 @@ ggsave(plot = dolphins_month_graph, filename = here("Figures_Tables", "dolphins_
 ```{r percentage vs temp}
 dolphins_standardized_month %>%
   ggplot(mapping = aes(x = mean_SST, y = percentage)) +
-  geom_point()
+  geom_point() +
+  geom_smooth(method = lm, color = "black")
+  theme_classic()
 ```
 
 ```{r models}
-#linear: NO
+#linear: fits but not significant
 
 dolphin.lm <- lm(percentage ~ Species + Surface.Temp..C., 
              data = dolphins_standardized_month)
@@ -169,7 +171,7 @@ vif(dolphin.lm)
 
 plot(simulateResiduals(dolphin.lm))
 
-#gaussian
+#gaussian: fits but not significant
 
 dolphin.gaussian <- glmmTMB(percentage ~ Species + Surface.Temp..C.,
                        data = dolphins_standardized_month,
@@ -178,7 +180,9 @@ dolphin.gaussian <- glmmTMB(percentage ~ Species + Surface.Temp..C.,
 dolphin.gaussian.residuals <- simulateResiduals(dolphin.gaussian)
 plot(dolphin.gaussian.residuals)
 
-#Gamma: NO
+summary(dolphin.gaussian)
+
+#Gamma: fits but not significant
 
 dolphin.gamma <- glmmTMB(percentage ~ Species + Surface.Temp..C.,
                        data = dolphins_standardized_month,
@@ -187,13 +191,17 @@ dolphin.gamma <- glmmTMB(percentage ~ Species + Surface.Temp..C.,
 dolphin.gamma.residuals <- simulateResiduals(dolphin.gamma)
 plot(dolphin.gamma.residuals)
 
-#inverse.gaussian: NO
+summary(dolphin.gamma)
+
+#inverse.gaussian: fits but not significant
 dolphin.inv.gaussian <- glmmTMB(percentage ~ Species + Surface.Temp..C.,
                        data = dolphins_standardized_month,
                        family = inverse.gaussian(link = "1/mu^2"))
 
 dolphin.inv.gaussian.residuals <- simulateResiduals(dolphin.inv.gaussian)
 plot(dolphin.inv.gaussian.residuals)
+
+summary(dolphin.inv.gaussian)
 
 #poisson: NO
 
@@ -235,12 +243,14 @@ dolphin.lognormal <- glmmTMB(percentage ~ Species + Surface.Temp..C.,
 dolphin.lognormal.residuals <- simulateResiduals(dolphin.lognormal)
 plot(dolphin.lognormal.residuals)
 
-#t_family distribution: NO
+#t_family distribution: fits but not significant
 dolphin.tfam <- glmmTMB(percentage ~ Species + Surface.Temp..C.,
                        data = dolphins_standardized_month,
                        family = t_family(link = "identity"))
 dolphin.tfam.residuals <- simulateResiduals(dolphin.tfam)
 plot(dolphin.tfam.residuals)
+
+summary(dolphin.tfam)
 
 #negative binomial
 dolphin.nbinom1 <- glmmTMB(percentage ~ Species + Surface.Temp..C.,
