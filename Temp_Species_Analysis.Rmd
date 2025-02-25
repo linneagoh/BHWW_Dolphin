@@ -43,6 +43,7 @@ dolphin <- read.csv(here("00_Raw_Data", "Dolphin_Data_2014-2024.csv"))
 ww_data <- read.csv(here("00_Raw_Data", "Complete_Trip_Data_2014-2024.csv"))
 
 GOM_shp <- st_read(dsn = here::here("00_Raw_Data/Ocean/Ocean.shp"))
+
 ```
 
 ```{r}
@@ -430,6 +431,38 @@ month.Skew3.mod <- gamlss(percentage ~ month + Surface.Temp..C.,
 summary(month.Skew3.mod)
 plot(month.Skew3.mod)
 ```
+
+```{r}
+
+#all dolphin percent month graph
+dolph_percent_month <- ggplot(data = dolphins_standardized_month,
+                         aes(x = month, y = percentage)) +
+  geom_point() +
+  geom_smooth(method = "gam", color = "black") +
+  theme_classic() +
+  labs(x = "month", y = "Percentage of trips with dolphin sightings (%)")
+
+dolph_percent_month
+
+ggsave(plot = dolph_percent_month,
+       filename = here("Figures_Tables", "dolph_percent_month.png"),
+       height = 7, width = 14, units = "cm")
+
+#all dolphin percent temp graph
+dolph_percent_temp <- ggplot(data = dolphins_standardized_month,
+                         aes(x = Surface.Temp..C., y = percentage)) +
+  geom_point() +
+  geom_smooth(method = "gam", color = "black") +
+  theme_classic() +
+  labs(x = "Sea Surface Temperature (C)", y = "Percentage of trips with dolphin sightings (%)")
+
+dolph_percent_temp
+
+ggsave(plot = dolph_percent_temp,
+       filename = here("Figures_Tables", "dolph_percent_temp.png"),
+       height = 7, width = 14, units = "cm")
+```
+
 ```{r}
 white_sided <- dolphins_standardized_month %>%
   filter(Species == "La")
