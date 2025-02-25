@@ -434,8 +434,8 @@ month.GG.mod <- gamlss(percentage ~ month + Surface.Temp..C.,
                data = dolphins_standardized_month)
 
 summary(month.GG.mod)
-#month.GG.residuals <- simulateResiduals(month.GG.mod)
-#plot(month.GG.residuals)
+month.GG.residuals <- residuals(month.GG.mod)
+plot(month.GG.residuals)
 plot(month.GG.mod)
 ```
 
@@ -652,6 +652,8 @@ ws.ShaOG.mod <- gamlss(percentage ~ month + Surface.Temp..C.,
 
 summary(ws.ShaOG.mod)
 plot(ws.ShaOG.mod)
+ws.ShaOG.residuals <- residuals(ws.ShaOG.mod)
+plot(ws.ShaOG.residuals)
 ```
 ```{r}
 #white sided dolphin percent month graph
