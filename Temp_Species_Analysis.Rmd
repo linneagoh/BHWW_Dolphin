@@ -632,4 +632,33 @@ ws.ShaOG.mod <- gamlss(percentage ~ month + Surface.Temp..C.,
 summary(ws.ShaOG.mod)
 plot(ws.ShaOG.mod)
 ```
+```{r}
+#white sided dolphin percent month graph
+ws_percent_month <- ggplot(data = white_sided,
+                         aes(x = month, y = percentage)) +
+  geom_point() +
+  geom_smooth(method = "gam", color = "black") +
+  theme_classic() +
+  labs(x = "month", y = "Percentage of trips with white sided dolphin sightings (%)")
+
+ws_percent_month
+
+ggsave(plot = ws_percent_month,
+       filename = here("Figures_Tables", "ws_percent_month.png"),
+       height = 7, width = 14, units = "cm")
+
+#white sided dolphin percent temp graph
+ws_percent_temp <- ggplot(data = white_sided,
+                         aes(x = Surface.Temp..C., y = percentage)) +
+  geom_point() +
+  geom_smooth(method = "gam", color = "black") +
+  theme_classic() +
+  labs(x = "Sea Surface Temperature (C)", y = "Percentage of trips with white sided dolphin sightings (%)")
+
+ws_percent_temp
+
+ggsave(plot = ws_percent_temp,
+       filename = here("Figures_Tables", "ws_percent_temp.png"),
+       height = 7, width = 14, units = "cm")
+```
 
