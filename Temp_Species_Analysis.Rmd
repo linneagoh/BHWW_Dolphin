@@ -56,7 +56,9 @@ dolphin <- dolphin %>%
          Latitude != 44.99,
          Latitude != 44.90,
          Latitude != 44.80,
-         TripKey != 766)
+         TripKey != 766,
+         TripKey != 299,
+         Surface.Temp..C. != 0.0)
 
 dolphin$Longitude <- abs(dolphin$Longitude) 
 dolphin$Longitude <- (dolphin$Longitude)* -1
@@ -119,7 +121,10 @@ dolphins_standardized_month$year_month <- paste(dolphins_standardized_month$year
 dolphins_standardized_month$year_month <- as.Date(dolphins_standardized_month$year_month)
 
 temperature <- all_ww %>%
-  filter(!is.na(Surface.Temp..C.)) %>%
+  filter(!is.na(Surface.Temp..C.),
+         TripKey != 766,
+         TripKey != 299,
+         Surface.Temp..C. != 0.0) %>%
   group_by(year, month) %>%
   summarize(mean_SST = mean(Surface.Temp..C.),
              se = sd(Surface.Temp..C., na.rm = TRUE) / sqrt(length(Surface.Temp..C.[!is.na(Surface.Temp..C.)])))
@@ -319,7 +324,7 @@ month.lognormal <- glmmTMB(percentage ~ month + Surface.Temp..C.,
 month.lognormal.residuals <- simulateResiduals(month.lognormal)
 plot(month.lognormal.residuals)
 
-#t_family distribution: fits but not significant
+#t_family distribution: NO
 month.tfam <- glmmTMB(percentage ~ month + Surface.Temp..C.,
                        data = dolphins_standardized_month,
                        family = t_family(link = "identity"))
@@ -384,12 +389,12 @@ plot(month.zigamma.residuals)
 
 #Gam distributions
 
-#mSShash <- histDist(dolphins_standardized_month$percentage, "SHASH", density = T, main = "Shash")
+mSShash <- histDist(dolphins_standardized_month$percentage, "SHASH", density = T, main = "Shash")
 #mSBe <- histDist(dolphins_standardized_month$percentage, "BE", density = T, main = "Beta") 
 #mSDPo <- histDist(dolphins_standardized_month$percentage, "DPO", density = T, main = "Double Poisson") 
 #mSDel <- histDist(dolphins_standardized_month$percentage, "DEL", density = T, main = "Delaport")
 #mSGa <- histDist(dolphins_standardized_month$percentage, "GA", density = T, main = "Gamma") 
-#mSGenGa <- histDist(dolphins_standardized_month$percentage, "GG", density = T, main = "Gen Gamma")
+mSGenGa <- histDist(dolphins_standardized_month$percentage, "GG", density = T, main = "Gen Gamma")
 #mSGig <- histDist(dolphins_standardized_month$percentage, "GIG", density = T, main = "Gen Inverse Gaussian") 
 mSGum <- histDist(dolphins_standardized_month$percentage, "GU", density = T, main = "Gumbel") 
 #mSIGam <- histDist(dolphins_standardized_month$percentage, "IGAMMA", density = T, main = "Inverse Gamma")
@@ -407,9 +412,9 @@ mSLQNO <- histDist(dolphins_standardized_month$percentage, "LQNO", density = T, 
 #mSPoi <- histDist(dolphins_standardized_month$percentage, "PO", density = T, main = "Poisson")
 #mSPIG <- histDist(dolphins_standardized_month$percentage, "PIG", density = T, main = "Poisson Inv Gaussian")
 #mSReGE <- histDist(dolphins_standardized_month$percentage, "RGE", density = T, main = "Rev Gen Extreme")
-#mSRevGum <- histDist(dolphins_standardized_month$percentage, "RG", density = T, main = "Reverse Gumbel")
-#mShaOG <- histDist(dolphins_standardized_month$percentage, "SHASHo", density = T, main = "Shash OG")
-#mSSich <- histDist(dolphins_standardized_month$percentage, "SICHEL", density = T, main = "Sichel")
+mSRevGum <- histDist(dolphins_standardized_month$percentage, "RG", density = T, main = "Reverse Gumbel")
+mShaOG <- histDist(dolphins_standardized_month$percentage, "SHASHo", density = T, main = "Shash OG")
+mSSich <- histDist(dolphins_standardized_month$percentage, "SICHEL", density = T, main = "Sichel")
 #mSSimp <- histDist(dolphins_standardized_month$percentage, "SIMPLEX", density = T, main = "Simplex")
 mSSkewT1 <- histDist(dolphins_standardized_month$percentage, "ST1", density = T, main = "Skew Type 1")
 mSSkewT2 <- histDist(dolphins_standardized_month$percentage, "ST2", density = T, main = "Skew Type 2")
@@ -418,18 +423,20 @@ mSSkewT4 <- histDist(dolphins_standardized_month$percentage, "ST4", density = T,
 mSSkewT5 <- histDist(dolphins_standardized_month$percentage, "ST5", density = T, main = "Skew Type 5")
 mST <- histDist(dolphins_standardized_month$percentage, "TF", density = T, main = "T distribution")
 #mSWa <- histDist(dolphins_standardized_month$percentage, "WARING", density = T, main = "Waring")
-#mSWeeb <- histDist(dolphins_standardized_month$percentage, "WEI", density = T, main = "Weibull")
+mSWeeb <- histDist(dolphins_standardized_month$percentage, "WEI", density = T, main = "Weibull")
 
-GAIC(mSGum, mSJSU, mSLogi, mSNorm, mSNormFam, mSLQNO, mSSkewT1, mSSkewT2, mSSkewT3, mSSkewT4, mSSkewT5, mST)
+GAIC(mSShash, mSGenGa, mSGum, mSJSU, mSLogi, mSNorm, mSNormFam, mSLQNO, mSRevGum, mShaOG, mSSich, mSSkewT1, mSSkewT2, mSSkewT3, mSSkewT4, mSSkewT5, mST, mSWeeb)
 
 
 
-month.Skew3.mod <- gamlss(percentage ~ month + Surface.Temp..C., 
-               family = ST3(), 
+month.GG.mod <- gamlss(percentage ~ month + Surface.Temp..C., 
+               family = GG(), 
                data = dolphins_standardized_month)
 
-summary(month.Skew3.mod)
-plot(month.Skew3.mod)
+summary(month.GG.mod)
+#month.GG.residuals <- simulateResiduals(month.GG.mod)
+#plot(month.GG.residuals)
+plot(month.GG.mod)
 ```
 
 ```{r}
@@ -460,6 +467,20 @@ dolph_percent_temp
 
 ggsave(plot = dolph_percent_temp,
        filename = here("Figures_Tables", "dolph_percent_temp.png"),
+       height = 7, width = 14, units = "cm")
+
+#dolphin percent month year graph
+dolph_percent_year_month <- ggplot(data = dolphins_standardized_month,
+                         aes(x = year_month, y = percentage)) +
+  geom_point() +
+  geom_smooth(method = "gam", color = "black") +
+  theme_classic() +
+  labs(x = "Month and year", y = "Percentage of trips with dolphin sightings (%)")
+
+dolph_percent_year_month
+
+ggsave(plot = dolph_percent_year_month,
+       filename = here("Figures_Tables", "dolph_percent_year_month.png"),
        height = 7, width = 14, units = "cm")
 ```
 
@@ -593,12 +614,12 @@ ws_mSShash <- histDist(white_sided$percentage, "SHASH", density = T, main = "Sha
 #ws_mSDel <- histDist(white_sided$percentage, "DEL", density = T, main = "Delaport")
 #ws_mSGa <- histDist(white_sided$percentage, "GA", density = T, main = "Gamma") 
 ws_mSGenGa <- histDist(white_sided$percentage, "GG", density = T, main = "Gen Gamma")
-#ws_mSGig <- histDist(white_sided$percentage, "GIG", density = T, main = "Gen Inverse Gaussian") 
+ws_mSGig <- histDist(white_sided$percentage, "GIG", density = T, main = "Gen Inverse Gaussian") 
 ws_mSGum <- histDist(white_sided$percentage, "GU", density = T, main = "Gumbel") 
 #ws_mSIGam <- histDist(white_sided$percentage, "IGAMMA", density = T, main = "Inverse Gamma")
 #ws_mSIG <- histDist(white_sided$percentage, "IG", density = T, main = "Inverse Gaussian")
 ws_mSJSU <- histDist(white_sided$percentage, "JSU", density = T, main = "Johnsons SU")
-#ws_mSLoga <- histDist(white_sided$percentage, "LG", density = T, main = "Logarithmic")
+ws_mSLoga <- histDist(white_sided$percentage, "LG", density = T, main = "Logarithmic")
 ws_mSLogi <- histDist(white_sided$percentage, "LO", density = T, main = "Logistic") 
 #ws_mSLogitNo <- histDist(white_sided$percentage, "LOGITNO", density = T, main = "Logit-Normal")
 #ws_mSLoNorm <- histDist(white_sided$percentage, "LOGNO", density = T, main = "Log-normal")
@@ -621,9 +642,9 @@ ws_mSSkewT4 <- histDist(white_sided$percentage, "ST4", density = T, main = "Skew
 ws_mSSkewT5 <- histDist(white_sided$percentage, "ST5", density = T, main = "Skew Type 5")
 ws_mST <- histDist(white_sided$percentage, "TF", density = T, main = "T distribution")
 #ws_mSWa <- histDist(white_sided$percentage, "WARING", density = T, main = "Waring")
-#ws_mSWeeb <- histDist(white_sided$percentage, "WEI", density = T, main = "Weibull")
+ws_mSWeeb <- histDist(white_sided$percentage, "WEI", density = T, main = "Weibull")
 
-GAIC(ws_mSShash, ws_mSGenGa, ws_mSGum, ws_mSJSU, ws_mSLogi, ws_mSNorm, ws_mSNormFam, ws_mSLQNO, ws_mSReGE, ws_mShaOG, ws_mSSkewT1, ws_mSSkewT2, ws_mSSkewT3, ws_mSSkewT4, ws_mSSkewT5, ws_mST)
+GAIC(ws_mSShash, ws_mSGenGa, ws_mSGig, ws_mSGum, ws_mSJSU, ws_mSLoga, ws_mSLogi, ws_mSNorm, ws_mSNormFam, ws_mSLQNO, ws_mSReGE, ws_mShaOG, ws_mSSkewT1, ws_mSSkewT2, ws_mSSkewT3, ws_mSSkewT4, ws_mSSkewT5, ws_mST, ws_mSWeeb)
 
 ws.ShaOG.mod <- gamlss(percentage ~ month + Surface.Temp..C., 
                family = SHASHo(), 
@@ -660,5 +681,20 @@ ws_percent_temp
 ggsave(plot = ws_percent_temp,
        filename = here("Figures_Tables", "ws_percent_temp.png"),
        height = 7, width = 14, units = "cm")
+
+#white sided dolphin percent month year graph
+ws_percent_year_month <- ggplot(data = white_sided,
+                         aes(x = year_month, y = percentage)) +
+  geom_point() +
+  geom_smooth(method = "gam", color = "black") +
+  theme_classic() +
+  labs(x = "Month and year", y = "Percentage of trips with white sided dolphin sightings (%)")
+
+ws_percent_year_month
+
+ggsave(plot = ws_percent_year_month,
+       filename = here("Figures_Tables", "ws_percent_year_month.png"),
+       height = 7, width = 14, units = "cm")
+
 ```
 
