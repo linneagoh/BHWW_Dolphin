@@ -429,4 +429,126 @@ month.Skew3.mod <- gamlss(percentage ~ month + Surface.Temp..C.,
 summary(month.Skew3.mod)
 plot(month.Skew3.mod)
 ```
+```{r}
+white_sided <- dolphins_standardized_month %>%
+  filter(Species == "La")
+```
+
+```{r}
+#linear: NO
+
+ws.lm <- lm(percentage ~ month + Surface.Temp..C., 
+             data = white_sided)
+
+summary(ws.lm)
+
+vif(ws.lm)
+
+plot(simulateResiduals(ws.lm))
+
+#gaussian: No
+
+ws.gaussian <- glmmTMB(percentage ~ month + Surface.Temp..C., 
+                       data = white_sided,
+                       family = gaussian(link = "identity"))
+
+ws.gaussian.residuals <- simulateResiduals(ws.gaussian)
+plot(ws.gaussian.residuals)
+
+#Gamma: No
+
+ws.gamma <- glmmTMB(percentage ~ month + Surface.Temp..C.,
+                       data = white_sided,
+                       family = Gamma(link = "inverse"))
+
+ws.gamma.residuals <- simulateResiduals(ws.gamma)
+plot(ws.gamma.residuals)
+
+#inverse.gaussian: fits but not significant
+ws.inv.gaussian <- glmmTMB(percentage ~ month + Surface.Temp..C.,
+                       data = white_sided,
+                       family = inverse.gaussian(link = "1/mu^2"))
+
+ws.inv.gaussian.residuals <- simulateResiduals(ws.inv.gaussian)
+plot(ws.inv.gaussian.residuals)
+
+#poisson: NO
+
+ws.poisson <- glmmTMB(percentage ~ month + Surface.Temp..C.,
+                       data = white_sided,
+                       family = poisson(link = "log"))
+
+ws.poisson.residuals <- simulateResiduals(ws.poisson)
+plot(ws.poisson.residuals)
+
+#Lognormal distribution: NO
+ws.lognormal <- glmmTMB(percentage ~ month + Surface.Temp..C.,
+                       data = white_sided,
+                       family = lognormal(link = "log"))
+ws.lognormal.residuals <- simulateResiduals(ws.lognormal)
+plot(ws.lognormal.residuals)
+
+#t_family distribution: fits but not significant
+ws.tfam <- glmmTMB(percentage ~ month + Surface.Temp..C.,
+                       data = white_sided,
+                       family = t_family(link = "identity"))
+ws.tfam.residuals <- simulateResiduals(ws.tfam)
+plot(ws.tfam.residuals)
+
+#negative binomial1: No
+#ws.nbinom1 <- glmmTMB(percentage ~ month + Surface.Temp..C.,
+#                       data = white_sided,
+#                       family = nbinom1(link = "log"))
+#ws.nbinom1.residuals <- simulateResiduals(ws.nbinom1)
+#plot(ws.nbiom1.residuals)
+
+#compois: No
+ws.compois <- glmmTMB(percentage ~ month + Surface.Temp..C.,
+                       data = white_sided,
+                       family = compois(link = "log"))
+ws.compois.residuals <- simulateResiduals(ws.compois)
+plot(ws.compois.residuals)
+
+#truncated compois: No
+ws.trunccompois <- glmmTMB(percentage ~ month + Surface.Temp..C.,
+                       data = white_sided,
+                       family = truncated_compois(link = "log"))
+ws.trunccompois.residuals <- simulateResiduals(ws.trunccompois)
+plot(ws.trunccompois.residuals)
+
+#gen pois: No
+ws.genpois <- glmmTMB(percentage ~ month + Surface.Temp..C.,
+                       data = white_sided,
+                       family = genpois(link = "log"))
+ws.genpois.residuals <- simulateResiduals(ws.genpois)
+plot(ws.genpois.residuals)
+
+#truncated gen pois: No
+ws.truncgenpois <- glmmTMB(percentage ~ month + Surface.Temp..C.,
+                       data = white_sided,
+                       family = truncated_genpois(link = "log"))
+ws.truncgenpois.residuals <- simulateResiduals(ws.truncgenpois)
+plot(ws.truncgenpois.residuals)
+
+#truncated poisson: No
+ws.truncpoiss <- glmmTMB(percentage ~ month + Surface.Temp..C.,
+                       data = white_sided,
+                       family = truncated_poisson(link = "log"))
+ws.truncpoiss.residuals <- simulateResiduals(ws.truncpoiss)
+plot(ws.truncpoiss.residuals)
+
+#tweedie: No
+ws.tweedie <- glmmTMB(percentage ~ month + Surface.Temp..C.,
+                       data = white_sided,
+                       family = tweedie(link = "log"))
+ws.tweedie.residuals <- simulateResiduals(ws.tweedie)
+plot(ws.tweedie.residuals)
+
+#zigamma: No
+ws.zigamma <- glmmTMB(percentage ~ month + Surface.Temp..C.,
+                       data = white_sided,
+                       family = ziGamma(link = "inverse"))
+ws.zigamma.residuals <- simulateResiduals(ws.zigamma)
+plot(ws.zigamma.residuals)
+```
 
