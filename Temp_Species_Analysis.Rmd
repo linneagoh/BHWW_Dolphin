@@ -382,6 +382,7 @@ month.zigamma.residuals <- simulateResiduals(month.zigamma)
 plot(month.zigamma.residuals)
 
 #Gam distributions
+
 #mSShash <- histDist(dolphins_standardized_month$percentage, "SHASH", density = T, main = "Shash")
 #mSBe <- histDist(dolphins_standardized_month$percentage, "BE", density = T, main = "Beta") 
 #mSDPo <- histDist(dolphins_standardized_month$percentage, "DPO", density = T, main = "Double Poisson") 
@@ -550,5 +551,52 @@ ws.zigamma <- glmmTMB(percentage ~ month + Surface.Temp..C.,
                        family = ziGamma(link = "inverse"))
 ws.zigamma.residuals <- simulateResiduals(ws.zigamma)
 plot(ws.zigamma.residuals)
+
+#Gam distributions
+
+ws_mSShash <- histDist(white_sided$percentage, "SHASH", density = T, main = "Shash")
+#ws_mSBe <- histDist(white_sided$percentage, "BE", density = T, main = "Beta") 
+#ws_mSDPo <- histDist(white_sided$percentage, "DPO", density = T, main = "Double Poisson") 
+#ws_mSDel <- histDist(white_sided$percentage, "DEL", density = T, main = "Delaport")
+#ws_mSGa <- histDist(white_sided$percentage, "GA", density = T, main = "Gamma") 
+ws_mSGenGa <- histDist(white_sided$percentage, "GG", density = T, main = "Gen Gamma")
+#ws_mSGig <- histDist(white_sided$percentage, "GIG", density = T, main = "Gen Inverse Gaussian") 
+ws_mSGum <- histDist(white_sided$percentage, "GU", density = T, main = "Gumbel") 
+#ws_mSIGam <- histDist(white_sided$percentage, "IGAMMA", density = T, main = "Inverse Gamma")
+#ws_mSIG <- histDist(white_sided$percentage, "IG", density = T, main = "Inverse Gaussian")
+ws_mSJSU <- histDist(white_sided$percentage, "JSU", density = T, main = "Johnsons SU")
+#ws_mSLoga <- histDist(white_sided$percentage, "LG", density = T, main = "Logarithmic")
+ws_mSLogi <- histDist(white_sided$percentage, "LO", density = T, main = "Logistic") 
+#ws_mSLogitNo <- histDist(white_sided$percentage, "LOGITNO", density = T, main = "Logit-Normal")
+#ws_mSLoNorm <- histDist(white_sided$percentage, "LOGNO", density = T, main = "Log-normal")
+#ws_mSLNoBox <- histDist(white_sided$percentage, "LNO", density = T, main = "Log-normal Box COx")
+ws_mSNorm <- histDist(white_sided$percentage, "NO", density = T, main = "Normal")
+ws_mSNormFam <- histDist(white_sided$percentage, "NOF", density = T, main = "Normal Family")
+ws_mSLQNO <- histDist(white_sided$percentage, "LQNO", density = T, main = "Normal Linear Quad")
+#ws_mSPa <- histDist(white_sided$percentage, "PARETO2", density = T, main = "Pareto2")
+#ws_mSPoi <- histDist(white_sided$percentage, "PO", density = T, main = "Poisson")
+#ws_mSPIG <- histDist(white_sided$percentage, "PIG", density = T, main = "Poisson Inv Gaussian")
+ws_mSReGE <- histDist(white_sided$percentage, "RGE", density = T, main = "Rev Gen Extreme")
+#ws_mSRevGum <- histDist(white_sided$percentage, "RG", density = T, main = "Reverse Gumbel")
+ws_mShaOG <- histDist(white_sided$percentage, "SHASHo", density = T, main = "Shash OG")
+#ws_mSSich <- histDist(white_sided$percentage, "SICHEL", density = T, main = "Sichel")
+#ws_mSSimp <- histDist(white_sided$percentage, "SIMPLEX", density = T, main = "Simplex")
+ws_mSSkewT1 <- histDist(white_sided$percentage, "ST1", density = T, main = "Skew Type 1")
+ws_mSSkewT2 <- histDist(white_sided$percentage, "ST2", density = T, main = "Skew Type 2")
+ws_mSSkewT3 <- histDist(white_sided$percentage, "ST3", density = T, main = "Skew Type 3")
+ws_mSSkewT4 <- histDist(white_sided$percentage, "ST4", density = T, main = "Skew Type 4")
+ws_mSSkewT5 <- histDist(white_sided$percentage, "ST5", density = T, main = "Skew Type 5")
+ws_mST <- histDist(white_sided$percentage, "TF", density = T, main = "T distribution")
+#ws_mSWa <- histDist(white_sided$percentage, "WARING", density = T, main = "Waring")
+#ws_mSWeeb <- histDist(white_sided$percentage, "WEI", density = T, main = "Weibull")
+
+GAIC(ws_mSShash, ws_mSGenGa, ws_mSGum, ws_mSJSU, ws_mSLogi, ws_mSNorm, ws_mSNormFam, ws_mSLQNO, ws_mSReGE, ws_mShaOG, ws_mSSkewT1, ws_mSSkewT2, ws_mSSkewT3, ws_mSSkewT4, ws_mSSkewT5, ws_mST)
+
+ws.ShaOG.mod <- gamlss(percentage ~ month + Surface.Temp..C., 
+               family = SHASHo(), 
+               data = white_sided)
+
+summary(ws.ShaOG.mod)
+plot(ws.ShaOG.mod)
 ```
 
