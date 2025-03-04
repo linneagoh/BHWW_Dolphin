@@ -151,7 +151,7 @@ dolphins_month_graph <-
   geom_smooth(data = temperature, mapping = aes(x = year_month, y = (mean_SST)), colour = "red") +
    scale_y_continuous(
     name = "Percentage of whale watch trips with\n dolphin sightings (%)",
-    sec.axis = sec_axis(~ . / 1, name = "Temperature (°C)")) +
+    sec.axis = sec_axis(~ . / 1, name = "Mean sea surface temperature (°C)")) +
   theme_classic() +
   theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1)) +
   scale_x_date(date_labels = "%Y-%m", date_breaks = "6 months") +
@@ -447,7 +447,7 @@ dolph_percent_month <- ggplot(data = dolphins_standardized_month,
   geom_point() +
   geom_smooth(method = "gam", color = "black") +
   theme_classic() +
-  labs(x = "month", y = "Percentage of trips with dolphin sightings (%)")
+  labs(x = "Month", y = "Percentage of trips with \ndolphin sightings (%)")
 
 dolph_percent_month
 
@@ -461,7 +461,8 @@ dolph_percent_temp <- ggplot(data = dolphins_standardized_month,
   geom_point() +
   geom_smooth(method = "gam", color = "black") +
   theme_classic() +
-  labs(x = "Sea Surface Temperature (C)", y = "Percentage of trips with dolphin sightings (%)")
+  scale_x_continuous(limits = c(0, 18)) +
+  labs(x = "Sea Surface Temperature (C)", y = "Percentage of trips with \ndolphin sightings (%)")
 
 dolph_percent_temp
 
@@ -475,13 +476,14 @@ dolph_percent_year_month <- ggplot(data = dolphins_standardized_month,
   geom_point() +
   geom_smooth(method = "gam", color = "black") +
   theme_classic() +
-  labs(x = "Month and year", y = "Percentage of trips with dolphin sightings (%)")
+  labs(x = "Month and year", y = "Percentage of trips with \ndolphin sightings (%)")
 
 dolph_percent_year_month
 
 ggsave(plot = dolph_percent_year_month,
        filename = here("Figures_Tables", "dolph_percent_year_month.png"),
        height = 7, width = 14, units = "cm")
+
 ```
 
 ```{r}
@@ -662,7 +664,7 @@ ws_percent_month <- ggplot(data = white_sided,
   geom_point() +
   geom_smooth(method = "gam", color = "black") +
   theme_classic() +
-  labs(x = "month", y = "Percentage of trips with white sided dolphin sightings (%)")
+  labs(x = "month", y = "Percentage of trips with white \n sided dolphin sightings (%)")
 
 ws_percent_month
 
@@ -676,7 +678,8 @@ ws_percent_temp <- ggplot(data = white_sided,
   geom_point() +
   geom_smooth(method = "gam", color = "black") +
   theme_classic() +
-  labs(x = "Sea Surface Temperature (C)", y = "Percentage of trips with white sided dolphin sightings (%)")
+  scale_x_continuous(limits = c(0, 18)) +
+  labs(x = "Sea Surface Temperature (C)", y = "Percentage of trips with white \nsided dolphin sightings (%)")
 
 ws_percent_temp
 
@@ -690,7 +693,7 @@ ws_percent_year_month <- ggplot(data = white_sided,
   geom_point() +
   geom_smooth(method = "gam", color = "black") +
   theme_classic() +
-  labs(x = "Month and year", y = "Percentage of trips with white sided dolphin sightings (%)")
+  labs(x = "Month and year", y = "Percentage of trips with white \nsided dolphin sightings (%)")
 
 ws_percent_year_month
 
