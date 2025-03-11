@@ -1,5 +1,5 @@
 ---
-title: "Data_Tidying"
+title: "Map and Density Analysis"
 output: html_document
 date: "2025-01-21"
 ---
@@ -29,11 +29,13 @@ library(ks)
 ```
 
 ```{r}
-dolphin <- read.csv(here("00_Raw_Data", "Dolphin_Data_2014-2024.csv"))
+#loading in the data
 
-ww_data <- read.csv(here("00_Raw_Data", "Complete_Trip_Data_2014-2024.csv"))
+dolphin <- read.csv(here("Raw_Data", "Dolphin_Data_2014-2024.csv"))
 
-GOM_shp <- st_read(dsn = here::here("00_Raw_Data/Ocean/Ocean.shp"))
+ww_data <- read.csv(here("Raw_Data", "Complete_Trip_Data_2014-2024.csv"))
+
+GOM_shp <- st_read(dsn = here::here("Raw_Data/Ocean/Ocean.shp"))
 
 #Map theme 
 theme.dgm.map <- function (){
@@ -48,7 +50,7 @@ theme.dgm.map <- function (){
 }
 ```
 ```{r}
-
+#removing human errors
 dolphin <- dolphin %>%
   filter(!is.na(Latitude),
          Latitude != 0,
@@ -82,23 +84,14 @@ dolphin_clean <- all_ww %>%
 
 
 ```{r}
-
+#mapping all dolphin sightings
 st_crs(GOM_shp) <- "+proj=longlat +datum=WGS84 +no_defs"
-
-#lat_min = min(dolphin$Latitude) - 1
-#lat_max = max(dolphin$Longitude) + 1
-
-#long_min = min(dolphin$Longitude) - 1
-#long_max = max(dolphin$Longitude) + 1 
 
 ggplot_GOM_map <- ggplot() +
   geom_sf(data = GOM_shp, color = "darkgrey", fill = "lightgrey") +
-  #coord_sf(xlim = c(long_min, long_max),
-   #        ylim = c(lat_min, lat_max)) +
   geom_point(data = dolphin, mapping = aes(x = Longitude, y = Latitude, colour = Species), size = 0.5) +
   theme.dgm.map() +
   labs(x = " \nLongitude", y = "Latitude\n ") +
- # scale_x_continuous(breaks = c(-68.5, -68.0, -67.5, -67.0)) +
   xlim(-68.5, -67) +
   ylim(43.6, 44.6) +
   theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1))
@@ -110,6 +103,8 @@ ggsave(plot = ggplot_GOM_map, filename = here("Figures_Tables", "GOM_dolphin_map
 ```
 
 ```{r}
+#interactive map of dolphin sightings
+
 dolphin_leaflet <- dolphin %>%
   leaflet() %>%
   addProviderTiles("Stadia.StamenTonerLite") %>% 
