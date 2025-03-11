@@ -38,15 +38,20 @@ library(vegan)
 ```
 
 ```{r}
-dolphin <- read.csv(here("00_Raw_Data", "Dolphin_Data_2014-2024.csv"))
 
-ww_data <- read.csv(here("00_Raw_Data", "Complete_Trip_Data_2014-2024.csv"))
+#loading in the data
 
-GOM_shp <- st_read(dsn = here::here("00_Raw_Data/Ocean/Ocean.shp"))
+dolphin <- read.csv(here("Raw_Data", "Dolphin_Data_2014-2024.csv"))
+
+ww_data <- read.csv(here("Raw_Data", "Complete_Trip_Data_2014-2024.csv"))
+
+GOM_shp <- st_read(dsn = here::here("Raw_Data/Ocean/Ocean.shp"))
 
 ```
 
 ```{r}
+
+#removing points with human error
 
 dolphin <- dolphin %>%
   filter(!is.na(Latitude),
@@ -82,6 +87,9 @@ dolphin_clean$year_month <- paste(dolphin_clean$year, dolphin_clean$month, "01",
 dolphin_clean$year_month <- as.Date(dolphin_clean$year_month)
 ```
 ```{r standardizing by year}
+
+#standardizing the data by finding the percentage of trips sighted in a year.
+
 dolphins_standardized_year <- all_ww %>%
   group_by(year) %>%
   summarize(total_trips = n(),
@@ -92,6 +100,9 @@ dolphins_standardized_year <- all_ww %>%
 ```
 
 ```{r}
+
+#graph of percentage of trips with dolphin sightings in a year.
+
 dolphins_year_graph <- dolphins_standardized_year %>%
   ggplot(mapping = aes(x = year, y = percentage)) +
   geom_point() +
@@ -108,6 +119,9 @@ ggsave(plot = dolphins_year_graph, filename = here("Figures_Tables", "dolphins_y
 
 
 ```{r standardizing by species}
+
+
+#standardizing the dolphin sightings by month
 
 dolphins_standardized_month <- all_ww %>%
   group_by(year, month) %>%
@@ -143,6 +157,9 @@ dolphins_standardized_month <- dolphins_standardized_month %>%
 ```
 
 ```{r percentage of sightings with dolphins by month}
+
+#graph of dolphin sightings over time along side sea surface temperature.
+
 dolphins_month_graph <- 
   ggplot() +
     geom_point(data = dolphins_standardized_month, mapping = aes(x = year_month, y = percentage), colour = "blue") +
@@ -163,6 +180,9 @@ ggsave(plot = dolphins_month_graph, filename = here("Figures_Tables", "dolphins_
     units = "in", pointsize = 15, dpi = 220)
 ```
 ```{r percentage vs temp}
+
+#graph of pecrentage of dolphin sightings in a month by sea surface temperautre
+
 dolphins_standardized_month %>%
   ggplot(mapping = aes(x = mean_SST, y = percentage)) +
   geom_point() +
@@ -171,6 +191,9 @@ dolphins_standardized_month %>%
 ```
 
 ```{r models}
+
+#models of percentage of dolphin sightings compared with species and sea surface temperature
+
 #linear: fits but not significant
 
 dolphin.lm <- lm(percentage ~ Species + Surface.Temp..C., 
@@ -271,6 +294,9 @@ summary(dolphin.tfam)
 #plot(dolphin.nbiom1.residuals)
 ```
 ```{r}
+
+#models of percentage of dolphin sightigins compared with month and sea surface temperature
+
 #linear: NO
 
 month.lm <- lm(percentage ~ month + Surface.Temp..C., 
@@ -487,11 +513,16 @@ ggsave(plot = dolph_percent_year_month,
 ```
 
 ```{r}
+#white sided dolphin data
+
 white_sided <- dolphins_standardized_month %>%
   filter(Species == "La")
 ```
 
 ```{r}
+
+#models of perecnetage of trips with white sided dolpin sightings compared with month and sea surface temperature
+
 #linear: NO
 
 ws.lm <- lm(percentage ~ month + Surface.Temp..C., 
